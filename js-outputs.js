@@ -1,3 +1,4 @@
+// access html element id and show dat in js
 document.getElementById("access-Element").innerHTML= "ADD HTML DATA USING innerHTML";
 
 document.write(2+4);
