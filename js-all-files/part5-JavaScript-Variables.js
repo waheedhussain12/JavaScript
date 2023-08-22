@@ -53,3 +53,9 @@ var myName = "waheeed"; //value waheed
 var myName; //re declared but still have a value
 myName = "hussain"; // now value is changed bcz its update 
 console.log(myName);
+
+// let x = 10;
+// let x = 20;
+// console.log(x); 
+//you cannot re declared a variable in let and const
+//syntax error identifier x is already been declared
