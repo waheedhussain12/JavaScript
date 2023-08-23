@@ -125,3 +125,7 @@ console.log(n1);
 // (5==5 || 6==5) true
 // (7==5 || 6==5) false
 // atleast one condition is true output will be true
+
+let o= 10 == 4 || 5 ==5;
+console.log(o);
+// one condition is true
