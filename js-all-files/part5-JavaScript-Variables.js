@@ -107,3 +107,52 @@ console.log(mylastName);
 // console.log(change);
 
 
+//re declare var
+var x = 2;
+// Now x is 2
+
+var x = 3;
+// Now x is 3
+
+//With let, redeclaring a variable in the same block is NOT allowed
+// var num = 10;
+// let num = 3; 
+//num is already declared
+
+
+// in block scope
+// {
+//      let x = 10;
+//      let x = 29; // not allowed
+//      console.log(x);
+// }
+
+// {
+// let x = 30;
+// // bcz let dose not re decleare
+// var x = 4;
+
+// console.log(x);
+// }
+
+// {
+//     var x = 30;
+//     var x  = 40;
+//     console.log(x);
+//     // var is redeclared variable
+// }
+
+//  but re declaring allow in another block in let
+// different block scope allow same variable in let
+{
+    let num = 30;
+    console.log(num);
+}
+{
+    let num = 30;
+    console.log(num);
+}
+{
+    let num = 30;
+    console.log(num);
+}
