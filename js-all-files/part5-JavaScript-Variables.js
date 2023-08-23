@@ -156,3 +156,48 @@ var x = 3;
     let num = 30;
     console.log(num);
 }
+
+
+// const pi; // declare
+// pi = 34.23232; // asigned value
+// getting error bcz when you declare a const you must asign a value
+
+const pi = 23.2323;
+console.log(pi);
+// this is right way
+
+// constant array
+const cars = ["BMW", "toyota", "volvo","mehran"];
+console.log(cars);
+// you can change element as well
+cars[1]= "new toyota2032";
+// now toyota element change in new toyota2023
+console.log(cars);
+
+// also you can add element
+cars.push("audi");
+console.log(cars);
+
+// but you can not reasign a array
+
+// const cars = ["Saab", "Volvo", "BMW"];
+
+// cars = ["Toyota", "Volvo", "Audi"];    // ERROR
+
+// constant object
+const car = {
+    modle:"2012",color:"green",use:"12 years"
+};
+console.log(car);
+// you can change a property
+car.color = "black";
+console.log(car);
+// you can add a property
+car.owner = "waheed";
+console.log(car);
+
+//  But you can NOT reassign the object:
+
+// const car = {type:"Fiat", model:"500", color:"white"};
+
+// car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
