@@ -129,3 +129,10 @@ console.log(n1);
 let o= 10 == 4 || 5 ==5;
 console.log(o);
 // one condition is true
+
+
+//-  !not operator
+// true convert in false
+var q = 12;
+var q1 = 12;
+console.log(!q==q1);
