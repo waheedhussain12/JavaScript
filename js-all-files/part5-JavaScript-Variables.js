@@ -59,3 +59,51 @@ console.log(myName);
 // console.log(x); 
 //you cannot re declared a variable in let and const
 //syntax error identifier x is already been declared
+
+
+// block scope {} means you cannot access value 
+// var is not block variable
+var x = 10;
+console.log(x);
+
+{
+    var x = 20; // block scope 
+}
+// trying to access outside the block scope
+// accessed the value outside the block scope 
+// means var keyword is not working in block scope
+console.log(x);
+
+// let and const are block scope variables you cannot access outside the block scope
+
+let y = 30;
+console.log(y);
+// normal declaring a variable let
+
+// block scope using let
+{
+    let z = 30;
+    console.log(z);
+    //you can access block variable inside the block only
+
+}
+
+// block scope in let trying to access outside the block
+{
+    let mylastName = "hussain"; // declare variable inside in block
+console.log(mylastName);
+}
+
+//trying to access outside the block scope
+// getting error mylastName is not defined
+// console.log(mylastName);
+
+// block scope usng const
+{
+    const change = " iam not changing bcz im const ";
+    console.log(change);
+}
+// getting same error 
+// console.log(change);
+
+
