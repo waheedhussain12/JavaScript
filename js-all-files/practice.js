@@ -129,3 +129,19 @@ console.log(arr);
 // console.log(arr);
 // goterror arr is already taken
 
+// constant object
+
+let obj = {
+    CompanyLays : "lAYS", 
+    PriceLays : 60,
+     laysColor : "red",
+      laysFlvr : "flamin hot"};
+    console.log(obj);
+    // also yu can add property in element
+    obj.laysColor = "now color is updated red to yellow";
+    console.log(obj);
+    // also add a element
+    obj.addFlvr = " hot marchii ";
+    console.log(obj);
+
+    // but yu cannot re assign a obj
