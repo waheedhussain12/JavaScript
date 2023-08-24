@@ -114,3 +114,18 @@ console.log(canNotChange);
     console.log(samevar1);
 }
 
+//  constant array
+let arr = ["waheed",23,"leghari"];
+console.log(arr);
+// yu can change value 
+arr[1] = 21;
+// value update
+console.log(arr);
+// you can also add value
+arr.push = "computer science";
+console.log(arr);
+//  but yu cannot re asign variable like
+// let arr = ["1224",23,"abc"];
+// console.log(arr);
+// goterror arr is already taken
+
