@@ -94,4 +94,23 @@ var laysPrice = "20Rs";
 var laysPrice = "30Rs Now Price Is Updated"
 console.log(company,laysColr,laysPrice);
 
-// const 
+// const variable
+
+// onces a value is assigned value cannt be changed
+const canNotChange = "const cannot be change";
+// canNotChange ="value update"; // const value cannot be update 
+console.log(canNotChange);
+
+// but yu can declared same variables in different block scope in const
+
+{
+    const samevar = "same variable in differnt blocks ";
+    console.log(samevar);
+}
+{
+    const samevar = "same variable in differnt blocks ";
+    const samevar1 = "same variable another block"
+    console.log(samevar);
+    console.log(samevar1);
+}
+
