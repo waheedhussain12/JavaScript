@@ -41,4 +41,57 @@ auto3 = auto + auto1;
 console.log(auto3);
 // 100 number convert in string 
 
-// let
+// let 
+let use;
+use = 23;
+console.log(use);
+
+// different types of data  types are allow seprate by comma
+let person1 = "waheed ali", age1 = 23, caste1 ="leghari";
+console.log(person1,age1,caste1);
+
+// let support block scope
+
+{
+    let number = 23;
+    let number1 = 45;
+    let result = number + number1;
+    console.log(result);
+}
+// access outside of the block scope
+// console.log(result); // got error cannot access outside of the block scope
+
+// let donot support re asign variable
+let reuse = 34;
+// let reuse = 220; // got error indentifer reuse already decalred
+console.log(reuse);
+
+// but you can update value
+let updateMe = 66;
+updateMe = "66 to srting text value is update ";
+console.log(updateMe);
+
+// you can use same variable in different block scopes
+
+{
+    let reuse = "re use variable in let another block ";
+    // let reuse = " got error if use same variable in inside the block";
+    // gettng error bcz variable already declared
+    let use_me = " got error if use same variable in inside the block";
+    console.log(reuse,use_me);
+}
+// an other block allowed
+{
+    let reuse = "re use but another block scope ";
+    let use_me = " same variables but another block scope";
+    console.log(reuse,use_me);
+}
+
+// declared mixx variables
+const company = "Lays";
+let laysColr = "yellow";
+var laysPrice = "20Rs";
+var laysPrice = "30Rs Now Price Is Updated"
+console.log(company,laysColr,laysPrice);
+
+// const 
