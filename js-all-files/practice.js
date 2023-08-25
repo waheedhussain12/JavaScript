@@ -145,3 +145,6 @@ let obj = {
     console.log(obj);
 
     // but yu cannot re assign a obj
+
+
+    // operators
