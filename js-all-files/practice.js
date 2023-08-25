@@ -169,4 +169,64 @@ let obj = {
     b = 45;
     b1 = 35;
     console.log(b**b1);
-    
+
+// datatypes
+
+// string
+let yuCaste = "leghari";
+console.log(yuCaste);
+
+// also yu can add two strings
+
+let oneN = "waheed";
+let oneN1 = "hussain";
+console.log(oneN + oneN1);
+
+// alos yu can add numbr and string
+// number convert in string
+let num12 = 66;
+let addname = "waheed";
+console.log(num12 + addname);
+
+// reasons for using double quote and single
+let mynamee = " wahee\"d";
+console.log(mynamee);
+// same as single quote
+let mynameee = 'waheed\'s iphone';
+console.log(mynameee);
+
+// also use this
+let mynam1 = "waheed'phone";
+console.log(mynam1);
+let mynam11 = 'hell"o';
+console.log(mynam11);
+
+// number data type
+let n1 = 56;
+let n2 = 23.45;
+console.log(n1 +n2);
+console.log(n1, n2);
+
+// boolean true or false
+
+let bignum = 45;
+let smallnum = 23;
+console.log( bignum > smallnum);
+
+// array
+let arrr =["my", "name is ","computer",34];
+console.log(arrr);
+
+// object 
+let obj1 ={
+    key: "value" , key2:23,
+}
+console.log(obj1);
+
+let undeff ;
+console.log(undeff);
+let undefff = "this is not undefine";
+console.log(undefff);
+
+let checktypeof = "waheed"
+console.log(typeof checktypeof);
