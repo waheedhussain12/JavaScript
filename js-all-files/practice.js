@@ -230,3 +230,89 @@ console.log(undefff);
 
 let checktypeof = "waheed"
 console.log(typeof checktypeof);
+
+
+// comparison and logical operators
+
+// equal to ==
+let isValueEqul = 40;
+let isValueEqulNot = 34;
+console.log(isValueEqul==isValueEqulNot);
+let isValueEqull = 50;
+console.log(isValueEqull == 50);
+// check equal to condition
+
+// equal value and equal type
+
+let agee = 23;
+let  boy = "waheeed";
+console.log(agee === boy);
+// bcz type and value is different means not equal
+let ageee = 23;
+let  boyy = 23;
+console.log(ageee === boyy);
+// condition true bcz type and value is same
+
+let ageeee = 23;
+let  boyyy = 213;
+console.log(ageeee === boyyy);
+// type same but value is not so condition is fasle
+
+
+
+//-    != not equal 
+
+let moon = 23;
+let night = 40;
+console.log(moon!=night);
+// condition true bcz 23 and 40 is not equal
+//-    !== not equal 
+let mooon = 23;
+let  nightt = "not equal to";
+let compr = mooon !== nightt;
+console.log(compr);
+// check both type and value
+
+// greater than >
+
+let x = 34;
+let x1 = 343;
+let cmp = x > x1;
+// x less and x1 greater condition is false
+console.log(cmp);
+let y1= 34;
+let y2 = 3;
+let cmp1 = y1 > y2;
+console.log(cmp1);
+
+let fir = 20;
+let sec = 20;
+console.log(fir >= sec);
+
+// less than
+let les = 23;
+let les2 = 40;
+console.log(les < les2);
+// less than equal to
+let l = 23;
+let l2 = 40;
+console.log(l<= l2);
+
+// and &&
+let a1 = 12 >10 && 40 > 30;
+console.log(a1);
+
+let b2 = 40 <30 && 10<12;
+// one condition is true and sec is false
+// any how all condition is true than output is true
+console.log(b2);
+
+// || or
+let s = 100 <50 || 200 > 150;
+// first condition is falsr but sec is true so output is true
+
+console.log(s);
+
+let d = 23 !==23;
+console.log(d);
+// true condition convert in false 
