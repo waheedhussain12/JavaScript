@@ -148,3 +148,25 @@ let obj = {
 
 
     // operators
+
+    a = 12;
+    b = 34;
+    console.log(a+b);
+    b = 45;
+    b1 = 355;
+    console.log(b-b1);
+    b = 45;
+    b1 = 355;
+    console.log(b*b1);
+
+    b = 45;
+    b1 = 355;
+    console.log(b/b1);
+    b = 45;
+    b1 = 355;
+    console.log(b%b1);
+
+    b = 45;
+    b1 = 35;
+    console.log(b**b1);
+    
