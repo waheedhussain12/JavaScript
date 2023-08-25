@@ -76,3 +76,22 @@ if (age1 <= 20) {
 }
 
 //ternary operator
+let isLoggedin = 0; // if 0 loggedout if 1 login
+
+// if (isLoggedin == 0) {
+//     console.log('Log in');
+
+    
+// } else{
+//     console.log('Logout');
+// }
+
+let option = isLoggedin == 1 ? 'logout' : 'login';
+// condition true or false output store in variable option
+console.log(option);
+
+let user;
+
+// user = "waheed hussain";
+//- ?? is to avoid undefined
+console.log(user ?? 'guest user');
