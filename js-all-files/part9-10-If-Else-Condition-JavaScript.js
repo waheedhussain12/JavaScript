@@ -95,3 +95,5 @@ let user;
 // user = "waheed hussain";
 //- ?? is to avoid undefined
 console.log(user ?? 'guest user');
+
+// switch statement start
