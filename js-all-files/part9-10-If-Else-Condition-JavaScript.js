@@ -90,10 +90,63 @@ let option = isLoggedin == 1 ? 'logout' : 'login';
 // condition true or false output store in variable option
 console.log(option);
 
-let user;
+let user; 
 
 // user = "waheed hussain";
 //- ?? is to avoid undefined
 console.log(user ?? 'guest user');
 
 // switch statement start
+
+
+let isNumberGreater = 40;
+let lesserThan = 50;
+
+if (isNumberGreater > 30 && lesserThan < 30) 
+{
+    // one condition is true and sec false
+    console.log('yes number is greater');
+
+    
+} else{
+    console.log('number is less');
+}
+
+let isNumberGreater1 = 40;
+let lesserThan1 = 50;
+
+if (isNumberGreater1 > 20) {
+    console.log('number is big');
+    
+    // nested if else
+    if (lesserThan1 ==50) {
+        console.log('both condition is true ');
+        
+    }
+    
+} else{
+    console.log('both conditions are false ');
+}
+
+let marks = 80;
+let grade = "A";
+let marks2 = 70;
+let grade2 = 'B';
+
+if (marks == 80 ) {
+    console.log('Congrts you got ',grade);
+    if (marks2 == 70) {
+        console.log('congrts you got a ',grade2);
+        
+    }
+} else{
+    console.log('better luck next time you are fail');
+}
+
+
+let areyuthere;
+// areyuthere = 'yes';
+
+// if user not there than value is undefined
+// unfeined avoide use ??
+console.log(areyuthere ?? 'guest here user is not there');
