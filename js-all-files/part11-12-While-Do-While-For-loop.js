@@ -118,3 +118,52 @@ while (numberA <=20) {
 // numberD++;
     
 // } while (numberD<5);
+
+// for  loop
+
+// for (let numberE = 1; numberE <=8; numberE++) {
+
+//     if (numberE == 3) {
+//         console.log('this is number is 3');
+        
+//     }
+
+//     if (numberE == 5) {
+//         console.log('this is number 5');
+        
+//     }
+//     console.log('using for loop',numberE);
+    
+    
+// }
+
+// let numberF = 1;
+//  let numChange = 2;
+// while (numberF < 10) {
+//     if (numberF==2 && numChange ==2) {
+//         console.log('tv on');
+        
+//     }
+//     if (numberF==4 && numChange ==2) {
+//         console.log('tv off');
+        
+//     }
+
+//     console.log(numberF,'work fine');
+//     numberF++;
+    
+// }
+
+// let numberG = 1;
+// let numberEven = 2;
+// while (numberG <=10) {
+// // nested  loop
+//     while (numberEven <=10) {
+//         numberEven = numberEven +2;
+//         console.log(numberEven,'Number is even');
+//     }
+
+//     console.log(numberG,'1 to 10');
+//     numberG++;
+    
+// }
