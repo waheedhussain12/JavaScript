@@ -56,13 +56,13 @@
 //     document.write('print using for loop in js');
 // }
 
-let  numberA = 1;           
+// let  numberA = 1;           
 
-while (numberA <=20) {
-    console.log("print 1 to 20",numberA);
-    numberA++;
+// while (numberA <=20) {
+//     console.log("print 1 to 20",numberA);
+//     numberA++;
     
-}
+// }
 
 // let numberB = 1;
 
@@ -159,6 +159,11 @@ while (numberA <=20) {
 // while (numberG <=10) {
 // // nested  loop
 //     while (numberEven <=10) {
+
+//     if (numberEven == 4) {
+//         console.log(numberEven,'yes it is 4th even number');
+        
+//     }
 //         numberEven = numberEven +2;
 //         console.log(numberEven,'Number is even');
 //     }
@@ -167,3 +172,32 @@ while (numberA <=20) {
 //     numberG++;
     
 // }
+
+
+// break and continue
+
+let a = 1;
+while (a<=10) {
+
+if (a==4) {
+    console.log('break program from 4th number');
+    break;
+    // if you use break program will exit from block {}
+}
+
+    console.log(a, 'numbers');
+a++;    
+}
+
+let b = 1;
+for( b; b<=10;b++){
+
+    // statement 5th will not excute 
+
+    if (b ==5) {
+        console.log('5th statement will not show');
+        continue;
+        
+    }
+    console.log('numbers',b);
+}
