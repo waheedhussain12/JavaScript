@@ -150,3 +150,14 @@ let areyuthere;
 // if user not there than value is undefined
 // unfeined avoide use ??
 console.log(areyuthere ?? 'guest here user is not there');
+
+let laptopModel = 'hp';
+let price = 40;
+let gen = '10th gen';
+
+// if (laptopModel == 'hp' && price ==40 && gen == '10th gen') 
+
+// {
+//   console.log('this laptop is best');  
+
+// }
