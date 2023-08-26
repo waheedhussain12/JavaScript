@@ -79,3 +79,42 @@ while (numberA <=20) {
 //   console.log(numberB);
 //   numberB++;  
 // }
+
+// let numberC = 1;
+// let price = 1;
+// while (numberC<= 9 && price <=9) {
+
+// if (numberC==2 && price ==2 ) {
+//     console.log('new price is 20Rs');
+// }
+// if (numberC==3 && price ==3 ) {
+//     console.log('now Price is double 40Rs');
+// }
+// if (numberC==4 && price ==4 ) {
+//     console.log('pens out of stock ');
+// }
+// if (numberC==5 && price ==5 ) {
+//     console.log('new Price Comming Soon');
+// }
+// if (numberC==8 && price ==8 ) {
+//     console.log('new price is 80Rs');
+// }
+
+
+//     console.log('price is 100RS',numberC);
+    
+//     console.log(price);
+//     price ++;
+//     numberC++;
+    
+// }
+
+
+// do while  loops
+// let numberD = 1;
+
+// do {
+//     console.log('anyhow run first condition bcz its do while loop',numberD);
+// numberD++;
+    
+// } while (numberD<5);
