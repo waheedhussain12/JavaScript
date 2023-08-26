@@ -201,3 +201,26 @@ for( b; b<=10;b++){
     }
     console.log('numbers',b);
 }
+
+// nested loop
+// if yu off loop use this
+outer:for(let i = 1; i<=7; i++){
+    console.log('first loop',i);
+
+
+    for(i2 = 1; i2<= 2; i2++){
+        if (i ==4) {
+            break outer;
+            // statement 3 is not
+            
+        }
+        console.log('this is second loop',i2);
+
+
+//         for(let i3 = 1; i3<2;i3++){
+//             console.log('this is third loop',i3);
+
+//   }
+
+    }
+}
