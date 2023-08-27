@@ -55,3 +55,111 @@ console.log(typeof typeBool1);
 
 // two types of conversion in js auto and mannualy
 
+
+// number + null = 10 + 0 = 10
+let typeNulll = 10 + null;
+// null means 0 
+console.log(typeNulll);
+console.log(typeof typeNulll);
+
+
+// string + null = convert in string 10null
+let typeNullStr = "10" + null;
+// null means 0 
+console.log(typeNullStr);
+console.log(typeof typeNullStr);
+
+// string + number = convert in string 105
+let typeStrNum = "10" + 5;
+// null means 0 
+console.log(typeStrNum);
+console.log(typeof typeStrNum);
+
+// what if i use - than work like maths 10 - 4 = 6
+let typeStrNum1 = "10" - 4;
+// string convert in to numbers
+// + convert in strings but - work like math value are -
+// same as multiple and divide sub remidr
+console.log(typeStrNum1);
+console.log(typeof typeStrNum1);
+
+// if numbers in strings 
+let typeStrNum2= "6" * "2";
+// convert both values in to numbers
+console.log(typeStrNum2);
+console.log(typeof typeStrNum2);
+
+
+// if numbers in strings and letters in string
+let typeStrNum3= "6" * "yes";
+// convert in NAN NOT A NUMBER
+console.log(typeStrNum3);
+console.log(typeof typeStrNum3);
+
+// js three functions
+//  string() 
+//  number()
+//   boolean ()
+
+// number() convert in string
+
+let numberType = 59;
+console.log(numberType);
+console.log(typeof numberType);
+
+// convert in to string
+// make new var for store new value now its a string 
+let ConvrtNumberStr = String(numberType);
+// its still a number but type convert in to string
+//  console.log(numberType);
+console.log(typeof ConvrtNumberStr);
+
+
+
+// boolean convert in string
+let boolType = true;
+console.log(boolType);
+console.log(typeof boolType);
+
+// convert in to string
+let cnvtBoolStr;
+
+ cnvtBoolStr = String(boolType);
+ // boolean convert in string
+ console.log(typeof cnvtBoolStr);
+
+
+
+ // string convert in Number()
+
+ let strr = 'waheed';
+ console.log(typeof strr);
+
+ // string convert in number using number() function
+let strCnvtNumber;
+
+ strCnvtNumber = Number(strr);
+ // now converted value in strCnvtNumber inside
+ console.log(typeof strCnvtNumber);
+ // convert in number
+
+ // Boolean convert in number
+ let Bool1 = false;
+ console.log(typeof Bool1);
+
+ // boolean convert in number using Number() function
+let CnvtBool;
+
+CnvtBool = Number(Bool1);
+ // now converted value in CnvtBool inside
+ console.log(typeof CnvtBool);
+ // convert in Number
+
+
+ 
+
+
+
+
+
+
