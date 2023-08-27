@@ -31,3 +31,27 @@
 // }else{
 //     document.write(`Not Deleted`);
 // }
+
+
+// types conversion
+
+let type = 'hello';
+console.log(typeof type);
+// string type
+let typeNumber = 34;
+console.log(typeof typeNumber);
+// type numner 
+let typeNumber1 = "34";
+// number convert into string
+console.log(typeof typeNumber1);
+
+let typeBool = true;
+console.log(typeof typeBool);
+// type true or false boolean
+
+let typeBool1 = "true";
+// if i convert true in to strings "true" output will string
+console.log(typeof typeBool1);
+
+// two types of conversion in js auto and mannualy
+
