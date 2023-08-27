@@ -19,12 +19,15 @@
 
 // confrim function
 
-let response = confirm(`Are You Sure, You want to Delete`);
-// check response true or false
-if (response) {
-    document.write(`Deleted`);
+// let response = confirm(`Are You Sure, You want to Delete`);
+// // check response true or false
+// if (response) 
+// // if response is true print this
+// {
+
+//     document.write(`Deleted`);
     
     
-}else{
-    document.write(`Not Deleted`);
-}
+// }else{
+//     document.write(`Not Deleted`);
+// }
