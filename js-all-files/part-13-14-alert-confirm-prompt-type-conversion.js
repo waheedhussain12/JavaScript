@@ -174,7 +174,8 @@ console.log(cnvrtBool);
 
 // String convert in boolean
 
-let  strBool = 'hello'; 
+var  strBool = ''; // " " means false
+var  strBool = 'hello'; // means true
 console.log(typeof strBool);
 
 // convert in boolean
