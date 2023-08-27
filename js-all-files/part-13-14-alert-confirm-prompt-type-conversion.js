@@ -140,7 +140,9 @@ let strCnvtNumber;
 
  strCnvtNumber = Number(strr);
  // now converted value in strCnvtNumber inside
+ console.log(strCnvtNumber);
  console.log(typeof strCnvtNumber);
+
  // convert in number
 
  // Boolean convert in number
@@ -152,12 +154,32 @@ let CnvtBool;
 
 CnvtBool = Number(Bool1);
  // now converted value in CnvtBool inside
+console.log(CnvtBool);
  console.log(typeof CnvtBool);
  // convert in Number
 
 
- 
 
+// number convert in boolean
+
+var numBool = 0; // false
+var numBool = 2; // true
+// only 0 is false and all number is true
+console.log(typeof numBool);
+
+// convert in boolean
+let cnvrtBool = Boolean(numBool);
+console.log(cnvrtBool);
+
+
+// String convert in boolean
+
+let  strBool = 'hello'; 
+console.log(typeof strBool);
+
+// convert in boolean
+let strCnvrtBool = Boolean(strBool);
+console.log(strCnvrtBool);
 
 
 
