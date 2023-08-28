@@ -183,6 +183,45 @@ console.log(str);
 var str = "waheed\thussain";
 console.log(str);
 
+// use \ and put any signs and symbools inside the text
+var str = "waheed\'hussain";
+console.log(str);
+var str = "waheed\"hussain";
+console.log(str);
+var str = "waheed\#hussain";
+console.log(str);
+var str = "waheed\ `hussain";
+console.log(str);
 
 
+// find the length of the string
+var str = "you killed a sweet Cat in my house";
+console.log(str.length);
+
+
+// find any letter in string using index []
+// spaces are also count
+var str = "you killed a sweet Cat in my house";
+console.log(str[11]);
+
+// compare two or more strings
+
+var str = "you killed a";
+var str2 = "cat and dog";
+ if (str !=str2) {
+    console.log(str + str2);
+    
+ } else{
+    console.log('you got error');
+ }
+
+ // also this way you can compare
+ var str = "you killed a";
+var str2 = "you killed a";
+ if (str ==str2) {
+    console.log(str,str2);
+    
+ } else{
+    console.log('you got error');
+ }
 

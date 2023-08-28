@@ -55,6 +55,9 @@
 // // output waheed"hussain
 // console.log(str);
 
+
+
+
 // string lenght find
 // spaces are also count
 let strlength = 'waheed hussain ';
