@@ -139,3 +139,50 @@ console.log(typeof boolStr);
 var boolNum = Number(bool1);
 console.log(boolNum);
 console.log(typeof boolNum);
+
+
+
+// String manipulation in js
+
+// Single quote string
+var str = 'hy developers im new here';
+console.log(str);
+
+// Double quote string
+var str = "hy developers im new here";
+console.log(str);
+
+
+// add two strings in 
+var str = "you killed a";
+var str2 = "cat and dog";
+console.log(str + str2);
+
+// add two strig in new 3th variable
+var strSave;
+strSave = str + str2;
+console.log(strSave);
+
+// you can this also result will be same
+var strSaveto = `${str +" " + str2}`
+console.log(strSaveto);
+
+
+// types of spacing in Strings
+
+// start in new line
+var str = "waheed\nhussain";
+console.log(str);
+
+// i want to put this \ inside the text 
+// use double \\ 
+var str = "waheed\\hussain";
+console.log(str);
+
+// i want tab space in my text
+var str = "waheed\thussain";
+console.log(str);
+
+
+
+

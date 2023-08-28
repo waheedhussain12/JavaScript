@@ -60,7 +60,7 @@
 let strlength = 'waheed hussain ';
 console.log(strlength.length);
 
-// find any letter in strin using index
+// find any letter in string using index
 
 let strlength1 = "laptop mobile waheed anything";
 console.log(strlength1[5]);
