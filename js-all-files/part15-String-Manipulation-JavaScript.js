@@ -14,7 +14,7 @@
 
 // let str = "waheed";
 // let str2 = "hussain";
-// console.log(str + str2);
+// console.log(str + " "+ str2);
 
 // store value another string
 
@@ -54,4 +54,28 @@
 // let str = 'waheed\thussain';
 // // output waheed"hussain
 // console.log(str);
+
+// string lenght find
+// spaces are also count
+let strlength = 'waheed hussain ';
+console.log(strlength.length);
+
+// find any letter in strin using index
+
+let strlength1 = "laptop mobile waheed anything";
+console.log(strlength1[5]);
+// find any letter position using index[]
+
+
+// compare strings
+
+let strCompr = 'Waheed';
+
+let strCompr1 = 'Waheed'; //  if w is small letter got error
+if (strCompr == strCompr1) {
+    console.log('String are Equal');
+    
+}else{
+    console.log('Not Equal');
+}
 
