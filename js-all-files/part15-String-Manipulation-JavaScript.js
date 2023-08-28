@@ -124,7 +124,7 @@ let trimdstr =strSubStr.trimStart();
 console.log(strSubStr);
 console.log(trimdstr);
 
-// to Upppercase funciton
+// to Upppercase funciton ()
 // let toUppercase =strSubStr.toUpperCase();
 let toUppercase =strSubStr.toLowerCase();
 console.log(strSubStr);
@@ -138,7 +138,6 @@ let toInclude =strSubStr.includes('video');
 
 console.log(strSubStr);
 console.log(toInclude);
-
 
 
 
