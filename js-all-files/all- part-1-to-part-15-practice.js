@@ -86,4 +86,56 @@ console.log(typeof num);
 //  number()
 //   boolean ()
 
+
+// String
 var str = 'hi! iam String in JS'
+console.log(str);
+console.log(typeof str);
+
+// convert in number 
+var str2 = Number(str);
+console.log(str2);
+console.log(typeof str2);
+
+// convert in Boolean
+// note boolean false only blank string " ", ' '
+var bool = Boolean(str);
+console.log(bool);
+console.log(typeof bool);
+
+
+// number
+
+ var numbr = 40;
+ console.log(numbr);
+ console.log(typeof numbr);
+
+ // convert in String
+
+ var numbrStr =Number(numbr);
+ console.log(numbrStr);
+ console.log(typeof numbrStr);
+
+// convert in Boolean
+// note only 0 is false 1 to all numbers is true
+var numbrBool = Boolean(numbr);
+console.log(numbrBool);
+console.log(typeof numbrBool);
+
+// Boolean
+
+var bool1 = true;
+console.log(bool1);
+console.log(typeof bool1);
+
+// convert in String
+
+var boolStr = String(bool1);
+console.log(boolStr);
+console.log(typeof boolStr);
+
+// convert in Number
+// note true means 1 and false means 0
+var boolNum = Number(bool1);
+console.log(boolNum);
+console.log(typeof boolNum);
