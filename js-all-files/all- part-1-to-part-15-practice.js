@@ -27,4 +27,18 @@
 //     document.write(`Not Deleted`);
 // }
 
+var num = 34;
+console.log(num); // here it is number
+console.log(typeof num);
+
+var num = "34";
+console.log(num); // here it is string
+console.log(typeof num);
+var num = 10 + '30'; // 10 convert in string 1030
+console.log(num);
+console.log(typeof num);
+
+var num = 30 + null;
+
+
 
