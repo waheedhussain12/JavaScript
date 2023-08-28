@@ -225,3 +225,22 @@ var str2 = "you killed a";
     console.log('you got error');
  }
 
+
+ // String concat() Function
+
+ // different types of concat in string
+ var str = "you killed a";
+var str2 = "cat and dog";
+console.log(str.concat(" ",str2));
+
+
+// make new variable and concat 
+// also old way add two string using plus +
+var str = "you killed a";
+var str2 = "cat and dog";
+var conCatStr = str.concat("  " ,str2);
+console.log(conCatStr);
+
+
+
+
