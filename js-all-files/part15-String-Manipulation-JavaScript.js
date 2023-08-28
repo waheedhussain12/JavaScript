@@ -79,3 +79,66 @@ if (strCompr == strCompr1) {
     console.log('Not Equal');
 }
 
+// string concat() function
+
+// let strr1 = "this is a";
+// let strr2 = "ballbat";
+// let strr3 = "but its not my fav game";
+// // also add 3th variable for store bth values
+// let strrCncat;
+
+// strrCncat = strr1.concat(" ",strr2," ",strr3);
+// console.log(strrCncat);
+
+
+
+let strSubStr = "this is a JavaScript video. It is a good video";
+
+// let subString = strSubStr.substr(10,16);
+// // first yu set position than yu set lenght
+// // positon count start 0 and lenght start count 1
+// console.log(subString);
+
+// 2nd function indexOf ()
+let positon1 = strSubStr.indexOf('good'); // words position
+console.log(positon1);
+
+let positon3 = strSubStr.indexOf('is', 10); // search from 10 letters
+console.log(positon3);
+
+
+
+
+
+
+// 2nd function LastIndexOf()
+let positon2 = strSubStr.lastIndexOf('is'); // search from last 
+console.log(positon2);
+ 
+// deleting extra space use trim() also use end start function
+
+
+// let trimdstr =strSubStr.trim();
+// let trimdstr =strSubStr.trimEnd();
+let trimdstr =strSubStr.trimStart();
+console.log(strSubStr);
+console.log(trimdstr);
+
+// to Upppercase funciton
+// let toUppercase =strSubStr.toUpperCase();
+let toUppercase =strSubStr.toLowerCase();
+console.log(strSubStr);
+console.log(toUppercase);
+
+
+// replace () function
+// replace and add new value in a string
+let toreplace =strSubStr.replace('video','best Video');
+let toInclude =strSubStr.includes('video');
+
+console.log(strSubStr);
+console.log(toInclude);
+
+
+
+
