@@ -286,7 +286,7 @@ console.log(positon1);
 // replace () function
 // replace and add new value in a string
 var str3 = "Youi Killed a sweet Cat in my House";
-var positon2 =str3.replace("Cat","Dog");
+var positon2 =str3.replace("Cat","DOG");
 console.log(positon2);
 
 
