@@ -299,5 +299,5 @@ console.log(positon3);
 // subString using substr() function
 // first put on position than put length
 var str6 = "Youi Killed a sweet Cat in my House";
-var subtr = str6.substr(4,8);
+var subtr = str6.substr(4,7);
 console.log(subtr);
