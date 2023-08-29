@@ -18,6 +18,7 @@ console.log(book[1]);
 console.log(book[3]);
 //also change or upade value in element using index
 book[0] = "English";
+console.log(book); 
 book[2]= 23; // update number also
 console.log(book);
 
