@@ -44,6 +44,9 @@ arr.push("fav-car");
 console.log(arr);
 // find lenght of an array
 console.log(arr.length);
+// Delete element using pop() function but delete last element in array
+arr.pop()
+console.log(arr);
 
 // sec way declare an Array
 var arr = new Array("waheed", "hussain","leghari",23)
