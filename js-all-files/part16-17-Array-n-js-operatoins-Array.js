@@ -17,8 +17,8 @@ console.log(book[1]);
 console.log(book[3]);
 
 let asset = [1,2,43,546,76,78,987,3,23,123];
-console.log(asset); // full array
-console.log(asset[4]);// 4th element
+console.log(asset);  // full array
+console.log(asset[7]); // 4th element
 
 
 
