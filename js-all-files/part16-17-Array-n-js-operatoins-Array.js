@@ -1,12 +1,12 @@
 // normal declaration
 
-// let book1 = "Math";
-// var book2 = "Physics";
-// var book3 = "Bio";
-// var book4 = "Computer Science";
-// // update an variable
-// book1 = "sec-year Math"
-// console.log(book1);
+let book1 = "Math";
+var book2 = "Physics";
+var book3 = "Bio";
+var book4 = "Computer Science";
+// update an variable
+book1 = "sec-year Math"
+console.log(book1);
 
 
 // add multiple data in array
