@@ -301,3 +301,5 @@ console.log(positon3);
 var str6 = "Youi Killed a sweet Cat in my House";
 var subtr = str6.substr(4,7);
 console.log(subtr);
+
+// string done
