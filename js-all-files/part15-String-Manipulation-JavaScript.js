@@ -98,8 +98,8 @@ if (strCompr == strCompr1) {
 let strSubStr = "this is a JavaScript video. It is a good video";
 
 // let subString = strSubStr.substr(10,16);
-// // first yu set position than yu set lenght
-// // positon count start 0 and lenght start count 1
+// first yu set position than yu set lenght
+// positon count start 0 and lenght start count 1
 // console.log(subString);
 
 // 2nd function indexOf ()

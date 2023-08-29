@@ -243,4 +243,61 @@ console.log(conCatStr);
 
 
 
+// 2nd function indexOf ()
+// find position only letter
+var str = "youi killed a sweet Cat in my house";
+// var positon =str.indexOf('k');
+// also search form index 
 
+var positon =str.indexOf('i',4);
+ // search from 4 letters
+console.log(positon);
+
+
+
+// 2nd function LastIndexOf()
+var str = "youi killed a sweet Cat in my house";
+var positon1 =str.lastIndexOf('i',11);
+ // search from last side also add position 
+console.log(positon1);
+
+// to Lowercase funciton ()
+var str = "Youi Killed a sweet Cat in my House";
+var positon1 =str.toLowerCase();
+console.log(positon1);
+
+// to Upppercase funciton ()
+var str = "Youi Killed a sweet Cat in my House";
+var positon1 =str.toUpperCase();
+console.log(positon1);
+
+
+
+// deleting extra space use trim() also use end start function
+
+
+// let trimdstr =strSubStr.trim();
+// let trimdstr =strSubStr.trimEnd();
+var str = "  Youi Killed a sweet Cat in my House  ";
+var positon1 =str.trim();
+console.log(positon1);
+
+
+// replace () function
+// replace and add new value in a string
+var str3 = "Youi Killed a sweet Cat in my House";
+var positon2 =str3.replace("Cat","Dog");
+console.log(positon2);
+
+
+// includes() tells us in true or false
+// word present in a string true or not present false
+var str4 = "Youi Killed a sweet Cat in my House";
+var positon3 =str4.includes("thanks for everything");
+console.log(positon3);
+
+// subString using substr() function
+// first put on position than put length
+var str6 = "Youi Killed a sweet Cat in my House";
+var subtr = str6.substr(4,8);
+console.log(subtr);
