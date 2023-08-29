@@ -1,5 +1,5 @@
 // three output functions
-// alert("hy baby");
+// alert("hy Developer");
 
 // let age;
 
