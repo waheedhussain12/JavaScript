@@ -100,7 +100,12 @@ var WordArray = strText.split('s');// convt in Array but delete all s in String 
 console.log(WordArray);
 
 
+// Array convert in to an String use join() Function
+
+
 var book = ["Math", "Physics","Bio","Computer Science","urdu"];
+var arrtoString = book.join(" ");// add space or any letter in double quotes
+console.log(arrtoString);
 
 
 
