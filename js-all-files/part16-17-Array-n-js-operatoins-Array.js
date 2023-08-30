@@ -130,6 +130,22 @@ var fetchArr = multiarr[0][2][1]; // nesting in array
 console.log(fetchArr);
 
 
+// use loops in array
+
+var book = ["Math", "Physics","Bio","Computer Science","urdu",23];
+
+// array length does not know first make variable than get array length usinng length property
+var bookLength = book.length;
+// store array length in our variable
+for(i = 0; i < bookLength; i++){
+    console.log(i,book[i]);
+    
+
+}
+
+// forEach
+
+
 
 
 
