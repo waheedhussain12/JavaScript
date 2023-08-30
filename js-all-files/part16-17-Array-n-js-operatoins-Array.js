@@ -84,6 +84,12 @@ console.log(book);
 console.log(book.indexOf("Computer Science"));
 
 
+var book = ["Math", "Physics","Bio","Computer Science","urdu"];
+// using this function you can check it is Array or not
+// Array.isArray() works on true or false
+console.log(Array.isArray(book));
+var book = "Math";
+console.log(Array.isArray(book));
 
 
 
