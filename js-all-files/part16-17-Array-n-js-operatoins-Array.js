@@ -116,7 +116,8 @@ console.log(additionTwoArray);
 
 
 // multi dimensional array
-
+var multiarr = [["name"],["Waheed"],["Age"],[23],["Dept"],["ComputerScience"]];
+console.log(multiarr);
 
 
 
