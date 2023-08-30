@@ -116,7 +116,7 @@ console.log(additionTwoArray);
 
 
 // multi dimensional array
-// array of any array
+// array of an array
 var multiarr = [
     ["name","Waheed",
     ["caste","Leghari"]
