@@ -107,6 +107,29 @@ var book = ["Math", "Physics","Bio","Computer Science","urdu"];
 var arrtoString = book.join(" ");// add space or any letter in double quotes
 console.log(arrtoString);
 
+// add two or more Arrays 
+// using concat() function
+var book = ["Math", "Physics","Bio","Computer Science","urdu"];
+var book2 = ["English","German"];
+var additionTwoArray  = book.concat(book2);
+console.log(additionTwoArray);
+
+
+// multi dimensional array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
