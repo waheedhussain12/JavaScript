@@ -64,8 +64,24 @@ console.log(book);
 book.splice(1,3) // index 1 element and count 3 is deleted
 console.log(book);
 
+// also you can empty Array
+book = [] // now array is empty
+console.log(book);
+// aslo you can try this method
+// using length function
+book.length = 0;
+console.log(book);
+
+var book = ["Math", "Physics","Bio","Computer Science","urdu"];
+console.log(book);
 
 
+// you can also find position of an elemet
+// also make a variable to store a positon's value
+ let position = book.indexOf("Bio");
+ console.log(position); // find element position
+ // try this way also using log()
+console.log(book.indexOf("Computer Science"));
 
 
 
