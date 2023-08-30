@@ -53,6 +53,20 @@ console.log(book);
 book.shift(); // Sec element deleted
 console.log(book);
 
+var book = ["Math", "Physics","Bio","Computer Science","urdu"];
+console.log(book);
+// you can delete any elemet using splice function
+// splice() works on position means start and deleteCount
+book.splice(1,1) // index 1 element and count 1 is deleted
+console.log(book);
+var book = ["Math", "Physics","Bio","Computer Science","urdu"];
+console.log(book);
+book.splice(1,3) // index 1 element and count 3 is deleted
+console.log(book);
+
+
+
+
 
 
 
