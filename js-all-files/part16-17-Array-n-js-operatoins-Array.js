@@ -31,6 +31,11 @@ console.log(asset[4]); // 4th element
 
 
 
+
+
+
+
+
 // Array in js
 
 // two types of declaring in Array
