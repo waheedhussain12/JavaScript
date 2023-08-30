@@ -91,6 +91,16 @@ console.log(Array.isArray(book));
 var book = "Math";
 console.log(Array.isArray(book));
 
+// String text convert an Array use split() Function 
+// split function works on space 
+var strText = " this is a random text";
+var WordArray = strText.split(' ');// convrt in Array
+var WordArray = strText.split('s');// convt in Array but delete all s in String than split it
+
+console.log(WordArray);
+
+
+var book = ["Math", "Physics","Bio","Computer Science","urdu"];
 
 
 
