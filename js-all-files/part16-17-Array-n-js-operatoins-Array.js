@@ -145,7 +145,14 @@ for(i = 0; i < bookLength; i++){
 
 // forEach
 
+var book = ["Math", "Physics","Bio","Computer Science","urdu",23];
 
+book.forEach(myFunction);
+
+function myFunction(getValues){
+
+    console.log(getValues);
+}
 
 
 
