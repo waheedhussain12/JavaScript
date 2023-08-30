@@ -118,14 +118,16 @@ console.log(additionTwoArray);
 // multi dimensional array
 // array of an array
 var multiarr = [
-    ["name","Waheed",
-    ["caste","Leghari"]
-],
+    ["name","Waheed", ["caste","Leghari"]],
 ["Age",23],
 ["Dept","ComputerScience"],
 ["RollNo:",88]
 ];
-console.log(multiarr);
+// console.log(multiarr);
+var fetchArr = multiarr[0][2][1]; // nesting in array
+// var fetchArr = multiarr[1]; // print full array use only outer arry index
+
+console.log(fetchArr);
 
 
 
