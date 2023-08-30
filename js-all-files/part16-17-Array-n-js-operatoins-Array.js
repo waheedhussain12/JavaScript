@@ -35,9 +35,12 @@ book.unshift('add me on Start Chemistry');
 console.log(book);
 
 // also you can delete an element in Array 
-// using pop
-
-
+// using pop() you can delete multiple elements also 
+// pop() delete from last 
+book.pop() // delete last element
+console.log(book);
+book.pop() // delete sec last element
+console.log(book);
 
 
 
