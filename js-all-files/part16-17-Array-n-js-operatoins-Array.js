@@ -24,23 +24,40 @@ console.log(book);
 
 // find length in Array
 console.log(book.length);
+
 // add element in array using push() function 
 // using push you can add element only on last
 book.push('Urdu');
 console.log(book);
 
 // also you can add element in starting of in Array
+
 // using unshift() function
 book.unshift('add me on Start Chemistry');
 console.log(book);
 
 // also you can delete an element in Array 
+
 // using pop() you can delete multiple elements also 
 // pop() delete from last 
 book.pop() // delete last element
 console.log(book);
 book.pop() // delete sec last element
 console.log(book);
+
+// delete element using shift () function 
+// shift() delete from first than sec than third 
+
+book.shift(); // first element deleted
+console.log(book);
+book.shift(); // Sec element deleted
+console.log(book);
+
+
+
+
+
+
 
 
 
