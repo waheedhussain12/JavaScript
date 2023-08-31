@@ -143,7 +143,7 @@ for(i = 0; i < bookLength; i++){
 
 }
 
-// forEach
+// forEach loop
 
 var book = ["Math", "Physics","Bio","Computer Science","urdu",23];
 
