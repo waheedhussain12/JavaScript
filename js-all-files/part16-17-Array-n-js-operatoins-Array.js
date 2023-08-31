@@ -4,7 +4,7 @@ let book1 = "Math";
 var book2 = "Physics";
 var book3 = "Bio";
 var book4 = "Computer Science";
-// update an variable
+// update an variables
 book1 = "sec-year Math"
 console.log(book1);
 
