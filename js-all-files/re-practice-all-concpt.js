@@ -375,3 +375,8 @@ var number3 = "5";
 var strName = "5";
 console.log(number3==strName);
 // first convert both than compare
+
+// === equal value and equal type
+// 5 === 5 -> true
+// 6 === 5 -> false
+// 5 === "5" -> false bcz change data type
