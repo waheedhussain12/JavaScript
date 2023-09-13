@@ -422,3 +422,5 @@ let we = 40;
 let wr = 30;
 console.log(we!=wr);
 // true bcz conditon false 40 and 30 is not equal 
+// in simple trems true convt in false
+// and false convrt in true
