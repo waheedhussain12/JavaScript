@@ -208,3 +208,19 @@ cars.push("CD 70");
 console.log(cars);
 // yu can add element as well
 
+
+// constant object
+const person = {
+firstName:"Waheed", 
+lastName: "Hussain",
+age: 21,
+rollNo: "2k21/CSEE/88",
+}
+console.log(person);
+// also change element property as well
+person.rollNo = "88 rollNo";
+console.log(person);
+// also add element as well
+person.castee = "Laghari";
+console.log(person);
+
