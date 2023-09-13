@@ -341,3 +341,8 @@ def = "";
 console.log(def);
 
 // Comparison and logical operators
+// == equal to 
+// not compare data type 
+// 5 == 5 -> true
+// 6 == 5 -> false
+// 5 == "5" -> true
