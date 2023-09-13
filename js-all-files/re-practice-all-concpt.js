@@ -418,3 +418,7 @@ let f1 = 20;
 console.log(f!=f1);
 // f is not equal to f1 but here f is equal == to f1 
 // condition is false
+let we = 40;
+let wr = 30;
+console.log(we!=wr);
+// true bcz conditon false 40 and 30 is not equal 
