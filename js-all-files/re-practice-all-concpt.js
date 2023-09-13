@@ -231,3 +231,39 @@ console.log(book3);
 
 // part 6 js operators
 
+// addition
+var onenumber = 23;
+var twonumber = 46;
+sum = onenumber + twonumber;
+console.log(sum);
+
+// sub
+var onenumber = 23;
+var twonumber = 46;
+sum = onenumber - twonumber;
+console.log(sum);
+
+// divide
+var onenumber = 23;
+var twonumber = 46;
+sum = onenumber / twonumber;
+console.log(sum);
+
+// remider
+var onenumber = 23;
+var twonumber = 46;
+sum = onenumber % twonumber;
+console.log(sum);
+
+// multiple
+var onenumber = 23;
+var twonumber = 46;
+sum = onenumber * twonumber;
+console.log(sum);
+
+
+var onenumber = 23;
+
+
+
+
