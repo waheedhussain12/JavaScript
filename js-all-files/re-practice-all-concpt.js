@@ -406,3 +406,15 @@ console.log(result);
 // value is same both are 60 60
 // str is convrt in number but type is not same
 // false
+
+
+//-    != not equal 
+// 8 != 5 -> true
+// 5 != 5 -> false
+// not compare data type 
+
+let f = 20;
+let f1 = 20;
+console.log(f!=f1);
+// f is not equal to f1 but here f is equal == to f1 
+// condition is false
