@@ -224,3 +224,5 @@ console.log(person);
 person.castee = "Laghari";
 console.log(person);
 
+// part 6 js operators
+
