@@ -313,3 +313,7 @@ var n = 343;
 console.log(n);
 var n1 = 343.3;
 console.log(n1);
+
+// boolean
+var grateNum = 35;
+
