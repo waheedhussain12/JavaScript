@@ -307,3 +307,9 @@ console.log(str);
 str = "Waheed\'laptop";
 console.log(str);
 
+// number 
+// two types of number 
+var n = 343;
+console.log(n);
+var n1 = 343.3;
+console.log(n1);
