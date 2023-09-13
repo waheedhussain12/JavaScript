@@ -389,4 +389,5 @@ var number2 = 50;
 var number3 = 60;
 result = number2 === number3;
 console.log(result);
+// both type is number
 // false bcz type is same but value is not equal 50 60
