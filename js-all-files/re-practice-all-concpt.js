@@ -424,3 +424,10 @@ console.log(we!=wr);
 // true bcz conditon false 40 and 30 is not equal 
 // in simple trems true convt in false
 // and false convrt in true
+
+
+//compare data type 
+//- !== not equal value or not equal type
+// 5 !== 5 -> false
+// 5 !== "5" -> true
+// 5 !== 8 -> true
