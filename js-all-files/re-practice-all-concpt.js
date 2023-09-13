@@ -9,7 +9,7 @@
 
 // document.write
 // document.write("waheed hussain");
-// document.write("\n", 23+34);
+// document.write("\n", 25+34);
 
 // alert
 // alert(23+3);
@@ -351,3 +351,13 @@ var number = 35;
 var number2 = 67;
 var compNumber = number == number2;
 console.log(compNumber);
+// result is false bcz 35 and 67 is not equal
+var equlNumber = 20;
+var equlNumber2 = 20;
+compNumber = equlNumber == equlNumber2;
+console.log(compNumber);
+// result true bcz both are equal 20 and 20
+
+var number3 = 13;
+var strName = "5";
+console.log(number3==strName);
