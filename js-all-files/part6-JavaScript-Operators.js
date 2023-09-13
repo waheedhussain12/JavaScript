@@ -64,3 +64,4 @@ console.log(incrmnt1);
 let s = 5;
 let result6 = (s + 5) / 5; // first yu addition put ()
 console.log(result6);
+
