@@ -263,7 +263,31 @@ console.log(sum);
 
 
 var onenumber = 23;
+sum = onenumber **4;
+console.log(sum);
 
+// addition btw number and string
 
+var n = 23;
+var str = "apple";
+sum = n + str;
+console.log(sum);
+// number convert in string
+
+var fName = "waheed";
+var lName = "hussain";
+console.log(fName+" "+lName);
+
+// incremnt 
+var incressNum = 10;
+incressNum++;
+incressNum++;
+console.log(incressNum);
+
+// decremnt
+var incressNum = 10;
+incressNum--;
+incressNum--;
+console.log(incressNum);
 
 
