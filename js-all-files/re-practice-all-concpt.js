@@ -391,3 +391,13 @@ result = number2 === number3;
 console.log(result);
 // both type is number
 // false bcz type is same but value is not equal 50 60
+var strnumber = "number";
+var number3 = 60;
+result = strnumber === number3;
+console.log(result);
+// type is not same 
+// false value and type is not same
+
+var strnumber = "number";
+var number3 = 60;
+result = strnumber === nu
