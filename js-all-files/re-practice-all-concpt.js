@@ -339,3 +339,5 @@ console.log(deff);
 let def;
 def = "";
 console.log(def);
+
+// Comparison and logical operators
