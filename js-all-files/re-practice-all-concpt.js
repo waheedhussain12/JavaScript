@@ -398,6 +398,11 @@ console.log(result);
 // type is not same 
 // false value and type is not same
 
-var strnumber = "number";
+var strnumber = "60";
 var number3 = 60;
-result = strnumber === nu
+result = strnumber === number3;
+console.log(result);
+// type is not same 
+// value is same both are 60 60
+// str is convrt in number but type is not same
+// false
