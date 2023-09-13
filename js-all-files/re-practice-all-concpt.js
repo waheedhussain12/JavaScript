@@ -346,3 +346,8 @@ console.log(def);
 // 5 == 5 -> true
 // 6 == 5 -> false
 // 5 == "5" -> true
+
+var number = 35;
+var number2 = 67;
+var compNumber = number == number2;
+console.log(compNumber);
