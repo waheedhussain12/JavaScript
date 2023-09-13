@@ -316,4 +316,26 @@ console.log(n1);
 
 // boolean
 var grateNum = 35;
+var lessNum = 21;
+console.log(grateNum == lessNum);
+// condition check
 
+// Array 
+
+let arr = ["hy",23,"waheed",34.34];
+console.log(arr);
+
+// object 
+let obj = {
+    key: 2324352, 
+    value: "2414RS",
+}
+console.log(obj);
+
+// undefined
+let deff; // declare
+// value not asign 
+console.log(deff);
+let def;
+def = "";
+console.log(def);
