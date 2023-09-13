@@ -361,3 +361,17 @@ console.log(compNumber);
 var number3 = 13;
 var strName = "5";
 console.log(number3==strName);
+// first convert in string than compare
+// here "5" string convert in number than compare
+// output false 5 and 13 not equal
+
+var number3 = 5;
+var strName = "5";
+console.log(number3==strName);
+// result true 5 and 5 is equal
+// first str convrt than compare
+
+var number3 = "5";
+var strName = "5";
+console.log(number3==strName);
+// first convert both than compare
