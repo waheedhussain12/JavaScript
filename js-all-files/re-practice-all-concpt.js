@@ -380,3 +380,8 @@ console.log(number3==strName);
 // 5 === 5 -> true
 // 6 === 5 -> false
 // 5 === "5" -> false bcz change data type
+var number = 50;
+var number1 = 50;
+result = number === number1;
+console.log(result);
+// true bcz both numbers type Same and value is equal 50 50
