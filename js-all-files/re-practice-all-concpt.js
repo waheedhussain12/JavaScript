@@ -291,3 +291,19 @@ incressNum--;
 console.log(incressNum);
 
 
+// Data type in JS
+// String
+var str = "Waheedlaptop";
+console.log(str);
+str = "Waheed'laptop";
+console.log(str);
+
+str = 'waheed"laptop';
+console.log(str);
+
+str = "Waheed\"laptop";
+console.log(str);
+
+str = "Waheed\'laptop";
+console.log(str);
+
