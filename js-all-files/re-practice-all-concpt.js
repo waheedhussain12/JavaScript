@@ -69,6 +69,7 @@ console.log(price,brandName,pen);
 var carName; // only declare a variable not give a value output is undefined
 console.log(carName);
 
+
 //a declaration can span multiples lines
 // one variable different types of data
 var myName = "Waheed ",
@@ -223,6 +224,10 @@ console.log(person);
 // also add element as well
 person.castee = "Laghari";
 console.log(person);
+
+let book3;
+console.log(book3);
+// undefined bcz value not asign
 
 // part 6 js operators
 
