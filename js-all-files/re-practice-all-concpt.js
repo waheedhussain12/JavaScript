@@ -341,6 +341,8 @@ def = "";
 console.log(def);
 
 // Comparison and logical operators
+
+
 // == equal to 
 // not compare data type 
 // 5 == 5 -> true
@@ -376,6 +378,7 @@ var strName = "5";
 console.log(number3==strName);
 // first convert both than compare
 
+
 // === equal value and equal type
 // 5 === 5 -> true
 // 6 === 5 -> false
@@ -408,6 +411,7 @@ console.log(result);
 // false
 
 
+
 //-    != not equal 
 // 8 != 5 -> true
 // 5 != 5 -> false
@@ -426,8 +430,104 @@ console.log(we!=wr);
 // and false convrt in true
 
 
+
 //compare data type 
 //- !== not equal value or not equal type
 // 5 !== 5 -> false
 // 5 !== "5" -> true
 // 5 !== 8 -> true
+
+var numb = 40;
+var numb1 = 40;
+console.log(numb !== numb1);
+// first check value than check type
+// both are same so output is true
+// but if yu use ! operator than output is false
+
+var numb = 40;
+var numb1 = "40";
+console.log(numb !== numb1);
+
+
+var numb = 40;
+var numb1 = 10;
+console.log(numb !== numb1);
+
+
+// > greater than
+// 5 > 8 -> false
+
+var gnumber = 23;
+var lnum = 10;
+console.log(gnumber > lnum);
+// 23 is greater than 10
+// condition true
+
+let k = 12;
+let k1 = 20;
+console.log(k < k1);
+// k is less than k1 condition is true
+
+
+// >= greater than or equal to
+// 8 >= 8 -> true
+
+var gnumber = 10;
+var lnum = 10;
+console.log(gnumber >= lnum);
+// gnumber is not greate than but equal to so condition is true
+
+var gnumber = 10;
+var lnum = 9;
+console.log(gnumber >= lnum);
+
+// <= less than or equal to
+// 8 <= 8 -> true
+
+let m = 12;
+let m1 = 12;
+console.log( m <= m1 );
+// m is less than but equal to so condition is true
+
+
+// logical operators
+//&& and or ||
+// (5<10 && 6>1) true
+// (5>10 && 6>1) true
+// if both condition are true than condition is true
+// if one condition is true and 2nd is false than conditon is false
+
+var number = 20 > 10 && 40 < 50;
+console.log(number);
+// both condition are true so output is true
+// if one condition is true and other is false so condition is false
+
+
+var checkCondi = 40 > 20 && 10 < 2 && 60 < 70;
+// 60 is not less 70 one condition is false
+// output is false
+console.log(checkCondi); 
+
+
+// || or
+// (5==5 || 6==5) true
+// (7==5 || 6==5) false
+// atleast one condition is true output will be true
+
+var checkCondit = 40 > 20 || 10 < 2 || 60 < 70;
+// one condition is false but other two condition is true 
+// so output is true
+console.log(checkCondit);
+// if all condition is false than output is false
+var checkConditi = 10 == 11 || 20 == 30;
+// all condition is false so output is false
+console.log(checkConditi);
+
+
+//-  !not operator
+// true convert in false
+var q = 12;
+var q1 = 12;
+console.log(q!==q1);
+
+// part 10 if else condition
