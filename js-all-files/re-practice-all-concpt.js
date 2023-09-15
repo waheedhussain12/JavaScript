@@ -713,5 +713,6 @@ if(Gas == 'avaible' && Milk == 'NotAvaible'){
     console.log('We cannot make tea')
 }
 
-let awss = 34;
-let awss = 34;
+var awss = 34;
+var awss = 34;
+var awss = 34;
