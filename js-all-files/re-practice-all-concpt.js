@@ -701,3 +701,14 @@ if (lightAva == 'avalble') {
     
     
 }
+
+let Gas = 'avaible';
+let Milk = 'NotAvaible';
+
+if (Gas == 'avaible') {
+    console.log('We can make tea');
+
+}
+if(Gas == 'avaible' && Milk == 'NotAvaible'){
+    console.log('We cannot make tea')
+}
