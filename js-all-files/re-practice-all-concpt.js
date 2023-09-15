@@ -531,3 +531,6 @@ var q1 = 12;
 console.log(q!==q1);
 
 // part 10 if else condition
+
+
+let  aw =r345;
