@@ -664,3 +664,40 @@ if (marks == 80 ) {
 
     
 }
+
+
+ let fanIsStart  = 'on';
+ let btn = 'on'
+ let lightAva = 'avalble';
+let btn2isOn = 'off';
+
+if (lightAva == 'avalble') {
+    if (btn == 'on' && fanIsStart == 'on') {
+        console.log('enjoy yu r confrt');
+
+
+    } if (lightAva == 'avalble') {
+        if (btn2isOn == 'off') {
+           if (fanIsStart == 'off') {
+            
+           }
+            console.log('fan is off');
+            
+        }
+        
+    } if (lightAva == 'avalble' ) {
+        if (btn == 'on') {
+            if (fanIsStart == 'on') {
+                console.log('error in ');
+            }
+
+          
+            
+        }
+        
+    }
+
+
+    
+    
+}
