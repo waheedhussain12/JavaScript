@@ -708,11 +708,16 @@ let numm = 49;
 let str1 = 'on'
 if (numm > 20 && str1 == 'on') {
     
-   
     console.log('number is grater');
 } else if(numm == 49 && str1 == 'off'){
    
     console.log('number is equal');
+} else if(numm == 49 && str1 == 'off'){
+   
+    console.log('third condition is true when upper condition is false');
+}else if(numm == 49 && str1 == 'off'){
+   
+    console.log('third condition is true when upper condition is false');
 }
 else{
     console.log('all conditions are false');
