@@ -714,3 +714,4 @@ if(Gas == 'avaible' && Milk == 'NotAvaible'){
 }
 
 let awss = 34;
+let awss = 34;
