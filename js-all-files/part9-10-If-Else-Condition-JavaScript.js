@@ -4,13 +4,13 @@
 
 // if(age >=18) // if condition is true
 // {
-//     // this block of code is excute 
+    // this block of code is excute 
 //     console.log("you can vote");
 // }
 
 // if(age >=16) // here condition is false
 // {
-//     // this block of code is excute 
+    // this block of code is excute 
 //     console.log("you cannot vote");
 
 // }
