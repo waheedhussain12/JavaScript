@@ -716,3 +716,4 @@ if(Gas == 'avaible' && Milk == 'NotAvaible'){
 var awss = 34;
 var awss = 34;
 var awss = 34;
+var awss = 34;
