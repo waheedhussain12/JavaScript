@@ -532,5 +532,135 @@ console.log(q!==q1);
 
 // part 10 if else condition
 
+let age1 = 19;
 
-let  aw =r345;
+if (age1 >= 19) {
+    console.log('you can vote');
+    // >= greater but its equal so condition true
+
+} else{
+
+    console.log('you can not vote');
+}
+
+// exp2
+let age2 = 21;
+
+if (age2 < 19) {
+    console.log('you can vote');
+    
+} else{
+
+    console.log('you can not vote');
+    // this condition is true bcz 19 less than 21
+
+}
+
+let ageee = 18;
+let voterCard = 'no';
+let timee = '10pm'
+
+if (ageee >=17 && voterCard == 'no' && timee == '10pm') {
+    // here first conditon true
+    // sec condition is false
+    // && means both conditions must be true
+
+    console.log('you can vote bcz yu have a id card');
+} else if (ageee >= 18 && voterCard == 'yes' && timee == '10pm') {
+    console.log('first make your id than you can vote');
+    // here first condition is true and sec condition is also true
+    // so this statement will excuted
+} else {
+    console.log('your age is 17 you can not vote');
+    
+}
+
+// nested if else
+let age3 = 18;
+let idCardd = 'yes';
+
+if (age3 <=19) {
+    // first check this
+    // nested if 
+    if (idCardd == 'yes') 
+    // and than check this condition
+    {
+        console.log('oversees Pakistani can vote');
+       // if both conditions are true this will excute
+        
+    }else{
+        console.log('first make id Card from pak Govrt');
+    }
+    
+}
+
+// ternary operator
+let isLoggedinn = 0; // if loggedout if 1 login
+if (isLoggedinn == 0) {
+    console.log('Log in');
+    
+}else{
+    console.log('log out');
+}
+
+let optionn = isLoggedinn == 1 ? 'Logout' : 'login';
+console.log(optionn);
+// condition true or false output store in variable optionn
+
+let useer;
+// useer = "waheed hussain";
+//  -?? is to avoid undefined
+console.log(useer ?? 'guest user');
+
+
+let isNumberGreaterr = 100;
+let lessNumber = 60;
+
+if (isNumberGreaterr >40 && lessNumber < 70) {
+    // here both conditon is true
+    console.log('yes both condition is true 100 greater than 40 and lessnumber less than 70');
+
+    
+} else{
+
+    console.log('number is less');
+}
+
+let isNumberGreater2 = 100;
+let lesserThan2 = 40;
+
+if (isNumberGreater2 > 56) {
+
+    console.log('number is Big');
+    //nested if else
+    // check sec conditon
+    if (lesserThan2 == 40) {
+        console.log('both condition is true');
+        
+    }else{
+
+        console.log('both condition is false');
+    }
+}
+
+
+let marks = 80;
+let grade = "A GRADE";
+let marks2 = 70;
+let grade2 = 'B GRADE';
+
+if (marks == 80 ) {
+    if (grade == "A GRADE") {
+        console.log('Congrts you got ',grade);
+        
+    } if (marks2 == 70) {
+        if (grade2 == 'B GRADE') {
+            console.log('Congrt you got ',grade2);
+            
+        }
+        
+    }
+
+
+    
+}
