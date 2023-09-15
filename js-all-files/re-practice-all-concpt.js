@@ -656,13 +656,9 @@ if (marks == 80 ) {
     } if (marks2 == 70) {
         if (grade2 == 'B GRADE') {
             console.log('Congrt you got ',grade2);
-            
         }
         
     }
-
-
-    
 }
 
 
@@ -689,17 +685,11 @@ if (lightAva == 'avalble') {
         if (btn == 'on') {
             if (fanIsStart == 'on') {
                 console.log('error in ');
-            }
-
-          
+            }  
             
         }
         
     }
-
-
-    
-    
 }
 
 let Gas = 'avaible';
@@ -713,14 +703,17 @@ if(Gas == 'avaible' && Milk == 'NotAvaible'){
     console.log('We cannot make tea')
 }
 
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
-var awss = 34;
+
+let numm = 49;
+let str1 = 'on'
+if (numm > 20 && str1 == 'on') {
+    
+   
+    console.log('number is grater');
+} else if(numm == 49 && str1 == 'off'){
+   
+    console.log('number is equal');
+}
+else{
+    console.log('all conditions are false');
+}
