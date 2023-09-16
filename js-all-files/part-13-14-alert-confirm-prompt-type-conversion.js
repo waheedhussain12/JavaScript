@@ -3,11 +3,10 @@
 // alert('this page is not found');
 // show a message.
 
-
 // let age = prompt(`Enter Your age ` ,22);
-// // for storing user entering data make variable and puts on it
-// // document.write(age); 
-// // display on scrren
+// for storing user entering data make variable and puts on it
+// document.write(age); 
+// display on scrren
 // if (age != null) {
 //     document.write(`Your Age is ${age}`);
      
@@ -20,9 +19,9 @@
 // confrim function
 
 // let response = confirm(`Are You Sure, You want to Delete`);
-// // check response true or false
+// check response true or false
 // if (response) 
-// // if response is true print this
+// if response is true print this
 // {
 
 //     document.write(`Deleted`);
