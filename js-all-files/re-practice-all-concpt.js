@@ -867,3 +867,6 @@ while (numberB <=10) {
     numberr++;
     
  }
+
+ // break and contiune
+ 

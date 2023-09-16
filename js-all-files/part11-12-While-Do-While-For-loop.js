@@ -157,7 +157,7 @@
 // let numberG = 1;
 // let numberEven = 2;
 // while (numberG <=10) {
-// // nested  loop
+//  nested  loop
 //     while (numberEven <=10) {
 
 //     if (numberEven == 4) {
