@@ -839,3 +839,13 @@ while (numberB <=10) {
     counterNum ++;
    
  }
+
+ for(var numbr = 1; numbr <=5;numbr ++){
+
+    if (numbr == 3) {
+        console.log('this is three number',numbr);
+        break;
+    }
+    console.log('print 1 to 5th number ',numbr);
+
+ }
