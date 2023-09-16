@@ -845,7 +845,25 @@ while (numberB <=10) {
     if (numbr == 3) {
         console.log('this is three number',numbr);
         break;
+        // break program from 3
     }
     console.log('print 1 to 5th number ',numbr);
 
+ }
+
+ var numberr = 1;
+ var tv = 'on';
+
+ while (numberr <=5 ) {
+    if (numberr == 2 && tv == 'on') {
+        console.log('TV is On');
+        
+    }
+
+    if (numberr == 4 && tv == 'on') {
+        console.log('TV is off');        
+    }
+    console.log(numberr,'work fine');
+    numberr++;
+    
  }
