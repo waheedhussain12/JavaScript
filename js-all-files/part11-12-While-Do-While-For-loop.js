@@ -4,7 +4,7 @@
 // let counter = 1;
 
 // while (counter <=  10)
-// // check condition 1 is less if 1 is equal to 10 than condition is stop
+// check condition 1 is less if 1 is equal to 10 than condition is stop
 // {
 //     document.write('waheed hussain');
 //     counter ++; // increment ++
@@ -17,7 +17,7 @@
 
 //     document.write(number)
 //     number =  number +2 ;
-//     // increment plus 2
+    // increment plus 2
 // }
 
 
@@ -33,7 +33,7 @@
 
 // do while
 // let counter2 = 12;
-// // do does not care if its first condition is false
+// do does not care if its first condition is false
 // do {
 //     document.write('waheed');
 //     counter2 ++;

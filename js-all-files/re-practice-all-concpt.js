@@ -722,3 +722,80 @@ if (numm > 20 && str1 == 'on') {
 else{
     console.log('all conditions are false');
 }
+
+
+// part 11 and 12 while do while for loops
+
+
+var counter = 1;
+while (counter <=10) {
+    console.log('Print waheed hussain 10th time');
+    // counter ++; // increment plus 1
+    // also use this
+    // you can add multiple divide sub remiddr
+    counter = counter + 2; // increment plus 2
+}
+
+var counter1 = 1;
+var sum = 0;
+
+while (counter1 <=10) {
+    // check condition
+    if (counter1 % 2 ==0) {
+        sum = sum + counter1
+        
+    }
+    // console.log(counter1,'print 1 to 10th number');
+    counter1++;
+    console.log(sum);
+    
+}
+
+// exp while loop
+
+var counter3 = 1;
+while (counter3 <= 6) {
+
+if (counter3 == 3) {
+    console.log('rightnow Counter is three 3');
+}
+
+if (counter3 == 5) {
+    console.log(typeof counter3);
+    
+}
+if (counter3 == 6) {
+    cnvt = String(counter3);
+    console.log('convert in string',cnvt);
+    console.log(typeof cnvt);
+    
+}
+    console.log('counter start 1 to 6');
+    counter3 ++;
+    
+}
+
+// do while
+var counter4 = 12;
+do {
+    console.log('Always excuting first condition in do while loop');
+    counter4 ++;
+    // here first condition is false 
+} while (counter4 <=10);
+
+
+var counter4 = 12;
+do {
+    console.log('Always excuting first condition in do while loop');
+    counter4 ++;
+    // here first condition is false 
+    // than check condition in while 
+} while (counter4 <=18);
+
+
+// for loop
+
+for(var counter5 = 1; counter5 <= 10; counter5++){
+    console.log(counter5);
+
+}
