@@ -886,11 +886,11 @@ while (numberB <=10) {
 
 
  let b1 = 1;
- for( b1; b1<=10;b1++){
+ for( b1; b1<=6;b1++){
  
      // statement 5th will not excute 
-     if (b1 ==5) {
-         console.log('5th statement will not show');
+     if (b1 ==2) {
+         console.log('2th statement will not show');
          continue;
          
      }
