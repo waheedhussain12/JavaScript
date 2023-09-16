@@ -815,9 +815,27 @@ while (numberB <=10) {
     // add statement in 3th number
     if (nnum == 3) {
         console.log(priinntName,nnum);
-        break;
+        // break;
+        // if you use break progrm out ofthe loop
     }
     console.log('print 5th time ',nnum);
     nnum ++;
     
+ }
+
+
+ var counterNum = 1;
+ var priceCounter = 1; 
+
+ while (counterNum <=6 && priceCounter <=6 ) {
+    // check condition 
+    if (counterNum == 2 && priceCounter == 2) {
+       console.log('price is 20RS only');
+           
+    }
+    console.log(counterNum,'Price is 100RS');
+    console.log(priceCounter, 'price');
+   priceCounter ++;
+    counterNum ++;
+   
  }
