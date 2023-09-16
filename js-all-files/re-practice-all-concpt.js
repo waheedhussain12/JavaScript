@@ -798,4 +798,4 @@ do {
 for(var counter5 = 1; counter5 <= 10; counter5++){
     console.log(counter5);
 
-}
+} 

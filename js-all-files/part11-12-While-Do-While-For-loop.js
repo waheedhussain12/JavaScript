@@ -72,8 +72,8 @@
 
 //     if( numberB ==6){
 //         console.log(priintName);
-//         // break;
-//      // if we use break program out of the loop
+        // break;
+     // if we use break program out of the loop
 //     }
   
 //   console.log(numberB);
