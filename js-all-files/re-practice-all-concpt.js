@@ -872,7 +872,18 @@ while (numberB <=10) {
 
  var br = 1;
  while (br <= 6) {
+    if (br == 2) {
+        console.log('break program from 2nd number');
+        break;
+        // program break and exit from 2nd number
+
+    }
     console.log(br,'print this');
     br++;
     
  }
+
+
+
+
+
