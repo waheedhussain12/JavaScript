@@ -193,7 +193,6 @@ let b = 1;
 for( b; b<=10;b++){
 
     // statement 5th will not excute 
-
     if (b ==5) {
         console.log('5th statement will not show');
         continue;

@@ -869,4 +869,10 @@ while (numberB <=10) {
  }
 
  // break and contiune
- 
+
+ var br = 1;
+ while (br <= 6) {
+    console.log(br,'print this');
+    br++;
+    
+ }
