@@ -888,7 +888,7 @@ while (numberB <=10) {
  let b1 = 1;
  for( b1; b1<=6;b1++){
  
-     // statement 5th will not excute 
+     // statement 2th will not excute 
      if (b1 ==2) {
          console.log('2th statement will not show');
          continue;
@@ -896,5 +896,5 @@ while (numberB <=10) {
      }
      console.log('numbers',b1);
  }
-
+// 
 
