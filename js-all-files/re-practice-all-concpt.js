@@ -799,3 +799,25 @@ for(var counter5 = 1; counter5 <= 10; counter5++){
     console.log(counter5);
 
 } 
+
+var numberB = 1;
+while (numberB <=10) {
+    console.log('print one to 10th numbers',numberB);
+    numberB ++;
+    
+}
+
+
+ var nnum = 1;
+ var priinntName = 'Add this Statement';
+
+ while (nnum <= 5) {
+    // add statement in 3th number
+    if (nnum == 3) {
+        console.log(priinntName,nnum);
+        break;
+    }
+    console.log('print 5th time ',nnum);
+    nnum ++;
+    
+ }
