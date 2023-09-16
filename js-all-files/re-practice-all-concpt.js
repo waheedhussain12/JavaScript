@@ -813,11 +813,21 @@ for (b1; b1 <= 6; b1++) {
 // alert("this page is not found");
 // show a message in web
 
-var age ;
-age = prompt("Enter your age",22);
+// var age ;
+// prompt use for take output from users
+// age = prompt("Enter your age",22);
 // for Storing user entering data make variable and puts on it
 
 // show on webpage using document.write
-document.write(age)
+// document.write(age)
+// check condition
+// if (age != null) {
+//     document.write(`Your Age is ${ age}`);
+// }else{
+//     document.write(`Age Field was blank`);
+// }
+
+// confrim function
+confirm(`Are you sure, you want to delete`)
 
 
