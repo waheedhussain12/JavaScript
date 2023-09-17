@@ -957,7 +957,7 @@ var convrtINbol;
 convrtINbol = Boolean(boolInzero);
 console.log(convrtINbol,typeof convrtINbol);
 
-// boolean
+// Boolean
 // boolean convert string and number
 var bool = true;
 console.log(bool,typeof bool);
