@@ -978,5 +978,11 @@ console.log(cnvrtInNum,typeof cnvrtInNum);
 var str = 'Waheed Hussain';
 console.log(str);
 
+// string in double quotes
+var str = "Waheed hussain in double quotes";
+console.log(str);
 
+//  two or more strings plus +
+var str = "waheed" + 'hussain' + "laghari";
+console.log(str);
 

@@ -10,7 +10,7 @@
 // let str2 = "hussain";
 // console.log(str2);
 
-// two string plus +
+// two string plus + 
 
 // let str = "waheed";
 // let str2 = "hussain";
