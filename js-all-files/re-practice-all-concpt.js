@@ -1060,4 +1060,14 @@ console.log(stranyLetter[3]);
 // find any letter position using index[]
 
 // compare string
+var str11 = 'compare two strings';
+var str22 =  'compare two strings';
+// note space and small or capitals letter also count
+// compare using if condition
+if (str11 == str22) {
+  console.log('String are Equal');
 
+  
+}else{
+  console.log('Not Equal');
+}
