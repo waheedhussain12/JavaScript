@@ -974,3 +974,9 @@ console.log(cnvrtInNum,typeof cnvrtInNum);
 
 // string manipulation
 
+// string in single quotes
+var str = 'Waheed Hussain';
+console.log(str);
+
+
+
