@@ -1045,3 +1045,18 @@ console.log(str);
 var str = 'waheed\thussain\?';
 console.log(str);
 
+
+// find length of string
+// spaces are also count
+var str = 'hy this is my hp laptop';
+console.log(str.length);
+
+// find any letter in string using index []
+var stranyLetter = 'waheed husain';
+// store stranyletter's value in findnewvalue
+findnewValue = stranyLetter;
+console.log(findnewValue[5]);
+console.log(stranyLetter[3]);
+// find any letter position using index[]
+
+
