@@ -833,72 +833,130 @@ for (b1; b1 <= 6; b1++) {
 // check response true or false
 // if (response != null) {
 //     document.write(`Deleted`);
-    
+
 // }else{
 //     document.write(`Not Deleted`);
 // }
 
 // type conversion
 
-// type checking 
+// type checking
 
 // string
-var typestr = 'Waheed hussain';
+var typestr = "Waheed hussain";
 console.log(typestr, typeof typestr);
 
 // number
 var typenumber = 45;
-console.log(typenumber,typeof typenumber);
+console.log(typenumber, typeof typenumber);
 
 // number inside the string
-var typestrInNumber = '78';
+var typestrInNumber = "78";
 // number convert in string
-console.log(typestrInNumber,typeof typestrInNumber);
+console.log(typestrInNumber, typeof typestrInNumber);
 
 //boolean
 var typebool = true;
 // type true or false boolean
-console.log(typebool,typeof typebool);
+console.log(typebool, typeof typebool);
 
 //what if i write 'true or false' inside the string
-var typeBoolstr = 'true';
+var typeBoolstr = "true";
 // this true consider string
-console.log(typeBoolstr,typeof typeBoolstr);
-
+console.log(typeBoolstr, typeof typeBoolstr);
 
 // two types of conversion in js auto and mannualy
 
 // number + null = number 10 + 0 = 10
 var typenull = 10 + null;
 // null means 0 so output will be 10 null is not consider
-console.log(typenull,typeof typenull);
+console.log(typenull, typeof typenull);
 
 // string + null = null convert in string
-var typestrNull = '10' + null;
+var typestrNull = "10" + null;
 //null convert in string means 10null
-console.log(typestrNull,typeof typestrNull);
+console.log(typestrNull, typeof typestrNull);
 
-
-// string + number 
+// string + number
 // number convert in string using + operator
-var typestrNumber = 'apple' + 10;
-console.log(typestrNumber,typeof typestrNumber);
+var typestrNumber = "apple" + 10;
+console.log(typestrNumber, typeof typestrNumber);
 
 // what if i use - than work like math 10 - 4 = 6
-var typestrnumbr = '10' - 4;
+var typestrnumbr = "10" - 4;
 // only  + operator can number convert in string
 //but - * % / work like math in strings
 // here string convrt in numbers
 // here inside the string '10' - 4 number = 6
-console.log(typestrnumbr,typeof typestrnumbr);
+console.log(typestrnumbr, typeof typestrnumbr);
 
 // if both values are number inside the string
 // string convert in numbers
-var bothnumStr = '12' * '42';
+var bothnumStr = "12" * "42";
 // here convert both strings into numbers than both multiple
-console.log(bothnumStr,typeof bothnumStr);
+console.log(bothnumStr, typeof bothnumStr);
 
 // if number in string and letter in string
-var typeletterNumber = 'yes' - '78';
+var typeletterNumber = "yes" - "78";
 // convert in NAN NOT A NUMBER
-console.log(typeletterNumber,typeof typeletterNumber);
+console.log(typeletterNumber, typeof typeletterNumber);
+
+// three functions in js
+// string()
+// number()
+// boolean()
+
+// String
+
+var str = 'waheed';
+console.log(str,typeof str);
+
+// string convert in number and boolean
+// value not change but type changed
+
+// convert in number
+// for store new type make variable for new value
+var convrtInNumbr;
+convrtInNumbr = Number(str);
+console.log(convrtInNumbr , typeof convrtInNumbr);
+
+// convert in boolean
+// any letter inside the string 
+// always give us true output
+var convertInbool;
+convertInbool = Boolean(str);
+console.log(convertInbool,typeof convertInbool);
+
+// in string with '' quotes is always false
+var fstr = '';
+// empty quotes always false 
+a;
+a = Boolean(fstr);
+console.log(a,typeof a);
+
+// number 
+var number = 45;
+console.log(number,typeof number);
+
+// number convert string and boolean
+
+// convert in string
+var convrtInNum;
+convrtInNum = String(number);
+console.log(convrtInNum,typeof convrtInNum);
+
+// convert in boolean
+// all numbers give us true value 1 4 6 78 ..
+// only 0 give us false value 
+var convrtINbol;
+convrtINbol = Boolean(number);
+console.log(convrtINbol,typeof convrtINbol);
+// with o value
+var boolInzero = 0;
+var convrtINbol;
+convrtINbol = Boolean(boolInzero);
+console.log(convrtINbol,typeof convrtINbol);
+
+// boolean
+
+// boolean convert string and number
