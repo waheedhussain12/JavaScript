@@ -970,3 +970,7 @@ console.log(cnvrtInstr, typeof cnvrtInstr);
 // True Means 1 and False Means 0
 cnvrtInNum = Number(bool);
 console.log(cnvrtInNum,typeof cnvrtInNum);
+
+
+// string manipulation
+
