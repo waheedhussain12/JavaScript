@@ -967,6 +967,6 @@ cnvrtInstr = String(bool);
 console.log(cnvrtInstr, typeof cnvrtInstr);
 
 // Convert In Number
-// true means 1 and false means 0
+// true means 1 and false Means 0
 cnvrtInNum = Number(bool);
 console.log(cnvrtInNum,typeof cnvrtInNum);
