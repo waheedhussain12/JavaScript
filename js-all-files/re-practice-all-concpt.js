@@ -986,3 +986,10 @@ console.log(str);
 var str = "waheed" + 'hussain' + "laghari";
 console.log(str);
 
+// two or more strings puls value in different variables
+var str = 'can you ';
+var str2 = 'eat this plzz';
+console.log(str + " " + str2);
+
+// 
+
