@@ -991,5 +991,17 @@ var str = 'can you ';
 var str2 = 'eat this plzz';
 console.log(str + " " + str2);
 
-// 
+// store value another string
+// simple way 
+var str3 = 'this is string one';
+var strResult;
+strResult = str3;
+console.log(strResult);
+
+// another way 
+
+var str4 = 'my name is .....';
+var str5 = `${str4}`; // str4 now store in str5
+// now str4's value in side the str5
+console.log(str5);
 
