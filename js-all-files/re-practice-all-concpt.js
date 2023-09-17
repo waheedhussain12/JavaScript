@@ -1005,3 +1005,8 @@ var str5 = `${str4}`; // str4 now store in str5
 // now str4's value in side the str5
 console.log(str5);
 
+// string in new line use \n
+
+var str = 'developer\nat jamshoro';
+console.log(str);
+
