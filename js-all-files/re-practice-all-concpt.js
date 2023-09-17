@@ -1059,4 +1059,5 @@ console.log(findnewValue[5]);
 console.log(stranyLetter[3]);
 // find any letter position using index[]
 
+// compare string
 
