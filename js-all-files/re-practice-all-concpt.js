@@ -852,6 +852,18 @@ console.log(typenumber,typeof typenumber);
 
 // number inside the string
 var typestrInNumber = '78';
+// number convert in string
 console.log(typestrInNumber,typeof typestrInNumber);
 
+//boolean
+var typebool = true;
+// type true or false boolean
+console.log(typebool,typeof typebool);
 
+//what if i write 'true or false' inside the string
+var typeBoolstr = 'true';
+// this true consider string
+console.log(typeBoolstr,typeof typeBoolstr);
+
+
+// two types of conversion in js auto and mannualy
