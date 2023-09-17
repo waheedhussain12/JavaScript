@@ -1040,3 +1040,7 @@ console.log(str);
 
 var str = 'waheed\'hussain';
 console.log(str);
+
+// tab space use t
+var str = 'waheed\thussain\?';
+console.log(str);
