@@ -87,7 +87,7 @@ if (strCompr == strCompr1) {
 // let strr1 = "this is a";
 // let strr2 = "ballbat";
 // let strr3 = "but its not my fav game";
-// // also add 3th variable for store bth values
+// also add 3th variable for store bth values
 // let strrCncat;
 
 // strrCncat = strr1.concat(" ",strr2," ",strr3);
