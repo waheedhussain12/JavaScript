@@ -867,3 +867,38 @@ console.log(typeBoolstr,typeof typeBoolstr);
 
 
 // two types of conversion in js auto and mannualy
+
+// number + null = number 10 + 0 = 10
+var typenull = 10 + null;
+// null means 0 so output will be 10 null is not consider
+console.log(typenull,typeof typenull);
+
+// string + null = null convert in string
+var typestrNull = '10' + null;
+//null convert in string means 10null
+console.log(typestrNull,typeof typestrNull);
+
+
+// string + number 
+// number convert in string using + operator
+var typestrNumber = 'apple' + 10;
+console.log(typestrNumber,typeof typestrNumber);
+
+// what if i use - than work like math 10 - 4 = 6
+var typestrnumbr = '10' - 4;
+// only  + operator can number convert in string
+//but - * % / work like math in strings
+// here string convrt in numbers
+// here inside the string '10' - 4 number = 6
+console.log(typestrnumbr,typeof typestrnumbr);
+
+// if both values are number inside the string
+// string convert in numbers
+var bothnumStr = '12' * '42';
+// here convert both strings into numbers than both multiple
+console.log(bothnumStr,typeof bothnumStr);
+
+// if number in string and letter in string
+var typeletterNumber = 'yes' - '78';
+// convert in NAN NOT A NUMBER
+console.log(typeletterNumber,typeof typeletterNumber);
