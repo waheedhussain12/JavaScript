@@ -1071,3 +1071,28 @@ if (str11 == str22) {
 }else{
   console.log('Not Equal');
 }
+
+// string concat() function
+
+var strr1 = 'this is a';
+var strr2 = 'ballbat';
+var strr3 = 'but its not my fav game';
+
+
+// simple concat using plus +
+// first you can concat all strings in side the log using +
+console.log(strr1+' '+strr2 + strr3);
+
+// also make another variable for store all strings value
+var result ;
+result = strr1 +' '+ strr2 + strr3;
+console.log(result);
+
+// use concat() in side the log
+console.log(strr1.concat(" ",strr2," ", strr3));
+
+// here the best way
+// make another variable for store all strings
+var result2 = strr1.concat(' ',strr2,' ',strr3);
+// simple print result2
+console.log(result2);
