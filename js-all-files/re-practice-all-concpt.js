@@ -1010,3 +1010,33 @@ console.log(str5);
 var str = 'developer\nat jamshoro';
 console.log(str);
 
+// space in sentence in string
+// use \' \" put in string use double \\ in sentence
+// use \ btw strings and put any letter or sign
+// btw them
+
+var str = 'waheed\'hussain';
+console.log(str);
+
+
+var str = 'waheed\"hussain';
+console.log(str);
+
+
+var str = 'waheed\\hussain';
+console.log(str);
+
+
+var str = 'waheed\@hussain';
+console.log(str);
+
+
+var str = 'waheed\thussain';
+console.log(str);
+
+var str = 'waheed\-hussain';
+console.log(str);
+
+
+var str = 'waheed\'hussain';
+console.log(str);
