@@ -41,7 +41,7 @@
 // console.log(str);
 
 // let str = 'waheed\'hussain';
-// // output waheed'hussain
+// output waheed'hussain
 // console.log(str);
 
 // let str = 'waheed\@hussain';
