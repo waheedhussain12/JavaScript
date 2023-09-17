@@ -961,3 +961,12 @@ console.log(convrtINbol,typeof convrtINbol);
 // boolean convert string and number
 var bool = true;
 console.log(bool,typeof bool);
+
+// convert in string
+cnvrtInstr = String(bool);
+console.log(cnvrtInstr, typeof cnvrtInstr);
+
+// convert in number
+// true means 1 and false means 0
+cnvrtInNum = Number(bool);
+console.log(cnvrtInNum,typeof cnvrtInNum);
