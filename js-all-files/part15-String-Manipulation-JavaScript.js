@@ -20,10 +20,10 @@
 
 // let str = "string one";
 // let str2 = `${str} store in str2`
-// // now str value inside str2
+// now str value inside str2
 // console.log(str2);
 
-// // string in new line use \n
+// string in new line use \n
 
 // let str = 'waheed\nhussain';
 // console.log(str);
@@ -33,11 +33,11 @@
 //  use \' \ " put \ in string use double \\ in sentence
 // use \ btw strings and put any letter or sign btw them
 // let str = 'waheed\\hussain';
-// // output waheed\hussain
+// output waheed\hussain
 // console.log(str);
 
 // let str = 'waheed\"hussain';
-// // output waheed"hussain
+// output waheed"hussain
 // console.log(str);
 
 // let str = 'waheed\'hussain';
