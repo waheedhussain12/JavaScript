@@ -52,7 +52,7 @@
 // tab space use t
 
 // let str = 'waheed\thussain';
-// // output waheed"hussain
+// output waheed"hussain
 // console.log(str);
 
 
