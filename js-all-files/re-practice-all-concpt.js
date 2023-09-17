@@ -840,5 +840,18 @@ for (b1; b1 <= 6; b1++) {
 
 // type conversion
 
+// type checking 
+
+// string
+var typestr = 'Waheed hussain';
+console.log(typestr, typeof typestr);
+
+// number
+var typenumber = 45;
+console.log(typenumber,typeof typenumber);
+
+// number inside the string
+var typestrInNumber = '78';
+console.log(typestrInNumber,typeof typestrInNumber);
 
 
