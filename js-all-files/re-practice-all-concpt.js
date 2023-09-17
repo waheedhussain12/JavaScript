@@ -828,15 +828,15 @@ for (b1; b1 <= 6; b1++) {
 // }
 
 // confrim function
-var response;
-response = confirm(`Are you sure, you want to delete`);
+// var response;
+// response = confirm(`Are you sure, you want to delete`);
 // check response true or false
-if (response != null) {
-    document.write(`Deleted`);
+// if (response != null) {
+//     document.write(`Deleted`);
     
-}else{
-    document.write(`Not Deleted`);
-}
+// }else{
+//     document.write(`Not Deleted`);
+// }
 
 // type conversion
 
