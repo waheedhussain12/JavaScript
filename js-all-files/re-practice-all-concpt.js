@@ -1288,22 +1288,6 @@ var fetcharr = multiArr[1][2][2][0];
 console.log(fetcharr);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // use loops in array
 var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 var booklen; // for store new value
