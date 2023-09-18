@@ -1277,7 +1277,8 @@ console.log(twoArrAdd);
 ['laptop','Price'],
  ['name','Waheed'],
  ['caste','laghari'],
- 
+ []
+
 
 
 
