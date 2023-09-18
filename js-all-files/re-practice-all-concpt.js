@@ -1296,9 +1296,27 @@ var booklen; // for store new value
 booklen = book.length;
 for(i = 0; i < booklen; i++){
   if (i< booklen && i ==3) {
+    // check condition 
     console.log('this condition is true',i);
     
   }
   console.log(i,book[i]);
 } 
 
+
+// forEach loop in Array
+var book = ['Math','Physics','Bio-Chemistry',
+'ComputerScience','English',45];
+
+console.log(book[1]); // get element using index
+book.forEach(funName)// function pass in foreach()
+
+function funName(getValue) {
+  // funName 
+  console.log(getValue);
+}
+
+
+// sec way to declare an array
+var arrr = new Array('waheed','hussain','leghari');
+console.log(arrr);
