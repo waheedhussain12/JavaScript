@@ -1283,7 +1283,8 @@ console.log(twoArrAdd);
 
  ]
 // access array
-var fetcharr = multiArr[]
+var fetcharr = multiArr[0];
+console.log(fetcharr);
 
 
 
