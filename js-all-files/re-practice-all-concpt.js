@@ -1276,7 +1276,7 @@ console.log(twoArrAdd);
  var multiArr = [
 
 ['laptop','Price'],
- ['name','Waheed',['mobile',500]],
+ ['name','Waheed',['mobile',500,['home',600]]],
  ['caste','laghari'],
  ['dept','Computer Science'],
  ['penType','ballPen'],
@@ -1284,7 +1284,7 @@ console.log(twoArrAdd);
  ];
 //  console.log(multiArr);
 // access array
-var fetcharr = multiArr[1][2][1];
+var fetcharr = multiArr[1][2][2][0];
 console.log(fetcharr);
 
 
