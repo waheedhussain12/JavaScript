@@ -1278,6 +1278,21 @@ console.log(twoArrAdd);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // use loops in array
 var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 var booklen; // for store new value
