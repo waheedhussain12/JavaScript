@@ -1276,7 +1276,7 @@ console.log(twoArrAdd);
  var multiArr = [
 
 ['laptop','Price'],
- ['name','Waheed'],
+ ['name','Waheed',['mobile',500]],
  ['caste','laghari'],
  ['dept','Computer Science'],
  ['penType','ballPen'],
