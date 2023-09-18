@@ -1292,5 +1292,13 @@ console.log(twoArrAdd);
 // use loops in array
 var book = ['Math','Physics','Bio-Chemistry',
 'ComputerScience','English'];
-var booklen;
-bookPrice
+var booklen; // for store new value
+booklen = book.length;
+for(i = 0; i < booklen; i++){
+  if (i< booklen && i ==3) {
+    console.log('this condition is true',i);
+    
+  }
+  console.log(i,book[i]);
+} 
+
