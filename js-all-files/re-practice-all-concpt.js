@@ -1273,7 +1273,18 @@ console.log(twoArrAdd);
 
 // Multi dimensional Array
 // Array of an Array
+ var multiArr = [
+['laptop','Price'],
+ ['name','Waheed'],
+ ['caste','laghari'],
+ 
 
+
+
+
+
+
+ ]
 
 
 
