@@ -1091,26 +1091,26 @@ var str = "  this is a JavaScript video. It is a good video  ";
 var store;
 // first you set a position than you set length
 // positon count start 0 and length start count 1
-store = str.substr(8,10);
+store = str.substr(8, 10);
 console.log(store);
 
-// sec function indexof() 
+// sec function indexof()
 // first make variable for store data
 var savestr;
-savestr = str.indexOf('video');
+savestr = str.indexOf("video");
 // word position
 console.log(savestr);
 
 var savestr1;
-savestr1 = str.indexOf('s',6);
+savestr1 = str.indexOf("s", 6);
 // search from 6th letters
 console.log(savestr1);
 
 // 2nd funcition LastIndexOf()
 var savestr2;
-savestr2 = str.lastIndexOf('video');
+savestr2 = str.lastIndexOf("video");
 // index start 0
-// search from last 
+// search from last
 console.log(savestr2);
 
 // delete extra space use trim()
@@ -1124,55 +1124,52 @@ console.log(trimstrr);
 // to Upppercase funciton ()
 // to Lowercase funciton ()
 
-
 // replace () function
 // replace and add new value in a string
-var replaceStr ;
-replaceStr = str.replace('good','best');
+var replaceStr;
+replaceStr = str.replace("good", "best");
 console.log(replaceStr);
-
 
 // includes()
 // check in string value return true or false
-var includesStr ;
-includesStr = str.includes('Video');
+var includesStr;
+includesStr = str.includes("Video");
 console.log(includesStr);
 
 // Array and js operations in Array
 
 // simple declaration
-var book1 = 'Math';
-var book2 = 'Physics';
-var book4 = 'Bio-Chemistry';
-var book5 = 'ComputerScience';
-var book6 = 'English';
-console.log(book1,book2,book4,book5,book6);
+var book1 = "Math";
+var book2 = "Physics";
+var book4 = "Bio-Chemistry";
+var book5 = "ComputerScience";
+var book6 = "English";
+console.log(book1, book2, book4, book5, book6);
 
 // add multiple data in array
-var book = ['Math','Physics','Bio-Chemistry','ComputerScience','English'];
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 // print full array
 console.log(book);
 
-// access particular one element use 
+// access particular one element use
 //first way
 console.log(book[2]); // access element
 // sec way
-// make new variable for store data 
+// make new variable for store data
 var b = book[1];
-console.log(b); 
+console.log(b);
 
 // also change or update value in element using index
 // first way
 var storeArr;
-storeArr = book[0] = 'Urdu';
+storeArr = book[0] = "Urdu";
 console.log(storeArr);
 
 // sec way
-console.log(book[0] = 'Sindhi');
+console.log((book[0] = "Sindhi"));
 // third way
-book[0] = 'Math';
+book[0] = "Math";
 console.log(book);
-
 
 // find length of an array
 
@@ -1185,40 +1182,37 @@ console.log(len);
 console.log(book.length);
 
 // add element in array using push() function
-book.push('Sindhi');
+book.push("Sindhi");
 // using push you can add element only in last
 console.log(book);
 
 // also you can add element in starting in an array
 // using unshift() function
-book.unshift('Urdu');
+book.unshift("Urdu");
 console.log(book);
 
 // also you can delete an element in array
-// using pop() function 
+// using pop() function
 // pop function allow only delete from last element
 book.pop(); //delete last element
 console.log(book);
 book.pop(); // delete sec last element
 console.log(book);
 
-
-// delete element using shift () function 
-// shift() delete from first than sec than third 
+// delete element using shift () function
+// shift() delete from first than sec than third
 
 book.shift(); // first element deleted
 console.log(book);
 book.shift(); // Sec element deleted
 console.log(book);
 
-
-
-var book = ['Math','Physics','Bio-Chemistry','ComputerScience','English'];
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 // print full array
 console.log(book);
 // you can delete any element using splice function
 // splice() works on position means start and deleteCount
-book.splice(1,3);
+book.splice(1, 3);
 console.log(book);
 
 // also you can empty Array
@@ -1229,23 +1223,19 @@ console.log(book);
 book.length = 0;
 console.log(book);
 
-
-var book = ['Math','Physics','Bio-Chemistry',
-'ComputerScience','English'];
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 // print full array
 console.log(book);
 
 // you can find poistion of an element
 // also make a variable to store a poition's value
-var elementPosArr = book.indexOf('Physics');
+var elementPosArr = book.indexOf("Physics");
 console.log(elementPosArr);
 
 // try this way also using log()
 console.log(book.indexOf("English"));
 
-
-var book = ['Math','Physics','Bio-Chemistry',
-'ComputerScience','English'];
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 // using this function you can check it is Array or not
 // Array.isArray() its work on true or false
 // print full array
@@ -1253,28 +1243,25 @@ console.log(Array.isArray(book));
 
 // String text convert an Array use split() function
 // split function works on space
-var strtext = 'this is a randoms texts';
+var strtext = "this is a randoms texts";
 // convert in Array
 // first way using console
-console.log(strtext.split(' '));
+console.log(strtext.split(" "));
 // first convrt an Array than delete all S in array
-console.log(strtext.split('s'));
+console.log(strtext.split("s"));
 
 // Array convrt in to an String using join() function
-var book = ['Math','Physics','Bio-Chemistry',
-'ComputerScience','English'];
-console.log(book.join(' '));
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
+console.log(book.join(" "));
 // add space or any letter in double quotes
 var cnvrtinToStr;
-cnvrtinToStr = book.join('-');
+cnvrtinToStr = book.join("-");
 console.log(cnvrtinToStr);
 
 // add to or more Arrays
 // using concat() function
-var book = ['Math','Physics','Bio-Chemistry',
-'ComputerScience','English'];
-var book1 = ['Sindhi','Chemistry',
-'DSA','Urdu'];
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
+var book1 = ["Sindhi", "Chemistry", "DSA", "Urdu"];
 // first way
 console.log(book.concat(book1));
 
@@ -1284,39 +1271,43 @@ var twoArrAdd;
 twoArrAdd = book.concat(book1);
 console.log(twoArrAdd);
 
-
 // multi dimensional array
-// array of an array
+// array of an Array
+
+
+
 
 
 // use loops in array
-var book = ['Math','Physics','Bio-Chemistry',
-'ComputerScience','English'];
+var book = ["Math", "Physics", "Bio-Chemistry", "ComputerScience", "English"];
 var booklen; // for store new value
 booklen = book.length;
-for(i = 0; i < booklen; i++){
-  if (i< booklen && i ==3) {
-    // check condition 
-    console.log('this condition is true',i);
-    
+for (i = 0; i < booklen; i++) {
+  if (i < booklen && i == 3) {
+    // check condition
+    console.log("this condition is true", i);
   }
-  console.log(i,book[i]);
-} 
-
+  console.log(i, book[i]);
+}
 
 // forEach loop in Array
-var book = ['Math','Physics','Bio-Chemistry',
-'ComputerScience','English',45];
+var book = [
+  "Math",
+  "Physics",
+  "Bio-Chemistry",
+  "ComputerScience",
+  "English",
+  45,
+];
 
 console.log(book[1]); // get element using index
-book.forEach(funName)// function pass in foreach()
+book.forEach(funName); // function pass in foreach()
 
 function funName(getValue) {
-  // funName 
+  // funName
   console.log(getValue);
 }
 
-
 // sec way to declare an array
-var arrr = new Array('waheed','hussain','leghari');
+var arrr = new Array("waheed", "hussain", "leghari");
 console.log(arrr);
