@@ -1271,7 +1271,7 @@ var twoArrAdd;
 twoArrAdd = book.concat(book1);
 console.log(twoArrAdd);
 
-// Multi dimensional array
+// Multi dimensional Array
 // Array of an Array
 
 
