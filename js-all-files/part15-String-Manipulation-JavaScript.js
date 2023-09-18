@@ -99,14 +99,16 @@ let strSubStr = "this is a JavaScript video. It is a good video";
 
 // let subString = strSubStr.substr(10,16);
 // first yu set position than yu set lenght
-// positon count start 0 and lenght start count 1
+// positon count start 0 and length start count 1
 // console.log(subString);
 
 // 2nd function indexOf ()
-let positon1 = strSubStr.indexOf('good'); // words position
+let positon1 = strSubStr.indexOf('good');
+ // words position
 console.log(positon1);
 
-let positon3 = strSubStr.indexOf('is', 10); // search from 10 letters
+let positon3 = strSubStr.indexOf('is', 10);
+ // search from 10 letters
 console.log(positon3);
 
 
@@ -115,7 +117,8 @@ console.log(positon3);
 
 
 // 2nd function LastIndexOf()
-let positon2 = strSubStr.lastIndexOf('is'); // search from last 
+let positon2 = strSubStr.lastIndexOf('is'); 
+// search from last 
 console.log(positon2);
  
 // deleting extra space use trim() also use end start function

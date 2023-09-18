@@ -55,7 +55,7 @@ console.log(book);
 
 var book = ["Math", "Physics","Bio","Computer Science","urdu"];
 console.log(book);
-// you can delete any elemet using splice function
+// you can delete any element using splice function
 // splice() works on position means start and deleteCount
 book.splice(1,1) // index 1 element and count 1 is deleted
 console.log(book);
@@ -134,7 +134,7 @@ console.log(fetchArr);
 
 var book = ["Math", "Physics","Bio","Computer Science","urdu",23];
 
-// array length does not know first make variable than get array length usinng length property
+// array length does not know first make variable than get array length using length property
 var bookLength = book.length;
 // store array length in our variable
 for(i = 0; i < bookLength; i++){
@@ -193,29 +193,17 @@ function myFunction(getValues){
 // two types of declaring in Array
 
 // var arr = ["waheed", "hussain","leghari",23];
-// // print array
+// print array
 // console.log(arr);
-// // add element in array
+// add element in array
 // arr.push("fav-car");
-// // print to see changes in array now
+// print to see changes in array now
 // console.log(arr);
-// // find lenght of an array
+// find lenght of an array
 // console.log(arr.length);
-// // Delete element using pop() function but delete last element in array
+// Delete element using pop() function but delete last element in array
 // arr.pop()
 // console.log(arr);
 
-// // sec way declare an Array
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
-// var arr = new Array("waheed", "hussain","leghari",23)
+// sec way declare an Array
 // var arr = new Array("waheed", "hussain","leghari",23)

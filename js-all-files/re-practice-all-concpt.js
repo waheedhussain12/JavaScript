@@ -908,8 +908,8 @@ console.log(typeletterNumber, typeof typeletterNumber);
 
 // String
 
-var str = 'waheed';
-console.log(str,typeof str);
+var str = "waheed";
+console.log(str, typeof str);
 
 // string convert in number and boolean
 // value not change but type changed
@@ -918,49 +918,49 @@ console.log(str,typeof str);
 // for store new type make variable for new value
 var convrtInNumbr;
 convrtInNumbr = Number(str);
-console.log(convrtInNumbr , typeof convrtInNumbr);
+console.log(convrtInNumbr, typeof convrtInNumbr);
 
 // convert in boolean
-// any letter inside the string 
+// any letter inside the string
 // always give us true output
 var convertInbool;
 convertInbool = Boolean(str);
-console.log(convertInbool,typeof convertInbool);
+console.log(convertInbool, typeof convertInbool);
 
 // in string with '' quotes is always false
-var fstr = '';
-// empty quotes always false 
+var fstr = "";
+// empty quotes always false
 a;
 a = Boolean(fstr);
-console.log(a,typeof a);
+console.log(a, typeof a);
 
-// number 
+// number
 var number = 45;
-console.log(number,typeof number);
+console.log(number, typeof number);
 
 // number convert string and boolean
 
 // convert in string
 var convrtInNum;
 convrtInNum = String(number);
-console.log(convrtInNum,typeof convrtInNum);
+console.log(convrtInNum, typeof convrtInNum);
 
 // convert in boolean
 // all numbers give us true value 1 4 6 78 ..
-// only 0 give us false value 
+// only 0 give us false value
 var convrtINbol;
 convrtINbol = Boolean(number);
-console.log(convrtINbol,typeof convrtINbol);
+console.log(convrtINbol, typeof convrtINbol);
 // with o value
 var boolInzero = 0;
 var convrtINbol;
 convrtINbol = Boolean(boolInzero);
-console.log(convrtINbol,typeof convrtINbol);
+console.log(convrtINbol, typeof convrtINbol);
 
 // Boolean
 // boolean convert string and number
 var bool = true;
-console.log(bool,typeof bool);
+console.log(bool, typeof bool);
 
 // convert in string
 cnvrtInstr = String(bool);
@@ -969,13 +969,12 @@ console.log(cnvrtInstr, typeof cnvrtInstr);
 // Convert In Number
 // True Means 1 and False Means 0
 cnvrtInNum = Number(bool);
-console.log(cnvrtInNum,typeof cnvrtInNum);
-
+console.log(cnvrtInNum, typeof cnvrtInNum);
 
 // string manipulation
 
 // string in single quotes
-var str = 'Waheed Hussain';
+var str = "Waheed Hussain";
 console.log(str);
 
 // string in double quotes
@@ -983,31 +982,31 @@ var str = "Waheed hussain in double quotes";
 console.log(str);
 
 //  two or more strings plus +
-var str = "waheed" + 'hussain' + "laghari";
+var str = "waheed" + "hussain" + "laghari";
 console.log(str);
 
 // two or more strings puls value in different variables
-var str = 'can you ';
-var str2 = 'eat this plzz';
+var str = "can you ";
+var str2 = "eat this plzz";
 console.log(str + " " + str2);
 
 // store value another string
-// simple way 
-var str3 = 'this is string one';
+// simple way
+var str3 = "this is string one";
 var strResult;
 strResult = str3;
 console.log(strResult);
 
-// another way 
+// another way
 
-var str4 = 'my name is .....';
+var str4 = "my name is .....";
 var str5 = `${str4}`; // str4 now store in str5
 // now str4's value in side the str5
 console.log(str5);
 
 // string in new line use \n
 
-var str = 'developer\nat jamshoro';
+var str = "developer\nat jamshoro";
 console.log(str);
 
 // space in sentence in string
@@ -1015,44 +1014,38 @@ console.log(str);
 // use \ btw strings and put any letter or sign
 // btw them
 
-var str = 'waheed\'hussain';
+var str = "waheed'hussain";
 console.log(str);
 
-
-var str = 'waheed\"hussain';
+var str = 'waheed"hussain';
 console.log(str);
 
-
-var str = 'waheed\\hussain';
+var str = "waheed\\hussain";
 console.log(str);
 
-
-var str = 'waheed\@hussain';
+var str = "waheed@hussain";
 console.log(str);
 
-
-var str = 'waheed\thussain';
+var str = "waheed\thussain";
 console.log(str);
 
-var str = 'waheed\-hussain';
+var str = "waheed-hussain";
 console.log(str);
 
-
-var str = 'waheed\'hussain';
+var str = "waheed'hussain";
 console.log(str);
 
 // tab space use t
-var str = 'waheed\thussain\?';
+var str = "waheed\thussain?";
 console.log(str);
-
 
 // find length of string
 // spaces are also count
-var str = 'hy this is my hp laptop';
+var str = "hy this is my hp laptop";
 console.log(str.length);
 
 // find any letter in string using index []
-var stranyLetter = 'waheed husain';
+var stranyLetter = "waheed husain";
 // store stranyletter's value in findnewvalue
 findnewValue = stranyLetter;
 console.log(findnewValue[5]);
@@ -1060,39 +1053,244 @@ console.log(stranyLetter[3]);
 // find any letter position using index[]
 
 // compare string
-var str11 = 'compare two strings';
-var str22 =  'compare two strings';
+var str11 = "compare two strings";
+var str22 = "compare two strings";
 // note space and small or capitals letter also count
 // compare using if condition
 if (str11 == str22) {
-  console.log('String are Equal');
-
-  
-}else{
-  console.log('Not Equal');
+  console.log("String are Equal");
+} else {
+  console.log("Not Equal");
 }
 
 // string concat() function
 
-var strr1 = 'this is a';
-var strr2 = 'ballbat';
-var strr3 = 'but its not my fav game';
-
+var strr1 = "this is a";
+var strr2 = "ballbat";
+var strr3 = "but its not my fav game";
 
 // simple concat using plus +
 // first you can concat all strings in side the log using +
-console.log(strr1+' '+strr2 + strr3);
+console.log(strr1 + " " + strr2 + strr3);
 
 // also make another variable for store all strings value
-var result ;
-result = strr1 +' '+ strr2 + strr3;
+var result;
+result = strr1 + " " + strr2 + strr3;
 console.log(result);
 
 // use concat() in side the log
-console.log(strr1.concat(" ",strr2," ", strr3));
+console.log(strr1.concat(" ", strr2, " ", strr3));
 
 // here the best way
 // make another variable for store all strings
-var result2 = strr1.concat(' ',strr2,' ',strr3);
+var result2 = strr1.concat(" ", strr2, " ", strr3);
 // simple print result2
 console.log(result2);
+
+var str = "  this is a JavaScript video. It is a good video  ";
+var store;
+// first you set a position than you set length
+// positon count start 0 and length start count 1
+store = str.substr(8,10);
+console.log(store);
+
+// sec function indexof() 
+// first make variable for store data
+var savestr;
+savestr = str.indexOf('video');
+// word position
+console.log(savestr);
+
+var savestr1;
+savestr1 = str.indexOf('s',6);
+// search from 6th letters
+console.log(savestr1);
+
+// 2nd funcition LastIndexOf()
+var savestr2;
+savestr2 = str.lastIndexOf('video');
+// index start 0
+// search from last 
+console.log(savestr2);
+
+// delete extra space use trim()
+var trimstrr;
+trimstrr = str.trim();
+trimstrr = str.trimStart();
+trimstrr = str.trimEnd();
+// delete space from start and end
+console.log(trimstrr);
+
+// to Upppercase funciton ()
+// to Lowercase funciton ()
+
+
+// replace () function
+// replace and add new value in a string
+var replaceStr ;
+replaceStr = str.replace('good','best');
+console.log(replaceStr);
+
+
+// includes()
+// check in string value return true or false
+var includesStr ;
+includesStr = str.includes('Video');
+console.log(includesStr);
+
+// Array and js operations in Array
+
+// simple declaration
+var book1 = 'Math';
+var book2 = 'Physics';
+var book4 = 'Bio-Chemistry';
+var book5 = 'ComputerScience';
+var book6 = 'English';
+console.log(book1,book2,book4,book5,book6);
+
+// add multiple data in array
+var book = ['Math','Physics','Bio-Chemistry','ComputerScience','English'];
+// print full array
+console.log(book);
+
+// access particular one element use 
+//first way
+console.log(book[2]); // access element
+// sec way
+// make new variable for store data 
+var b = book[1];
+console.log(b); 
+
+// also change or update value in element using index
+// first way
+var storeArr;
+storeArr = book[0] = 'Urdu';
+console.log(storeArr);
+
+// sec way
+console.log(book[0] = 'Sindhi');
+// third way
+book[0] = 'Math';
+console.log(book);
+
+
+// find length of an array
+
+// first way
+var len;
+len = book.length;
+console.log(len);
+
+// sec way
+console.log(book.length);
+
+// add element in array using push() function
+book.push('Sindhi');
+// using push you can add element only in last
+console.log(book);
+
+// also you can add element in starting in an array
+// using unshift() function
+book.unshift('Urdu');
+console.log(book);
+
+// also you can delete an element in array
+// using pop() function 
+// pop function allow only delete from last element
+book.pop(); //delete last element
+console.log(book);
+book.pop(); // delete sec last element
+console.log(book);
+
+
+// delete element using shift () function 
+// shift() delete from first than sec than third 
+
+book.shift(); // first element deleted
+console.log(book);
+book.shift(); // Sec element deleted
+console.log(book);
+
+
+
+var book = ['Math','Physics','Bio-Chemistry','ComputerScience','English'];
+// print full array
+console.log(book);
+// you can delete any element using splice function
+// splice() works on position means start and deleteCount
+book.splice(1,3);
+console.log(book);
+
+// also you can empty Array
+book = []; // now array is empty
+console.log(book);
+// also you can try this method
+// using length function
+book.length = 0;
+console.log(book);
+
+
+var book = ['Math','Physics','Bio-Chemistry',
+'ComputerScience','English'];
+// print full array
+console.log(book);
+
+// you can find poistion of an element
+// also make a variable to store a poition's value
+var elementPosArr = book.indexOf('Physics');
+console.log(elementPosArr);
+
+// try this way also using log()
+console.log(book.indexOf("English"));
+
+
+var book = ['Math','Physics','Bio-Chemistry',
+'ComputerScience','English'];
+// using this function you can check it is Array or not
+// Array.isArray() its work on true or false
+// print full array
+console.log(Array.isArray(book));
+
+// String text convert an Array use split() function
+// split function works on space
+var strtext = 'this is a randoms texts';
+// convert in Array
+// first way using console
+console.log(strtext.split(' '));
+// first convrt an Array than delete all S in array
+console.log(strtext.split('s'));
+
+// Array convrt in to an String using join() function
+var book = ['Math','Physics','Bio-Chemistry',
+'ComputerScience','English'];
+console.log(book.join(' '));
+// add space or any letter in double quotes
+var cnvrtinToStr;
+cnvrtinToStr = book.join('-');
+console.log(cnvrtinToStr);
+
+// add to or more Arrays
+// using concat() function
+var book = ['Math','Physics','Bio-Chemistry',
+'ComputerScience','English'];
+var book1 = ['Sindhi','Chemistry',
+'DSA','Urdu'];
+// first way
+console.log(book.concat(book1));
+
+// sec way
+// make a new variable for store data
+var twoArrAdd;
+twoArrAdd = book.concat(book1);
+console.log(twoArrAdd);
+
+
+// multi dimensional array
+// array of an array
+
+
+// use loops in array
+var book = ['Math','Physics','Bio-Chemistry',
+'ComputerScience','English'];
+var booklen;
+bookPrice
