@@ -1281,7 +1281,8 @@ console.log(twoArrAdd);
  ['dept','Computer Science'],
  ['penType','ballPen'],
 
- ]
+ ];
+//  console.log(multiArr);
 // access array
 var fetcharr = multiArr[0];
 console.log(fetcharr);
