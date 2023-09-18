@@ -1272,7 +1272,7 @@ twoArrAdd = book.concat(book1);
 console.log(twoArrAdd);
 
 // Multi dimensional array
-// array of an Array
+// Array of an Array
 
 
 
