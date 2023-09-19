@@ -15,6 +15,15 @@
 // without function
 // }
 
+// function Syntax
+/*
+function FunctionName() block scope{}
+function myfun(){
+this is simple function
+
+}
+*/
+
 // make a function
 function multiTable(){
     for(i = 1; i <= 10; i++){
@@ -47,11 +56,13 @@ function carPorperties(){
 
 var car ={
     carColr:'red',
-    carEngin:"bmw's Engin",
-    carSpeed:'344km//hr',
+    carEngin:"bmw's\ Engin",
+    carSpeed:"344km-hr",
     carPrice:'232423RS',
     carCompany:'BMW'}
     console.log(car);
-}
+
+    } 
 // Calling this function
+carPorperties();
 carPorperties();
