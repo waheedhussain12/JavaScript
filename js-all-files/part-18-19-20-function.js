@@ -42,3 +42,10 @@ sayMyName();
 sayMyName();
 sayMyName();
 sayMyName();
+
+function car(){
+var carColr  = 'red';
+var carEngin = 'BMW';
+
+
+}
