@@ -81,3 +81,21 @@ function addTwoNumber(){
 }
 // calling function
 addTwoNumber();
+
+
+
+// with parameters and arguments
+function addThreeNumber(num1 , num2, num3){
+    // functions with parameters
+var result = num1 + num2 + num3;
+console.log(result);
+
+}
+// calling functions
+addThreeNumber(1,2,3);
+// these 1 2 3 are arguments
+
+// same function but values are change with the help of arguments
+addThreeNumber(4 , 6 , 10);
+
+
