@@ -30,3 +30,7 @@ multiTable();
 multiTable();
 
 // function say my name
+function sayMyName(){
+// this is simple function
+
+}
