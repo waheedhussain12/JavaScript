@@ -32,5 +32,13 @@ multiTable();
 // function say my name
 function sayMyName(){
 // this is simple function
+var name = 'waheed hussain';
+console.log(name);
 
 }
+
+// calling Function
+sayMyName();
+sayMyName();
+sayMyName();
+sayMyName();
