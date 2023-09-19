@@ -86,7 +86,7 @@ addTwoNumber();
 
 // with parameters and arguments
 function multiTable2(table1){
-    for(i = 1; i <= 10; i++){
+    for(var i = 1; i <= 10; i++){
         console.log(`2 x ${table1} = ${table1*i} ${table1/i}`);
     
     }
@@ -94,6 +94,8 @@ function multiTable2(table1){
 }
 // calling function
 multiTable2(3);
+multiTable2(23);
+
 
 function addThreeNumber(num1 , num2, num3){
     // functions with parameters
@@ -108,10 +110,12 @@ addThreeNumber(1,2,3);
 addThreeNumber(4 , 6 , 10);
 
 function myName(name){
-    var name;
-    var re = name;
-    for(name = 0; name <= 10; name++){
-        console.log(re,name);
+    for(i = 0; i <= 10; i++){
+        if (i == 3) {
+            console.log(name,'yes 3 is right number',i);
+            
+        }
+        console.log(name,i);
     }
 }
 // calling function
