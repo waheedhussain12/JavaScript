@@ -69,3 +69,15 @@ carPorperties();
 
 
 // Parameters and Arguments
+
+
+// without parameters and arguments
+function addTwoNumber(){
+    var num1 = 34;
+    var num2 = 56;
+    result = num1 + num2;
+    console.log(result); 
+
+}
+// calling function
+addTwoNumber();
