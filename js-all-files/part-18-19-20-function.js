@@ -94,7 +94,6 @@ console.log(result);
 // calling functions
 addThreeNumber(1,2,3);
 // these 1 2 3 are arguments
-
 // same function but values are change with the help of arguments
 addThreeNumber(4 , 6 , 10);
 
