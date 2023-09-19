@@ -8,3 +8,9 @@
 // document.write()
 
 // user define
+// table of 2
+
+for(i = 1; i < 0; i++){
+    console.log(i*2);
+
+}
