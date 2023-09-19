@@ -7,4 +7,4 @@
 // console.log();
 // document.write()
 
-// 
+// user define
