@@ -70,6 +70,9 @@ carPorperties();
 
 // Parameters and Arguments
 
+// parameters are like => Variables
+// arguments  are like => Values
+
 
 // without parameters and arguments
 function addTwoNumber(){
@@ -112,8 +115,8 @@ addThreeNumber(4 , 6 , 10);
 function myName(name){
     for(i = 0; i <= 10; i++){
         if (i == 3) {
+            // check condition
             console.log(name,'yes 3 is right number',i);
-            
         }
         console.log(name,i);
     }
