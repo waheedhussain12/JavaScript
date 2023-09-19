@@ -98,7 +98,7 @@ addThreeNumber(1,2,3);
 addThreeNumber(4 , 6 , 10);
 
 function myName(name){
-    var re = name
+    var re = name;
     for(name = 0; name <= 10; name++){
         console.log(re,name);
     }
