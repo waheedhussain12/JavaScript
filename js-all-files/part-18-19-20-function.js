@@ -12,7 +12,7 @@
 
 // for(i = 1; i <= 10; i++){
 //     console.log(`2 x ${i} = ${2*i} ${i/2}`);
-
+// without function
 // }
 
 // make a function
@@ -21,7 +21,6 @@ function multiTable(){
         console.log(`2 x ${i} = ${2*i} ${i/2}`);
     
     }
-    
 
 }
 // call function
@@ -29,3 +28,4 @@ function multiTable(){
 // simply call this function
 multiTable();
 multiTable();
+
