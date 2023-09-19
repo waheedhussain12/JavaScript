@@ -97,4 +97,13 @@ addThreeNumber(1,2,3);
 // same function but values are change with the help of arguments
 addThreeNumber(4 , 6 , 10);
 
+function myName(name){
+    var re = name
+    for(name = 0; name <= 10; name++){
+        console.log(re,name);
+    }
+}
+// calling function
+myName("Waheed");
+myName("Hussain");
 
