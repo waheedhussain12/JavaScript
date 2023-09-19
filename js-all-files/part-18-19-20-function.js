@@ -52,3 +52,4 @@ var carCompany = 'BMW'
 
 }
 // Calling this function
+car();
