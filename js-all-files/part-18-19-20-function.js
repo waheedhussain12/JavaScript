@@ -43,13 +43,15 @@ sayMyName();
 sayMyName();
 sayMyName();
 
-function car(){
-var carColr  = 'red';
-var carEngin = "bmw/'Engin";
-var carSpeed = '344km//hr';
-var carPrice = '232423RS';
-var carCompany = 'BMW'
+function carPorperties(){
 
+var car ={
+    carColr:'red',
+    carEngin:"bmw's Engin",
+    carSpeed:'344km//hr',
+    carPrice:'232423RS',
+    carCompany:'BMW'}
+    console.log(car);
 }
 // Calling this function
-car();
+carPorperties();
