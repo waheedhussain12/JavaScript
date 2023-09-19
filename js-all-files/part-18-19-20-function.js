@@ -1,0 +1,1 @@
+// two types of function in js
