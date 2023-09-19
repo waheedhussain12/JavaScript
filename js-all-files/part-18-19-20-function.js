@@ -85,6 +85,16 @@ addTwoNumber();
 
 
 // with parameters and arguments
+function multiTable2(table1){
+    for(i = 1; i <= 10; i++){
+        console.log(`2 x ${table1} = ${table1*i} ${table1/i}`);
+    
+    }
+
+}
+// calling function
+multiTable2(3);
+
 function addThreeNumber(num1 , num2, num3){
     // functions with parameters
 var result = num1 + num2 + num3;
