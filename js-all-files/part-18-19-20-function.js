@@ -66,3 +66,6 @@ var car ={
 // Calling this function
 carPorperties();
 carPorperties();
+
+
+// Parameters and Arguments
