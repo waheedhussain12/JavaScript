@@ -115,9 +115,10 @@ myName("Hussain");
 
 // the Arguments Objects
 
+function add(){
 
 
-
+}
 
 
 
