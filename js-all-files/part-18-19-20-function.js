@@ -130,7 +130,8 @@ console.log(arguments[5]); // access element using index[]
 add(1,3,4,5,6,7);
 //access any element using Array index[]
 
-function addTwoNumber(){
+function addTwoNumber(){ // access argumrnts without parameters
+  // using arguments
 if (arguments.length == 0) {
   console.log('No Arguments Passed !');  
 }else{
