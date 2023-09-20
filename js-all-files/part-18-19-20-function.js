@@ -139,3 +139,12 @@ console.log('Coke Studio Season 8| Bewajah| Nabeel Shaukat Ali');
 playSonog();
 
 // function with parameters and argumrnts
+
+function parametersPass(){
+var number = 45;
+var number1 = 353;
+result = number + number1;
+console.log(result);
+
+}
+// calling function
