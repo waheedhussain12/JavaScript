@@ -161,3 +161,4 @@ console.log(`${add} ${add2}`);
 
 addanythink(334 ,23);
 addanythink("fuck you",'lun');
+
