@@ -152,7 +152,7 @@ parametersPass(34,46);
 // also this is the sec way
 console.log(result);
 
-function (){
+function addanythink(){
 
 
 }
