@@ -146,9 +146,13 @@ var number1 = 353;
 result = number + number1;
 // print the result to see output
 console.log(result);
-
 }
 // calling function
 parametersPass(34,46);
 // also this is the sec way
 console.log(result);
+
+function (){
+
+
+}
