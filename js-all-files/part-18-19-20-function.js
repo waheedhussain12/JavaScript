@@ -124,21 +124,16 @@ myName("Hussain");
 
 
 // functions 
-
 function playSonog(){
 var play = 'Music On';
 var pause = "off";
-if (play =='Musicc On') {
+if (play =='Music On') {
 console.log('Coke Studio Season 8| Bewajah| Nabeel Shaukat Ali');  
 }else if(pause !== 'off'){
   console.log('Music is offf');
-
-
 }else{
   console.log('brty is low ');
 }
-
 }
-
 // calling function
-playSonog()
+playSonog();
