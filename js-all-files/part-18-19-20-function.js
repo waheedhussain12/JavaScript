@@ -155,6 +155,8 @@ console.log(result);
 function addanythink(add, add2){
 var add;
 var add2;
+console.log(typeof add);
+console.log(typeof add2);
 console.log(`${add} ${add2}`);
 
 }
