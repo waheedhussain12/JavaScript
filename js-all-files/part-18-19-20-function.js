@@ -130,6 +130,38 @@ console.log(arguments[5]); // access element using index[]
 add(1,3,4,5,6,7);
 //access any element using Array index[]
 
+function addTwoNumber(){
+if (arguments.length == 0) {
+  console.log('No Arguments Passed !');  
+}else{
+ let sum = 0;
+ for(let i = 0; i < arguments.length; i ++){
+sum = sum +arguments[i];
+
+ }
+console.log(sum);
+}
+
+}
+// calling function
+addTwoNumber(12,4,4);
+// add multiple arguments as you want 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // functions 
