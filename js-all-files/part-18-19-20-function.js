@@ -116,11 +116,19 @@ myName("Hussain");
 // the Arguments Objects
 
 function add(){
-
+let allnum = arguments.length;// access all upcoming data's length
+console.log(allnum);
+// console.log(arguments[5]); // see all data in Array
+console.log(arguments[5]); // access element using index[]
 
 }
 
+// add(1,34);// first argumnt pass 2 value so Array length is 2
+// add(4,76,88); // sec argument pass 3 values soArray length is 3
+// add(12,56,88,45,56); // third argument pass 5 values Array so length is 5
 
+add(1,3,4,5,6,7);
+//access any element using Array index[]
 
 
 
