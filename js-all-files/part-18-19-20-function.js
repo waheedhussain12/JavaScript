@@ -145,6 +145,7 @@ console.log(sum);
 }
 // calling function
 addTwoNumber(12,4,4);
+addTwoNumber(14,4,4); // same function but values are change
 // add multiple arguments as you want 
 
 
