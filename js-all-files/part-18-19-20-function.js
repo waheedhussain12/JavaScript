@@ -137,3 +137,5 @@ console.log('Coke Studio Season 8| Bewajah| Nabeel Shaukat Ali');
 }
 // calling function
 playSonog();
+
+// function with parameters and argumrnts
