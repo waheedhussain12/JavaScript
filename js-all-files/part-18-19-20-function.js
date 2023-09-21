@@ -175,6 +175,11 @@ addThreeNumbers(4, 6, 2, 35, 46, 56, 76, 76, 56);
 function addd( a,b){
   // also you can make new variable for store data
   let results = a + b;
+  // note anything you write in return which in print
+  // return 23; // this will print
+  // return 23232323;  // this will print
+  // if you donot use return program will return undefined
+  // return 'waheeed';
   return results;
   // console.log(a + b);
 }
@@ -185,6 +190,8 @@ let sumReturn = addd(10 , 20);
 console.log(sumReturn);
 // calling function
 // addd(10 , 5);
+
+
 
 
  
