@@ -203,21 +203,41 @@ return -2;
   return 0;
 }
 }
-// make a variable for store return data and print this variale
+// make a variable for store return data and print this variable
 let stor;
 stor = compare( 7 , 2);
 console.log(stor);
  
+// Global variable vs local variable
+ 
 
+let car = 'Audi';
+// global variable
 
+function add23(){
+   let result = 60; // local variable
+   console.log(car); // global variable
+   console.log(result);
+   // if variable declare inside the function
+  // is called local variable
+  // you cannot access this variable out of the function
+ // in last line local varible is delete from function
+ // that why you can declare same variable different functions
+}
+add23();
+// console.log(result);
+// reference error result variable not declared
 
+console.log(car); // global variable
 
+function subr(){
+  let result = 6034; // local variable
+  console.log(result);
+  // same variable but different function is allowed
 
-
-
-
-
-
+}
+// calling function
+subr();
 
 
 
