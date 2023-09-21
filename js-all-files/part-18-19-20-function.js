@@ -171,12 +171,23 @@ storeFunInVar(3, 2); // function store in variable
 addThreeNumbers(4, 6, 2, 35, 46, 56, 76, 76, 56);
 
 
+// return in function
+function addd( a,b){
+  // also you can make new variable for store data
+  let results = a + b;
+  return results;
+  // console.log(a + b);
+}
+
+// store function's value in variable 
+// first function execute than return a value
+let sumReturn = addd(10 , 20);
+console.log(sumReturn);
+// calling function
+// addd(10 , 5);
 
 
-
-
-
-
+ 
 
 
 
