@@ -192,8 +192,21 @@ console.log(sumReturn);
 // addd(10 , 5);
 
 
+// compare function
+function compare(a , b){
+if (a > b) {
+  return 1;
 
-
+} else if(b > a){
+return -2;
+} else{
+  return 0;
+}
+}
+// make a variable for store return data and print this variale
+let stor;
+stor = compare( 7 , 2);
+console.log(stor);
  
 
 
