@@ -112,97 +112,99 @@ function myName(name) {
 myName("Waheed");
 myName("Hussain");
 
-
 // the Arguments Objects
 
-function add(){
-let allnum = arguments.length;// access all upcoming data's length
-console.log(allnum);
-// console.log(arguments[5]); // see all data in Array
-console.log(arguments[5]); // access element using index[]
-
+function add() {
+  let allnum = arguments.length; // access all upcoming data's length
+  console.log(allnum);
+  // console.log(arguments[5]); // see all data in Array
+  console.log(arguments[5]); // access element using index[]
 }
 
 // add(1,34);// first argumnt pass 2 value so Array length is 2
 // add(4,76,88); // sec argument pass 3 values soArray length is 3
 // add(12,56,88,45,56); // third argument pass 5 values Array so length is 5
 
-add(1,3,4,5,6,7);
+add(1, 3, 4, 5, 6, 7);
 //access any element using Array index[]
 
-function addTwoNumber(){ // access argumrnts without parameters
+function addTwoNumber() {
+  // access argumrnts without parameters
   // using arguments
-if (arguments.length == 0) {
-  console.log('No Arguments Passed !');  
-}else{
- let sum = 0;
- for(let i = 0; i < arguments.length; i ++){
-sum = sum +arguments[i];
-
- }
-console.log(sum);
-}
-
+  if (arguments.length == 0) {
+    console.log("No Arguments Passed !");
+  } else {
+    let sum = 0; // store result
+    for (let i = 0; i < arguments.length; i++) {
+      sum = sum + arguments[i];
+    }
+    console.log(sum);
+  }
 }
 // calling function
-addTwoNumber(12,4,4);
-addTwoNumber(14,4,4); // same function but values are change
-// add multiple arguments as you want 
+addTwoNumber(12, 4, 4);
+addTwoNumber(14, 4, 4); // same function but values are change
+// add multiple arguments as you want
 
+function addThreeNumbers() {
+  let getlen = arguments.length;
+  // Now length store in getlen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// functions 
-function playSonog(){
-var play = 'Music On';
-var pause = "off";
-if (play =='Music On') {
-console.log('Coke Studio Season 8| Bewajah| Nabeel Shaukat Ali');  
-}else if(pause !== 'off'){
-  console.log('Music is offf');
-}else{
-  console.log('brty is low ');
+  if (getlen == 0) {
+    console.log("No Arguments Passed!");
+  } else if (getlen > 0) {
+    sum = 0;
+    for (let i = 0; i < getlen; i++) {
+      sum = sum + arguments[i];
+    }
+    console.log(sum);
+  } else {
+    console.log("if both conditions are false");
+  }
 }
+// Note you can store a function in variable as well
+// rule is cannot use fuction brakets()
+let storeFunInVar = addThreeNumbers;
+storeFunInVar(3, 2); // function store in variable
+
+// now add values as you want
+addThreeNumbers(4, 6, 2, 35, 46, 56, 76, 76, 56);
+
+// functions
+function playSonog() {
+  var play = "Music On";
+  var pause = "off";
+  if (play == "Music On") {
+    console.log("Coke Studio Season 8| Bewajah| Nabeel Shaukat Ali");
+  } else if (pause !== "off") {
+    console.log("Music is offf");
+  } else {
+    console.log("brty is low ");
+  }
 }
 // calling function
 playSonog();
 
 // function with parameters and argumrnts
 
-function parametersPass(number , number1){
-var number = 45;
-var number1 = 353;
-result = number + number1;
-// print the result to see output
-console.log(result);
+function parametersPass(number, number1) {
+  var number = 45;
+  var number1 = 353;
+  result = number + number1;
+  // print the result to see output
+  console.log(result);
 }
 // calling function
-parametersPass(34,46);
+parametersPass(34, 46);
 // also this is the sec way
 console.log(result);
 
-function addanythink(add, add2){
-var add;
-var add2;
-console.log(typeof add);
-console.log(typeof add2);
-console.log(`${add} ${add2}`);
-
+function addanythink(add, add2) {
+  var add;
+  var add2;
+  console.log(typeof add);
+  console.log(typeof add2);
+  console.log(`${add} ${add2}`);
 }
-addanythink(334 ,23);
-addanythink("fuck you",'lun');
-
+addanythink(334, 23);
+addanythink("developers", "sindh uni");
