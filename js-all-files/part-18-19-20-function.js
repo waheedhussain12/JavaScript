@@ -170,6 +170,60 @@ storeFunInVar(3, 2); // function store in variable
 // now add values as you want
 addThreeNumbers(4, 6, 2, 35, 46, 56, 76, 76, 56);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // functions
 function playSonog() {
   var play = "Music On";
