@@ -518,3 +518,21 @@ function samestr(){
   let str1 = 'same string';
   // this is allow
 }
+let msg = 'hello my Script';// this is global
+function showyou(){
+  console.log(msg);
+}
+// calling function
+showyou();
+// same variable is not allow so using Anonymous Function
+// make it local variable
+// thirdpart.js
+// direct invoked use ( ())
+(function (){
+  let msg = 'hello third party';// this is local means inside the function
+  function greet (){
+    console.log(msg);
+  }
+  greet();
+})();
+
