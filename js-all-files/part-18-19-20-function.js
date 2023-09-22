@@ -437,3 +437,4 @@ function localVar(){
 localVar();
 
 function islogin(){}
+function islogin(){}
