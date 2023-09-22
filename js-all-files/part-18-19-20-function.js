@@ -495,4 +495,26 @@ shownow = function(){
   console.log('this is Anonymous fun');
 };
 // calling function
-shownow()
+shownow();
+
+// do not store in variable 
+// direct print Anonymous function 
+// this is  immdiately invoked function
+
+(function(){
+  console.log('without variable Anonyumous function is print');
+  // this is called immdiately invoked function
+})();
+// first cover all function ( than invoked berakets())
+
+// immediately invoked function is related to the global and local variable
+// global variable take more ram
+// local  variable take less ram 
+// when function is done ram will free
+let str1 = 'same string';
+// let str1 = 'same string'; //got error already declared variable
+// but same variable inside the function is allow
+function samestr(){
+  let str1 = 'same string';
+  // this is allow
+}
