@@ -435,21 +435,3 @@ function localVar(){
 }
 // calling function
 localVar();
-
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
-function islogin(){}
