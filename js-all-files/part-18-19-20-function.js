@@ -486,3 +486,13 @@ setTimeout(function (){
 
 
 // Immediately Invoked Function
+ 
+// immediately execute
+
+// make Anonymous Function
+let shownow ;
+shownow = function(){
+  console.log('this is Anonymous fun');
+};
+// calling function
+shownow()
