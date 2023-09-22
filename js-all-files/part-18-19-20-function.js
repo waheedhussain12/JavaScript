@@ -437,3 +437,53 @@ function localVar(){
 localVar();
 
 
+// Anonymous Function
+
+// means function with no name
+// without function name
+
+
+// function (){
+//   console.log('Function with no name');
+// tihs is Anonymous Function
+// but you got error
+// two ways to fix this error
+//}
+
+// 1st way store this Anonymous in the variable
+// now this is function Expression put ; in the last
+var show = function(num){
+  var num;
+  console.log(num);
+  console.log('Error Solved');
+};
+// calling function or calling variable 
+show(12) 
+
+// Anonymous function with parameters and arguments are allowed
+var praArgumntWithAnonymousfun = function(num1){
+  var num1;
+  console.log(num1);
+  console.log('this is also work Anonymous Function with paramerts and arguments');
+};
+// calling function or calling variable 
+praArgumntWithAnonymousfun(242) ;
+
+// function with name
+function showme(){
+  console.log('show me in 3s');
+}
+// function pass like parameters
+setTimeout(showme,2000);
+
+
+// AnonyMous Function passing like parameters
+
+setTimeout(function (){
+  console.log('this is AnonyMous Function 3s');
+},3000); 
+
+
+
+// Immediately Invoked Function
+// Immediately Invoked Function
