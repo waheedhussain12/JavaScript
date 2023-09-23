@@ -79,6 +79,8 @@ for (let check in person) {
 
 var house = { //this is object => house
     // this is properties => all properites
+    // 'kit chen': 'for making tea or Dinner',
+// this is also valid take property in to stings
     kitchen: 'for making tea or Dinner',
     rooms: 'all rooms for rent',
     bed: 'for sleeping',
@@ -86,5 +88,19 @@ var house = { //this is object => house
     storeRoom: 'for store cloths and other staff',
     chair: 'Chair for sitting',
 };
-
+// console.log(house['kit chen']);// here . notation is not work reason is space
 // print full object
+console.log(house);
+// you can access proprties and its value one by one
+// two types of access values in object
+// one . notation and second index[] like Array
+
+// first way using . notation
+console.log(house.bed); // best way 
+// also make a variable and store property and its value
+var fst = house.bed;
+console.log(fst);
+// second way using index[] like Array
+console.log(house['chair']); 
+// note take property in strings "chair",
+
