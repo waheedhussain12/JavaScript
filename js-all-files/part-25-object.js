@@ -52,7 +52,7 @@ var person = {
 
         // Also You can check in object this property is exist or not
         console.log(person.favcolor);
-        // you will get undefined bcz this property is not exits in object
+        // You will get undefined bcz this property is not exits in object
         // also sec way to check
         console.log('favcolor' in person);
         // here property inside the stirng 
