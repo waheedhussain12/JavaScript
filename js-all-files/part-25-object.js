@@ -59,7 +59,7 @@ var person = {
         // In opertor give us value in true or false
 
         // We don't Know how maney properties  are in object
-        // So we can use for in loop
+        // So We can use for in loop
         for(let check in person){
 
 
