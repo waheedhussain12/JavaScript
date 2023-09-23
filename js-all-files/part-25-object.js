@@ -50,7 +50,7 @@ var person = {
         // output is undefined 
         console.log(person.age);
 
-        // Also you can check in object this property is exist or not
+        // Also You can check in object this property is exist or not
         console.log(person.favcolor);
         // you will get undefined bcz this property is not exits in object
         // also sec way to check
