@@ -56,7 +56,7 @@ var person = {
         // Also sec way to check
         console.log('favcolor' in person);
         // Here property inside the stirng 
-        // in opertor give us value in true or false
+        // In opertor give us value in true or false
 
         // We don't know how maney properties  are in object
         // So we can use for in loop
