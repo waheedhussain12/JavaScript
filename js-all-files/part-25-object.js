@@ -46,7 +46,7 @@ var person = {
     // also you can delete property in object
     delete person.lastName;
     console.log(person); // now lastName is deleted
-        // what if we are not asign property in object
+        // What if we are not asign property in object
         // output is undefined 
         console.log(person.age);
 
