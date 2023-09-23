@@ -55,7 +55,7 @@ var person = {
         // You will get undefined bcz this property is not exits in object
         // also sec way to check
         console.log('favcolor' in person);
-        // here property inside the stirng 
+        // Here property inside the stirng 
         // in opertor give us value in true or false
 
         // we don't know how maney properties  are in object
