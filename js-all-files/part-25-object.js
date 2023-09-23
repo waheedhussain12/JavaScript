@@ -43,7 +43,7 @@ var person = {
     // Also you can change value in property
     person.lastName = "Ali";
     console.log(person.lastName);
-    // Also you can delete property in object
+    // Also you Can delete property in object
     delete person.lastName;
     console.log(person); // now lastName is deleted
         // What if we are not asign property in object
