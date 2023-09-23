@@ -58,7 +58,7 @@ var person = {
         // Here property inside the stirng 
         // in opertor give us value in true or false
 
-        // we don't know how maney properties  are in object
+        // We don't know how maney properties  are in object
         // so we can use for in loop
         for(let check in person){
 
