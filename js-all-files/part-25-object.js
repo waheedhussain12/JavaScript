@@ -72,21 +72,19 @@ for (let check in person) {
   // using index[] like Array
 }
 
+// object
 
-
-
-// object 
-
-var house = { //this is object => house
-    // this is properties => all properites
-    // 'kit chen': 'for making tea or Dinner',
-// this is also valid take property in to stings
-    kitchen: 'for making tea or Dinner',
-    rooms: 'all rooms for rent',
-    bed: 'for sleeping',
-    washroom: 'for changing cloths',
-    storeRoom: 'for store cloths and other staff',
-    chair: 'Chair for sitting',
+var house = {
+  //this is object => house
+  // this is properties => all properites
+  // 'kit chen': 'for making tea or Dinner',
+  // this is also valid take property in to stings
+  kitchen: "for making tea or Dinner",
+  rooms: "all rooms for rent",
+  bed: "for sleeping",
+  washroom: "for changing cloths",
+  storeRoom: "for store cloths and other staff",
+  chair: "Chair for sitting",
 };
 // console.log(house['kit chen']);// here . notation is not work reason is space
 // print full object
@@ -96,44 +94,42 @@ console.log(house);
 // one . notation and second index[] like Array
 
 // first way using . notation
-console.log(house.bed); // best way 
+console.log(house.bed); // best way
 // also make a variable and store property and its value
 var fst = house.bed;
 console.log(fst);
 // second way using index[] like Array
-console.log(house['chair']); 
+console.log(house["chair"]);
 // note take property in strings "chair",
-// Also you can add property and its value in object 
-house.lightBoard = 'for truning on light'
+// Also you can add property and its value in object
+house.lightBoard = "for truning on light";
 // here house is object and lightBoard is property and for truning on light is value
-console.log(house.lightBoard); 
+console.log(house.lightBoard);
 // property and its value is added or element
 
 // also you can update or property's value change
-house.kitchen = 'for making tea or Dinner also lunch and breakfast'
-console.log(house['kitchen']);
+house.kitchen = "for making tea or Dinner also lunch and breakfast";
+console.log(house["kitchen"]);
 // note if use [] must use string inside the []
 // also you can delete property and its value
 delete house.rooms;
-console.log(house.rooms); // check 
+console.log(house.rooms); // check
 // rooms property is deleted thats why output is undefined
 // undefined means this property is not in object
 
 // second way to check property is available in object or not
 // using in operator
 
-console.log('houseColr' in house);
+console.log("houseColr" in house);
 // in operator give us values in true or false not undefined
 // note always take property inside the string 'houseColor'
-console.log('kitchen' in house);
+console.log("kitchen" in house);
 // output is true bcz kitchen is available in the object
-
 
 // We don't Know How maney properties  are in object
 // So We can use for in loop
-for(var i in house){
-    console.log(i + ": "+house[i]);
-    // i for properties
-    // house[i] for values
-
+for (var i in house) {
+  console.log(i + ": " + house[i]);
+  // i for properties
+  // house[i] for values
 }
