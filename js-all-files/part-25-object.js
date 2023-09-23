@@ -40,7 +40,7 @@ var person = {
         console.log(person);
         // also add property later
     person.age = 33;
-    // also you can change value in property
+    // Also you can change value in property
     person.lastName = "Ali";
     console.log(person.lastName);
     // also you can delete property in object
