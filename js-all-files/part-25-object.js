@@ -60,8 +60,17 @@ var person = {
 
         // We don't Know How maney properties  are in object
         // So We can use for in loop
+        var person = {
+            firstName: "waheed",
+            lastName:"hussain"
+            }; 
+            // also print full object
+            console.log(person);
+            // also add property later
+        person.age = 33;
+
         for(let check in person){
-
-
-            console.log(check);
+            // console.log(check); // show all property in output
+            console.log(check + ": " + person[check]); // also check values of 
+        // using index[] like Array
         }
