@@ -76,3 +76,15 @@ for (let check in person) {
 
 
 // object 
+
+var house = { //this is object => house
+    // this is properties => all properites
+    kitchen: 'for making tea or Dinner',
+    rooms: 'all rooms for rent',
+    bed: 'for sleeping',
+    washroom: 'for changing cloths',
+    storeRoom: 'for store cloths and other staff',
+    chair: 'Chair for sitting',
+};
+
+// print full object
