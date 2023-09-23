@@ -71,3 +71,8 @@ for (let check in person) {
   console.log(check + ": " + person[check]); // also check values of
   // using index[] like Array
 }
+
+
+
+
+// object 
