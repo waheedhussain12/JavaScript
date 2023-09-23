@@ -333,42 +333,42 @@ printAnyTable(4, 9);
 // function with parameters and argument
 // with condition check
 
-function funCondiCheck(topSong) {
-  console.log("TOP 5 ALL TIME HIT SONGS IN THE WORLD");
-  console.log("Select one song using numbers 1 to 5");
-  for (let topTenSong = 0; topTenSong <= topSong; topTenSong++) {
-    if (topSong == 0) {
+// function funCondiCheck(topSong) {
+//   console.log("TOP 5 ALL TIME HIT SONGS IN THE WORLD");
+//   console.log("Select one song using numbers 1 to 5");
+//   for (let topTenSong = 0; topTenSong <= topSong; topTenSong++) {
+//     if (topSong == 0) {
       // console.log(topSong);
-      console.log("Try again and select 1 to 5 Songs");
-    }
+//       console.log("Try again and select 1 to 5 Songs");
+//     }
 
-    if (topTenSong == 1 && topSong == 1) {
-      console.log(topSong);
-      console.log("Tum Ho Pass Mere From RockStar");
-    }
-    if (topTenSong == 2 && topSong == 2) {
-      console.log(topSong);
-      console.log("Bikhra From Abdul hannan");
-    }
-    if (topTenSong == 3 && topSong == 3) {
-      console.log(topSong);
-      console.log("O Re piyaa From Ustad Nusrat");
-    }
-    if (topTenSong == 4 && topSong == 4) {
-      console.log(topSong);
-      console.log("Clam Down From Rema Selena Gomez");
-    }
-    if (topTenSong == 5 && topSong == 5) {
-      console.log(topSong);
-      console.log("Sada Pyaar AP Dhillon");
-    }
-    if (topTenSong == 6 && topSong == 6) {
-      // console.log(topSong);
-      console.log("Select one to five Songs");
-    }
-  }
-}
-funCondiCheck(2);
+//     if (topTenSong == 1 && topSong == 1) {
+//       console.log(topSong);
+//       console.log("Tum Ho Pass Mere From RockStar");
+//     }
+//     if (topTenSong == 2 && topSong == 2) {
+//       console.log(topSong);
+//       console.log("Bikhra From Abdul hannan");
+//     }
+//     if (topTenSong == 3 && topSong == 3) {
+//       console.log(topSong);
+//       console.log("O Re piyaa From Ustad Nusrat");
+//     }
+//     if (topTenSong == 4 && topSong == 4) {
+//       console.log(topSong);
+//       console.log("Clam Down From Rema Selena Gomez");
+//     }
+//     if (topTenSong == 5 && topSong == 5) {
+//       console.log(topSong);
+//       console.log("Sada Pyaar AP Dhillon");
+//     }
+//     if (topTenSong == 6 && topSong == 6) {
+//       // console.log(topSong);
+//       console.log("Select one to five Songs");
+//     }
+//   }
+// }
+// funCondiCheck(2);
 
 
 // the Arguments Objects
@@ -474,14 +474,14 @@ function showme(){
   console.log('show me in 3s');
 }
 // function pass like parameters
-setTimeout(showme,2000);
+// setTimeout(showme,2000);
 
 
 // AnonyMous Function passing like parameters
 
-setTimeout(function (){
-  console.log('this is AnonyMous Function 3s');
-},3000); 
+// setTimeout(function (){
+//   console.log('this is AnonyMous Function 3s');
+// },3000); 
 
 
 
@@ -536,3 +536,41 @@ showyou();
   greet();
 })();
 
+
+
+function funCondiCheck(topSong) {
+  console.log("TOP 5 ALL TIME HIT SONGS IN THE WORLD");
+  console.log("Select one song using numbers 1 to 5");
+  for (let topTenSong = 0; topTenSong <= topSong; topTenSong++) {
+    if (topSong == 0) {
+      // console.log(topSong);
+      console.log("Try again and select 1 to 5 Songs");
+    }
+
+    if (topTenSong == 1 && topSong == 1) {
+      console.log(topSong);
+      console.log("Tum Ho Pass Mere From RockStar");
+    }
+    if (topTenSong == 2 && topSong == 2) {
+      console.log(topSong);
+      console.log("Bikhra From Abdul hannan");
+    }
+    if (topTenSong == 3 && topSong == 3) {
+      console.log(topSong);
+      console.log("O Re piyaa From Ustad Nusrat");
+    }
+    if (topTenSong == 4 && topSong == 4) {
+      console.log(topSong);
+      console.log("Clam Down From Rema Selena Gomez");
+    }
+    if (topTenSong == 5 && topSong == 5) {
+      console.log(topSong);
+      console.log("Sada Pyaar AP Dhillon");
+    }
+    if (topTenSong == 6 && topSong == 6) {
+      // console.log(topSong);
+      console.log("Select one to five Songs");
+    }
+  }
+}
+funCondiCheck(1); 
