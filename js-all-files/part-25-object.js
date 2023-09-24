@@ -281,4 +281,39 @@ console.log(store);
 
  
 // date in js
+var showDate; 
+showDate = new Date();
+// store my computers current year date time months
+console.log(showDate);
+// but i want date past time 
+showDate = new Date( 2022 , 11,13,10,33,65,7);
+
+console.log(showDate);
+showDate = new Date( 2022 , 11);
+// month and days are start with 0 index
+// output will 0 0 0 0 but minium add year and month
+console.log(showDate);
+// you can also add parameters in string ""
+showDate = new Date("october'13, 2012 11:12:33");
+console.log(showDate);
+// different types of methods
+// get time
+console.log(showDate.getTime());
+// get full year
+console.log(showDate.getFullYear());
+// month
+console.log(showDate.getMonth());
+// get date
+console.log(showDate.getDate());
+// get mint
+console.log(showDate.getMinutes());
+// get sec
+console.log(showDate.getSeconds());
+// get hours
+console.log(showDate.getHours());
+// get day start with 0 index[]
+console.log(showDate.getDay());
+
+
+
 
