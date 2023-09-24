@@ -313,7 +313,16 @@ console.log(showDate.getSeconds());
 console.log(showDate.getHours());
 // get day start with 0 index[]
 console.log(showDate.getDay());
-
+// also you can change element using set
+// change year
+showDate.setFullYear(2024);
+console.log(showDate);
+// change month
+showDate.setMonth(2);
+console.log(showDate);
+// change data
+showDate.setDate(2);
+console.log(showDate);
 
 
 
