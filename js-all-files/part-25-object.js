@@ -130,6 +130,156 @@ console.log("kitchen" in house);
 // So We can use for in loop
 for (var i in house) {
   console.log(i + ": " + house[i]);
+  // note in for in loop must use array[] notation
   // i for properties
   // house[i] for values
 }
+
+
+// METHODS IN OBJECT
+// object connect with function is called method
+var person = {
+ firstName: "Waheed",
+ lastName: "Hussain",
+ caste: "Leghari",
+ age: "21",
+ // four way to make method 
+ // this method has no function declare or name
+ // direct ( ) { } method is done
+ sayHello22(){
+    console.log('Hello! im method inside object without function');
+ }
+ // third way to make method
+ // direct make method and asign function inside the object
+//  sayHello2: function (){
+//     console.log('Hello! im method inside the object');
+//  }
+
+
+
+};
+// person.sayHello2();
+person.sayHello22();
+
+// there are four ways to make methods in js
+person.sayHello = function(){
+    // object method function
+    // sayHello is method name
+    // same as we store function in Variable
+    // here person is object and sayHello is method and function
+    console.log('Hello Iam an Object!');
+// console.log(person);
+
+
+}
+// calling and object and method sayHello
+person.sayHello() // this is method 
+// now object in an action 
+
+
+// second way
+// first make noraml function 
+function myfu(){
+console.log('Hello iam a normal function');
+
+}
+// connect function wtih object
+// object method function name
+person.sayHello = myfu;
+// now all values are in method
+person.sayHello();
+
+
+
+// this in object
+var person = {
+    firstName: "waheed",
+    lastName: "hussain",
+    mymethod(){
+        // person.firstName and simple use this means my 
+console.log('Hello my name is '+ this.firstName,this.lastName + " and this is my new "+ car.brand+" car");
+// calling another object in the object
+
+    }
+  };
+ var car = {
+
+    brand: 'Tata',
+    medel: 'Safari'
+ }
+ // calling Method
+ person.mymethod();
+
+ // math in object
+
+var result = Math.PI;
+var result = Math.E;
+console.log(result);
+
+var result2 = 4.7; // round means 4.7 output is 5 
+// 4.4 output is 4 means .4 lesser .6 upper
+var result2 = Math.round(4.7)
+console.log(result2);
+// ceil give is highest number 
+// 4.5 means 5 or 10.1 means 11
+var result3 = Math.ceil(10.7)
+console.log(result3);
+// lowest number show 5.2 means 5  or 8.9 means 8
+// points are not count
+var result3 = Math.floor(8.7)
+console.log(result3);
+// delete all point in number 10.6 means 10 5.5 means 5
+var result3 = Math.trunc(10.7)
+console.log(result3);
+// power
+var result3 = Math.pow(10,2);
+console.log(result3);
+// square
+var result3 = Math.sqrt(10.7)
+console.log(result3);
+// find min number 
+var result3 = Math.min(23,2442,242,13,12,1)
+console.log(result3);
+
+// find max number 
+var result3 = Math.max(23,2442,242,13,12,1)
+console.log(result3);
+
+// Random Numbers in js topic object
+// use floor for delete points 
+
+
+
+
+
+var randomNumber = Math.floor(Math.random() *10); // 0 to 9
+console.log(randomNumber);
+// one number is biger 
+var randomNumber = Math.floor(Math.random() *13); // 0 to 12
+console.log(randomNumber);
+var randomNumber = Math.floor(Math.random() *101); // 0 to 100
+console.log(randomNumber);
+
+
+// if you want to start number from 1 use + 1
+var randomNumber = Math.floor(Math.random() *13) + 1; // 0 to 12
+console.log(randomNumber);
+
+// use this formula 
+var randomNumber = Math.floor(Math.random() * (25 - 15)) +15; 
+// less 15 greater 25 
+console.log(randomNumber);
+
+// function
+function getRandom( min , max){
+  var randomNumber = Math.floor(Math.random() * (max - min + 1)) +min; 
+  return randomNumber;
+}
+
+var store = getRandom(10,20); // 20 is incloude
+console.log(store);
+
+ 
+// date in js
+
+// date in js
