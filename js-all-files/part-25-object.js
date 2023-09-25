@@ -323,6 +323,224 @@ console.log(showDate);
 // change data
 showDate.setDate(2);
 console.log(showDate);
+// changes hours
+showDate.setHours(3);
+console.log(showDate);
+// change mints
+showDate.setMinutes(10);
+console.log(showDate);
 
 
 
+showDate1 = new Date("october'13, 2012 11:12:33");
+showDate2= new Date("october'13, 2012 11:12:33");
+// i want to know future's 50 days
+// date change after 50 days
+showDate2.setDate(showDate1.getDate() + 50)
+console.log(showDate1);
+console.log(showDate2);
+
+showDate3 = new Date("october'13, 2023 11:12:33");
+currentdate = new Date(); // current date
+// i want to know future's 50 days
+// date change after 50 days
+showDate2.setDate(showDate1.getDate() + 50)
+console.log(showDate3);
+console.log(currentdate);
+
+if (currentdate > showDate3) {
+  console.log('x is past date');
+  
+} else if(showDate3 > currentdate){
+  console.log('x date is future');
+} else{
+  console.log('x same date');
+}
+
+// New Keyword in js
+// simple method to make object
+var car = {
+  carName: 'toyota',
+  carColor: 'black',
+  carPrice: '234234RS'
+}
+console.log(car );
+
+// make object using new keyword
+var person = new Object();
+person.name = 'waheed';
+person.lastName = 'hussain';
+person.age = 21;
+console.log(person);
+
+
+// property getters and setters in js
+
+
+
+
+
+// practics all functions and all object in js
+
+// START FUNCTION ==>>>>>
+// simple function 
+//  syntax => function - functionName(){}
+function myName(){
+var name = 'Waheed hussain';
+var caste = 'leghari';
+var lap = 'hp laptop';
+// note print this in function
+console.log(name,caste,lap);
+}
+// calling function with function name
+myName(); // simple function
+
+// function print any table
+
+function printAnyTablee(){
+  var i;
+for(i = 1; i<=10; i++){
+console.log(`2 X ${i} = ${i * 2}`);
+
+}
+}
+// calling function
+printAnyTablee();
+
+// object inside the function
+function myinfo(){
+  var myProperties = {
+    firstName: "waheed",
+    lastName: 'hussain',
+   caste : 'leghari',
+  }
+console.log(myProperties);
+
+}
+// calling function
+myinfo();
+
+// function add two number
+function addtwo(){
+
+  num = 23;
+  num1 = 56;
+  sum = num + num1;
+  console.log(sum);
+}
+// calling function
+addtwo();
+
+
+// function with parameters and Arguments
+
+// first check simple function
+function comparee(){
+  var str1 = 'waheedhussain';
+  var str2 = 'hussain';
+  if (str1 == 'waheedhussain') {
+    console.log('this conditon is true');
+  }else if(str2 == 'hussain'){
+    console.log('first and sec condition is true');
+  }else{
+    console.log('both conditions are false');
+  }
+}
+// calling function
+comparee();
+// function with parameters and Arguments
+// parameters are like => Variables
+// arguments  are like => Values
+function prTable(table)
+// here table is parameters or you can say variable for store arguments
+{
+  for(var i = 1; i <= 10; i++){
+    console.log(`${table} X ${i} = ${table * i}`);
+
+  }
+}
+// calling function
+// here 5 is argument or value
+prTable(5);
+prTable(67); // change any argument function will work
+
+// Add three numbers using paramters arguments
+function addthreeNum(num1, num2 ,num3){
+  // function with parametrs
+  // for store all data make new variable
+  var result = num1 + num2 + num3;
+  console.log(result);
+
+}
+// calling function
+addthreeNum(23,45,67);
+// these 1 2 3 are arguments
+// same function but values are change with the help of arguments
+
+// check condition using function with parameters and Arguments
+function checkit(name){
+  for(var i = 1; i < 5; i++){
+    console.log(name);
+    if (name == 0) {
+      console.log('loop is not start');
+      break;
+    }
+    if (name == 3) {
+      console.log('right now loop in 3rd position');
+      break;
+    }
+    if (name == 4) {
+      console.log('right now loop in 4th position',);
+      break;
+    }
+    if (name == 2 ,6,7) {
+      console.log('error');
+      break;
+    }
+    // console.log(name , i);
+  }
+
+}
+// calling function
+checkit(3);
+
+// the Arguments Objects
+// argument function has no parameters 
+// argument function has only Arguments
+function argmnt(){
+var getlength = arguments.length; // access all upcoming data's length
+console.log(arguments);// see all data in array
+console.log(arguments[2]);// see data one by one using array index[]
+console.log(getlength);// get all length
+}
+
+// calling function
+argmnt(23,3);// first Argument pass two value so length is 2
+argmnt(23,3,4,4); // length is 4
+argmnt(23,3,4,4,3); 
+
+// addtwo number using function without parameters
+// using Arguments object
+function addTwoNumberArgumnt(){
+if (arguments.length == 0) {
+  console.log('No Arguments Passed!');
+}else {
+var sum = 0;
+for(var i = 0; i < arguments.length; i++){
+  sum = sum + arguments[i]
+  console.log(sum);
+}
+
+}
+}
+// calling function with no parameters
+addTwoNumberArgumnt(23,23,4,54,46,46,5,35,5,);
+addTwoNumberArgumnt(2,42,42,2,6,7);
+// same function but values are change
+// add multiple arguments as you want
+
+// also you can store function in variable
+// Note you can store a function in variable as well
+// rule is cannot use fuction brakets()
+let storeFuntion = addTwoNumberArgumnt;
+storeFuntion(32,23,4,2);
