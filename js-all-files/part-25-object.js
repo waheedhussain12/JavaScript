@@ -380,7 +380,7 @@ console.log(person);
 
 
 
-// practics all functions and all object in js
+// practics all functions and all object in js ==>>
 
 // START FUNCTION ==>>>>>
 // simple function 
@@ -435,6 +435,7 @@ addtwo();
 // function with parameters and Arguments
 
 // first check simple function
+// compare
 function comparee(){
   var str1 = 'waheedhussain';
   var str2 = 'hussain';
@@ -543,4 +544,5 @@ addTwoNumberArgumnt(2,42,42,2,6,7);
 // Note you can store a function in variable as well
 // rule is cannot use fuction brakets()
 let storeFuntion = addTwoNumberArgumnt;
+storeFuntion(32,23,4,2);
 storeFuntion(32,23,4,2);
