@@ -644,6 +644,6 @@ return resulta;
     console.log('run right now');
   })();
 
-  // o
+  // Object start
  
   
