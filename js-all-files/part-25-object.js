@@ -546,3 +546,4 @@ addTwoNumberArgumnt(2,42,42,2,6,7);
 let storeFuntion = addTwoNumberArgumnt;
 storeFuntion(32,23,4,2);
 storeFuntion(32,23,4,2);
+storeFuntion(32,23,4,2);
