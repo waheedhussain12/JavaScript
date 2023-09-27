@@ -545,3 +545,15 @@ addTwoNumberArgumnt(2,42,42,2,6,7);
 // rule is cannot use fuction brakets()
 let storeFuntion = addTwoNumberArgumnt;
 storeFuntion(32,23,4,2);
+ 
+
+// function with return value
+
+function returnValue(){
+var str = 'waheed';
+var str1 = 'hussain';
+result = str.concat(str1);
+return result
+}
+
+store = returnValue();
