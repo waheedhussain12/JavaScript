@@ -555,5 +555,93 @@ var str1 = 'hussain';
 result = str.concat(str1);
 return result
 }
+// function store in store variable
+var store = returnValue();
+console.log(store);
 
-store = returnValue();
+function returnValue1(st ,st1){
+  // parameters pass
+  var str = st;
+  var str1 = st1;
+  result = str.concat(" "+str1);
+  return result
+  // if use only return you got undefined
+  }
+  // function store in store variable
+  var store = returnValue1('waheed','hussain');
+  console.log(store);
+  
+  // global variable and local variable
+
+  // global variable
+
+  var globalvar = 'Iam Global variable';
+  // access any where in the whole program
+  console.log(globalvar);
+
+  // local variable always inside the block scope 
+  // and function
+  function localvar (){
+
+    var car = 'toyota';
+    console.log(car);
+    // local variable access on its own function
+    // but global variale also access in function
+    console.log(globalvar);
+  }
+  // calling function
+  localvar();
+// in block scope local variable var you can access
+// bcz var can not blockscope
+// let or const can not access in block scope and function 
+  {
+    let localVar = 'iam local variable';
+    console.log(localVar);
+  }
+  // console.log(localVar);
+    // same variable but different function is allowed
+  // note function end variable is also deleted thats why same variable allowed
+
+  // Anonymous function 
+  // means function with no name
+  // getting error bcz syntax is wrong
+  // two solutions
+  // function (){
+  //   var num1 , num2;
+  //   var result = num1 + num2
+
+  // }
+   // first you can store a function in variable 
+   // second you can pass Anonymous like arguments
+
+   // first way store in variable
+   // this way also called Function Expression
+   // store Anonymous function in variable
+   var store =  function (a1,a2){
+    var a1;
+    var a2;
+     resulta = a1 + a2;
+return resulta;
+  };
+
+  var c = store(24,33);
+  console.log(c);
+
+  // sec way Anonymouse function paasng like arugments
+  // means pass another function
+  var passinganotherFu = function (){
+    var checkme = '2sec late';
+    console.log(checkme);
+
+  }
+// function pass like parameters
+  setTimeout(passinganotherFu,3000);
+// do not store in variable 
+// direct print Anonymous function 
+// this is  immdiately invoked function
+  (function (){
+
+    console.log('run right now');
+  })();
+ 
+  
