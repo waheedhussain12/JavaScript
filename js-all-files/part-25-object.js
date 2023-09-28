@@ -671,6 +671,11 @@ console.log(person);// see full object
 person.lastName = 'Ali';
 // now lastName value us Ali 
 console.log(person);
+// delete property and its value
+// use delete keyword
+delete person.city;
+console.log(person);
+
 
 
 
