@@ -650,3 +650,4 @@ return resulta;
 var emptyobject = {};
 // this is empty object
 console.log(emptyobject);
+
