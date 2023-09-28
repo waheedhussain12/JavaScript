@@ -709,4 +709,72 @@ console.log(["city"]);
  delete person['city'];
  console.log(person);
 
- 
+ // Methods in Object in js
+
+ // function inside the object is called method
+ // there are four types of making methods in objects in js
+ var person = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste : 'Leghari',
+  city: 'Dadu',
+  // third way to declared method
+  // declare method inside the object like property
+  // with function with no name 
+  imThirdMethod : function(){
+console.log('third way to declare Method');
+  },
+  // 4th way to declare function inside the object
+  // this function come in js E6
+  // direct make method inside the object
+  imFourMethod(){
+    console.log('iam 4th way to declare method');
+  },
+  }
+ // first way 
+ // object method or variable = function with no name
+
+person.imMethod = function (){
+// here  imMethod is method 
+console.log('hy iam first way to declare method');
+}
+// calling method
+person.imMethod();
+
+// sec way to declare method
+// first make simple function 
+// than store in method
+function iamFun(){
+  console.log('iam second way to declare method');
+}
+// first step complete
+// now store in method
+person.storInMethod = iamFun;
+// calling a method like function
+person.storInMethod();
+// method inside the object with no name function
+person.imThirdMethod();
+// declare method inside the object direct make method
+person.imFourMethod();
+
+
+// this keyword use for object's property or methods
+
+var persons = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste : 'Leghari',
+  ciity: 'Dadu',
+
+  }
+  console.log(person, this.firstName);
+
+  // what if i want to change property's value
+  // normal way
+  // person.city = 'jamshoro';
+  // console.log(person.city);
+  // this is not right way 
+  // use this keyword and change properties value dynamicly
+
