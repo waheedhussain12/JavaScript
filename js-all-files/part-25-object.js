@@ -856,8 +856,17 @@ var person = {
     // change data or add data snd from object use get method
    return this.lastName = "Ali".toUpperCase();
 
+  },
+  set setName(value){
+    // here value is 
+    this.firstName = "hy developer".toUpperCase()
   }
+
+
   }
+  // old way 
+  // person.firstName = "hy developer";
+  // change value 
   // call like a property
   console.log(person.changeName);
   console.log(person);
