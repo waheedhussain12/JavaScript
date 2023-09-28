@@ -380,6 +380,49 @@ console.log(person);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // practics all functions and all object in js ==>>
 
 // START FUNCTION ==>>>>>
