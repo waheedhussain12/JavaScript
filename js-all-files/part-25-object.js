@@ -895,12 +895,17 @@ function Students(first,last,cst,age){
 //Syntax
 // variableName new Keyword 
 //Object ConstructorName()
+
 var Student1 = new Students(
 first = "Waheed",
 last = "Hussain",
 cst = 'Leghari',
 age = 21,
 );
+// but how to add new property in object construtr function
+Student1.Country = 'Pakistan';// add in variable or object
+// note here add property in Student1 Object or variable
+// not add in Object Constructor Function
 console.log(Student1);
 
 // second way pass direct arguments in parameters
