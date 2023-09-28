@@ -412,18 +412,6 @@ var person = {
 
 
 
-// OBJECT constructor Function
-  var person = {
-
-    firstName : 'Waheed',
-    lastName : 'Hussain',
-    caste:  'Leghari',
-    city: 'Dadu',
-  }  
-
-
-
-
 
 
 
@@ -860,3 +848,19 @@ var persons = {
   // console.log(person.city);
   // this is not right way 
   // use this keyword and change properties value dynamicly
+
+
+  // OBJECT constructor Function
+// normal object
+var Student1 = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste:  'Leghari',
+  city: 'Dadu',
+}  
+console.log(Student1);
+// what i need 100 students data
+
+// thats why we use object constructor
+// object constructor is a blue print of an 
