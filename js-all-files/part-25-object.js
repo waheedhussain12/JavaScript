@@ -852,18 +852,20 @@ var person = {
 
   // use get keyword and make method
   get changeName(){
-    // change data in object using get 
+    // change data in object using get  
     // change data or add data snd from object use get method
    return this.lastName = "Ali".toUpperCase();
 
   },
   set setName(value){
-    // here value is 
-    this.firstName = "hy developer".toUpperCase()
+    // here value is parameter
+    this.firstName = value.toUpperCase();
   }
-
-
   }
+  // note if you use set method always
+  // set value out of the method
+  person.setName = 'hy developer'
+  console.log(person.setName);
   // old way 
   // person.firstName = "hy developer";
   // change value 
