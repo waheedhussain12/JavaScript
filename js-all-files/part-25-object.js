@@ -879,7 +879,7 @@ var Student1 = {
 // object Constrcutor
 // same properties multiple objects
 
-function Students(first,last,caste,age){
+function Students(first,last,cst,age){
   // function functionName (parameters)
   // is called object constructor
   // passing parameters
@@ -887,6 +887,22 @@ function Students(first,last,caste,age){
   this.lastName = last;
   this.caste = cst;
   this.age = age;
-
+// this is object construtor function
 }
 
+// there are two ways making real object 
+// store a new variable 
+//Syntax
+// variableName new Keyword 
+//Object ConstructorName()
+var Student1 = new Students(
+first = "Waheed",
+last = "Hussain",
+cst = 'Leghari',
+age = 21,
+);
+console.log(Student1);
+
+// second way pass direct arguments in parameters
+var secStudentData = new  Students('Raheem','Ali','Leghari',33);
+console.log(secStudentData);
