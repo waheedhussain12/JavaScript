@@ -629,13 +629,13 @@ return resulta;
 
   // sec way Anonymouse function paasng like arugments
   // means pass another function
-  var passinganotherFu = function (){
-    var checkme = '2sec late';
-    console.log(checkme);
+  // var passinganotherFu = function (){
+    // var checkme = '2sec late';
+    // console.log(checkme);
 
-  }
+  // }
 // function pass like parameters
-  setTimeout(passinganotherFu,3000);
+  // setTimeout(passinganotherFu,3000);
 // do not store in variable 
 // direct print Anonymous function 
 // this is  immdiately invoked function
