@@ -852,6 +852,7 @@ var persons = {
 
   // OBJECT constructor Function
 // normal object
+
 var Student1 = {
 
   firstName : 'Waheed',
@@ -863,4 +864,28 @@ console.log(Student1);
 // what i need 100 students data
 
 // thats why we use object constructor
-// object constructor is a blue print of an 
+// object constructor is a blue print of an object
+// here class is not work
+
+var Student1 = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste:  'Leghari',
+  city: 'Dadu',
+}  
+
+// if we make a blue print of an Object we use
+// object Constrcutor
+// same properties multiple objects
+
+function Students(first,last,caste,age){
+  // function functionName (parameters)
+  // is called object constructor
+  // passing parameters
+  this.firstName = first;
+  this.lastName = last;
+  this.caste = cst;
+  this.age = age;
+
+}
