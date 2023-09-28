@@ -374,22 +374,39 @@ person.age = 21;
 console.log(person);
 
 
+/  
 // property getters and setters in js
 
-// var person = {
+var person = {
 
-//   firstName : 'Waheed',
-//   lastName : 'Hussain',
-//   caste:  'Leghari',
-//   city: 'Dadu',
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste:  'Leghari',
+  city: 'Dadu',
 
-//   // use get keyword and make method
-//   get changeName(){
-//    this.lastName = 'Ali'.toUpperCase;
+  // use get keyword and make method
+  get changeName(){
+    // change data in object using get  
+    // change data or add data snd from object use get method
+   return this.lastName = "Ali".toUpperCase();
 
-//   }
-//   }
-
+  },
+  set setName(value){
+    // here value is parameter
+    this.firstName = value.toUpperCase();
+  }
+  }
+  // get value by users use set function
+  // note if you use set method always
+  // set value out of the method
+  person.setName = 'hy developer'
+  console.log(person.setName);
+  // old way 
+  // person.firstName = "hy developer";
+  // change value 
+  // call like a property
+  console.log(person.changeName);
+  console.log(person);
 
 
 
@@ -837,39 +854,3 @@ var persons = {
   // console.log(person.city);
   // this is not right way 
   // use this keyword and change properties value dynamicly
-
-
-
-  
-// property getters and setters in js
-
-var person = {
-
-  firstName : 'Waheed',
-  lastName : 'Hussain',
-  caste:  'Leghari',
-  city: 'Dadu',
-
-  // use get keyword and make method
-  get changeName(){
-    // change data in object using get  
-    // change data or add data snd from object use get method
-   return this.lastName = "Ali".toUpperCase();
-
-  },
-  set setName(value){
-    // here value is parameter
-    this.firstName = value.toUpperCase();
-  }
-  }
-  // get value by users use set function
-  // note if you use set method always
-  // set value out of the method
-  person.setName = 'hy developer'
-  console.log(person.setName);
-  // old way 
-  // person.firstName = "hy developer";
-  // change value 
-  // call like a property
-  console.log(person.changeName);
-  console.log(person);
