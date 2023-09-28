@@ -645,20 +645,8 @@ return resulta;
   })();
 
   // Object start
-   // Object start
-    // Object start
-     // Object start
-      // Object start
-       // Object start
-        // Object start
-         // Object start
-          // Object start
-           // Object start
-             // Object start
-              // Object start
-               // Object start
-                // Object start
-                 // Object start
-                  // Object start
-                   // Object start
-  
+
+// empty object
+var emptyobject = {};
+// this is empty object
+console.log(emptyobject);
