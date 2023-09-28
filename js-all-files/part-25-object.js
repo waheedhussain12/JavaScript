@@ -862,6 +862,7 @@ var person = {
     this.firstName = value.toUpperCase();
   }
   }
+  // get value by users use set function
   // note if you use set method always
   // set value out of the method
   person.setName = 'hy developer'
