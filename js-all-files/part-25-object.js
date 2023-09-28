@@ -905,6 +905,7 @@ age = 21,
 // but how to add new property in object construtr function
 Student1.Country = 'Pakistan';// add in variable or object
 // note here add property in Student1 Object or variable
+// also add function
 // not add in Object Constructor Function
 console.log(Student1);
 
