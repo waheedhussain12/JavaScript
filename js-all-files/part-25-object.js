@@ -676,6 +676,23 @@ console.log(person);
 delete person.city;
 console.log(person);
 
+// two types of checking value inside the object
+// first way check using property if output is undefined
+// means value is not in object
+person.city;
+console.log(person.city);// undefined
+// second way using in Operator
+// using property name inside the string
+console.log('age' in  person);
+// we dont know how many  properties inside the objects
+// use for in loop
+for(key in person){
+  console.log(key +": "+ person[key]);
+  // all properties and its value 
+}
+
+
+
 
 
 
