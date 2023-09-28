@@ -760,16 +760,21 @@ person.imFourMethod();
 
 
 // this keyword use for object's property or methods
-
+// note this keyword only works on methods or function
 var persons = {
 
   firstName : 'Waheed',
   lastName : 'Hussain',
   caste : 'Leghari',
-  ciity: 'Dadu',
+  ciity: 'Jamshoro',
+   usethis(){
+     console.log(`My name is ${this.firstName} ${this.lastName} and Caste ${this.caste} lived in ${this.ciity} City`);
 
+   }
   }
-  console.log(person, this.firstName);
+  // calling method first call object and using . notation call method
+  persons.usethis();
+
 
   // what if i want to change property's value
   // normal way
