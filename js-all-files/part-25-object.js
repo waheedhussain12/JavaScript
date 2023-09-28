@@ -376,7 +376,13 @@ console.log(person);
 
 // property getters and setters in js
 
+var person = {
 
+  'firstName' : 'Waheed',
+  'lastName' : 'Hussain',
+  'caste' : 'Leghari',
+  'city': 'Dadu',
+  }
 
 
 
