@@ -376,13 +376,19 @@ console.log(person);
 
 // property getters and setters in js
 
-var person = {
+// var person = {
 
-  'firstName' : 'Waheed',
-  'lastName' : 'Hussain',
-  'caste' : 'Leghari',
-  'city': 'Dadu',
-  }
+//   firstName : 'Waheed',
+//   lastName : 'Hussain',
+//   caste:  'Leghari',
+//   city: 'Dadu',
+
+//   // use get keyword and make method
+//   get changeName(){
+//    this.lastName = 'Ali'.toUpperCase;
+
+//   }
+//   }
 
 
 
@@ -832,3 +838,26 @@ var persons = {
   // this is not right way 
   // use this keyword and change properties value dynamicly
 
+
+
+  
+// property getters and setters in js
+
+var person = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste:  'Leghari',
+  city: 'Dadu',
+
+  // use get keyword and make method
+  get changeName(){
+    // change data in object using get 
+    // change data or add data snd from object use get method
+   return this.lastName = "Ali".toUpperCase();
+
+  }
+  }
+  // call like a property
+  console.log(person.changeName);
+  console.log(person);
