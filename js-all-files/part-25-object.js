@@ -374,7 +374,7 @@ person.age = 21;
 console.log(person);
 
 
-/  
+
 // property getters and setters in js
 
 var person = {
