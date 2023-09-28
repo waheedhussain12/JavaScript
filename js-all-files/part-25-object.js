@@ -663,6 +663,24 @@ city: 'Dadu',
 // also there are two types of access objects or objects properties
 // . Notation and Array Notation[]
 // First way to access an object with . Notation
+// first add property and its value
+// person . property name and its value
+person.age = 21;
+console.log(person);// see full object 
+// update property's value
+person.lastName = 'Ali';
+// now lastName value us Ali 
+console.log(person);
+
+
+
+
+
+
+
+
+
+
 
 // second way both keys and values in Strings
 var person = {
