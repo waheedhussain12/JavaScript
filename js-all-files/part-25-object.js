@@ -691,20 +691,8 @@ for(key in person){
   // all properties and its value 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // second way both keys and values in Strings
+// sec way all operations with [] notation
 var person = {
 
   'firstName' : 'Waheed',
@@ -712,5 +700,13 @@ var person = {
   'caste' : 'Leghari',
   'city': 'Dadu',
   }
-  
+  // access full object
+  console.log([person]);
+// add property 
+person['age'] = 32;
+console.log(["city"]);
+// delete
+ delete person['city'];
+ console.log(person);
 
+ 
