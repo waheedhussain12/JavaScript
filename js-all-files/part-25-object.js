@@ -409,6 +409,80 @@ var person = {
   console.log(person);
 
 
+  // OBJECT constructor Function
+// normal object
+
+var Student1 = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste:  'Leghari',
+  city: 'Dadu',
+}  
+console.log(Student1);
+// what i need 100 students data
+
+// thats why we use object constructor
+// object constructor is a blue print of an object
+// here class is not work
+
+var Student1 = {
+
+  firstName : 'Waheed',
+  lastName : 'Hussain',
+  caste:  'Leghari',
+  city: 'Dadu',
+}  
+
+// if we make a blue print of an Object we use
+// object Constrcutor
+// same properties multiple objects
+
+function Students(first,last,cst,age){
+  // function functionName (parameters)
+  // is called object constructor
+  // passing parameters
+  this.firstName = first;
+  this.lastName = last;
+  this.caste = cst;
+  this.age = age;
+// this is object construtor function
+}
+
+// there are two ways making real object 
+// store a new variable 
+//Syntax
+// variableName new Keyword 
+//Object ConstructorName()
+
+Students.prototype.UniName = 'Sindh Uni';
+// prototype use for add properties or function
+// in object Constructor function
+// this is super function
+// alos this is upper level function
+// using this prototype add properties in 
+// object Constructor Function
+// syntax
+// ConstructorName.prototype.AddProperties = Value
+// also add methods
+// once you add properties in constructor 
+// properties will add all objects
+var Student1 = new Students(
+first = "Waheed",
+last = "Hussain",
+cst = 'Leghari',
+age = 21,
+);
+// but how to add new property in object construtr function
+Student1.Country = 'Pakistan';// add in variable or object
+// note here add property in Student1 Object or variable
+// also add function
+// not add in Object Constructor Function
+console.log(Student1);
+
+// second way pass direct arguments in parameters
+var secStudentData = new  Students('Raheem','Ali','Leghari',33);
+console.log(secStudentData);
 
 
 
@@ -849,78 +923,3 @@ var persons = {
   // this is not right way 
   // use this keyword and change properties value dynamicly
 
-
-  // OBJECT constructor Function
-// normal object
-
-var Student1 = {
-
-  firstName : 'Waheed',
-  lastName : 'Hussain',
-  caste:  'Leghari',
-  city: 'Dadu',
-}  
-console.log(Student1);
-// what i need 100 students data
-
-// thats why we use object constructor
-// object constructor is a blue print of an object
-// here class is not work
-
-var Student1 = {
-
-  firstName : 'Waheed',
-  lastName : 'Hussain',
-  caste:  'Leghari',
-  city: 'Dadu',
-}  
-
-// if we make a blue print of an Object we use
-// object Constrcutor
-// same properties multiple objects
-
-function Students(first,last,cst,age){
-  // function functionName (parameters)
-  // is called object constructor
-  // passing parameters
-  this.firstName = first;
-  this.lastName = last;
-  this.caste = cst;
-  this.age = age;
-// this is object construtor function
-}
-
-// there are two ways making real object 
-// store a new variable 
-//Syntax
-// variableName new Keyword 
-//Object ConstructorName()
-
-Students.prototype.UniName = 'Sindh Uni';
-// prototype use for add properties or function
-// in object Constructor function
-// this is super function
-// alos this is upper level function
-// using this prototype add properties in 
-// object Constructor Function
-// syntax
-// ConstructorName.prototype.AddProperties = Value
-// also add methods
-// once you add properties in constructor 
-// properties will add all objects
-var Student1 = new Students(
-first = "Waheed",
-last = "Hussain",
-cst = 'Leghari',
-age = 21,
-);
-// but how to add new property in object construtr function
-Student1.Country = 'Pakistan';// add in variable or object
-// note here add property in Student1 Object or variable
-// also add function
-// not add in Object Constructor Function
-console.log(Student1);
-
-// second way pass direct arguments in parameters
-var secStudentData = new  Students('Raheem','Ali','Leghari',33);
-console.log(secStudentData);
