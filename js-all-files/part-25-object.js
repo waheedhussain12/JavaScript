@@ -651,3 +651,26 @@ var emptyobject = {};
 // this is empty object
 console.log(emptyobject);
 
+// there are two types of declaring an object
+// first way only value in strings
+var person = {
+
+firstName : 'Waheed',
+lastName : 'Hussain',
+caste : 'Leghari',
+city: 'Dadu',
+}
+// also there are two types of access objects or objects properties
+// . Notation and Array Notation[]
+// First way to access an object with . Notation
+
+// second way both keys and values in Strings
+var person = {
+
+  'firstName' : 'Waheed',
+  'lastName' : 'Hussain',
+  'caste' : 'Leghari',
+  'city': 'Dadu',
+  }
+  
+
