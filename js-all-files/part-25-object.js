@@ -412,8 +412,14 @@ var person = {
 
 
 
+// OBJECT constructor Function
+  var person = {
 
-
+    firstName : 'Waheed',
+    lastName : 'Hussain',
+    caste:  'Leghari',
+    city: 'Dadu',
+  }  
 
 
 
