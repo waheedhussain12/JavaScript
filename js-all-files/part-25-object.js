@@ -896,6 +896,18 @@ function Students(first,last,cst,age){
 // variableName new Keyword 
 //Object ConstructorName()
 
+Students.prototype.UniName = 'Sindh Uni';
+// prototype use for add properties or function
+// in object Constructor function
+// this is super function
+// alos this is upper level function
+// using this prototype add properties in 
+// object Constructor Function
+// syntax
+// ConstructorName.prototype.AddProperties = Value
+// also add methods
+// once you add properties in constructor 
+// properties will add all objects
 var Student1 = new Students(
 first = "Waheed",
 last = "Hussain",
