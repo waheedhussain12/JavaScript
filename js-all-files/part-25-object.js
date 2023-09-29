@@ -512,30 +512,6 @@ var person = {
   console.log(person.YorMobleAndLaptop.YorCityName);
 
 
-// Hoisting in js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
