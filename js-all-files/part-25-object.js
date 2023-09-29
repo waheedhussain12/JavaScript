@@ -1028,24 +1028,33 @@ function hello(){
 
   // but what if i try this
    
-  var x ; // declartion
+  // var x ; // declartion
   // output is undefined bcz
   // var x = undefined; in js
-  console.log(x); // call
-  x = 35; // assigment 
- 
+  // console.log(x); // call
+  // x = 35; // assigment 
+  // this condition
 
+  // console.log(x); // check in var = undefined
+  // out put is undefined
 
+  // x = 65;
+  // var x ; 
 
+  // this condition
 
+// hoisting pull declaration up
+  x = 65;
+  console.log(x);
 
+  var x ; 
 
+  // behind in hoisting
+  var x ; 
+  x = 65;
+  console.log(x);
 
-
-
-
-
-
+  
 
 
 
