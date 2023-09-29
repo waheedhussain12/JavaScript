@@ -975,3 +975,72 @@ storeInNew.lapRam = '16GB RAM';
 // here add property in object or variable not add in constructor function
 
 
+
+
+
+// Hoisting in js
+// means left or pull
+
+
+// function with out declareation
+// got error bcz function is not defined 
+// define function
+hello();
+// this is also work in js
+// in js interpretr read all files 
+// than execute 
+// hoistng pull function up than print
+// note Hoisting check only declareation
+
+function hello(){
+  console.log('hello ');
+  // this is normal 
+}
+
+// behind the scene in hoisting
+
+// hello(); // calling first
+// than declare function
+
+// function hello(){
+//   console.log('hello ');
+  // this is normal 
+// }
+
+
+// work in hoisting hoisting 
+// hoisting check declareation 
+ function hello(){
+  console.log('hello ');
+  // this is normal 
+  }
+  
+  hello(); 
+
+
+  // hoisting in variables
+  // noraml declareation
+  var x ; // declartion
+  x = 45; // assigment 
+  console.log(x); // print
+  var x = 24;
+  console.log(x);
+
+  // but what if i try this
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
