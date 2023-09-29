@@ -1050,11 +1050,21 @@ function hello(){
   var x ; 
 
   // behind in hoisting
+  // js read all file and check declaration pull up only declaration
   var x ; 
   x = 65;
   console.log(x);
 
+  // var x = 35; here declaration and assigment
+  // donot pull up bcz here assigment donot pull
   
+  // undefind donot inside the let and consts
+
+  // "use strict"
+  // for auto declareation
+  // x = 34; 
+
+
 
 
 
