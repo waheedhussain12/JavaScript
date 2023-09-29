@@ -1020,15 +1020,20 @@ function hello(){
 
   // hoisting in variables
   // noraml declareation
-  var x ; // declartion
-  x = 45; // assigment 
-  console.log(x); // print
-  var x = 24;
-  console.log(x);
+  // var x ; // declartion
+  // x = 45; // assigment 
+  // console.log(x); // call
+  // var x = 24;
+  // console.log(x);
 
   // but what if i try this
    
-
+  var x ; // declartion
+  // output is undefined bcz
+  // var x = undefined; in js
+  console.log(x); // call
+  x = 35; // assigment 
+ 
 
 
 
