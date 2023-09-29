@@ -488,7 +488,28 @@ console.log(secStudentData);
 
 
 
+// Nested Object
 
+var person = {
+
+  firstName : 'waheed',
+  lastName : 'ALi',
+  caste: 'leghari',
+  YorMobleAndLaptop:{
+    mobile: 'redmi',
+    laptop: 'hp laptop 840',
+    YorCityName:{
+  
+      city: 'jamshoro',
+      oldCity : "dada"
+    }
+  
+  }
+  
+  
+  };
+  console.log(person.firstName);
+  console.log(person.YorMobleAndLaptop.YorCityName);
 
 
 
@@ -937,13 +958,14 @@ return this.laptopPrice = 'free'.toUpperCase();
 },
 
 // set 
-set  changeSet(value){
+set  changeSet(value1){
   // required always one parameter
-   this.laptopModel = value.toUpperCase()
+   this.laptopModel = value1.toUpperCase();
 }
 }
 // here data set in set method
-laptopFeature.changeSet = 'Dell Model';
+laptopFeature.changeSet = "Dell Model";
+// console.log(laptopFeature.changeSet);
 console.log(laptopFeature);
 console.log(laptopFeature);
 console.log(laptopFeature.changeData);
@@ -951,12 +973,16 @@ console.log(laptopFeature.changeData);
 // object constructor function
 function laptopFeature12(lapName,lapprice,laptopscreen){
 
-  this.laptopModel = lapName
- this. laptopPrice = lapprice
-  this.laptopscreen = laptopscreen
+  this.laptopModel = lapName;
+ this. laptopPrice = lapprice;
+  this.laptopscreen = laptopscreen;
 
 // this is the blue print
 }
+// add property in Object Constructor Function 
+// use prototype upper level function
+laptopFeature12.prototype.lapSSD = '234SD';
+// here this property add all objects 
 
 // make real object
 // make a new variable to store object cnstrutr function
@@ -968,3 +994,8 @@ laptopscreen = 'screen 1.5inch',
 
 )
 console.log(storeInNew);
+// addd property
+storeInNew.lapRam = '16GB RAM';
+// here add property in object or variable not add in constructor function
+
+
