@@ -923,3 +923,48 @@ var persons = {
   // this is not right way 
   // use this keyword and change properties value dynamicly
 
+// geter and seter method in js
+
+var laptopFeature = {
+laptopModel: 'HP Laptop',
+laptopPrice : '54000Rs',
+laptopscreen: '15.9inch',
+// get
+get changeData(){
+return this.laptopPrice = 'free'.toUpperCase();
+// always use return otherwise got undefined
+
+},
+
+// set 
+set  changeSet(value){
+  // required always one parameter
+   this.laptopModel = value.toUpperCase()
+}
+}
+// here data set in set method
+laptopFeature.changeSet = 'Dell Model';
+console.log(laptopFeature);
+console.log(laptopFeature);
+console.log(laptopFeature.changeData);
+
+// object constructor function
+function laptopFeature12(lapName,lapprice,laptopscreen){
+
+  this.laptopModel = lapName
+ this. laptopPrice = lapprice
+  this.laptopscreen = laptopscreen
+
+// this is the blue print
+}
+
+// make real object
+// make a new variable to store object cnstrutr function
+var storeInNew = new laptopFeature12(
+lapName = "hp laptop",
+lapprice = '244414Rs',
+laptopscreen = 'screen 1.5inch',
+
+
+)
+console.log(storeInNew);
