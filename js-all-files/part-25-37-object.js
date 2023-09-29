@@ -1064,6 +1064,7 @@ function hello(){
   // for auto declareation
   // x = 34; 
   // x = 34; 
+  // x = 34; 
 
 
 
