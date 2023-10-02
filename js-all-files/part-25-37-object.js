@@ -1036,4 +1036,5 @@ var obj = {
 // obj.ff()  
 // console.log(obj.firstName);
 // console.log(obj.firstName);
+// console.log(obj.firstName);
 
