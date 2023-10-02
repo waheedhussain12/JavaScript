@@ -995,30 +995,45 @@ console.log(x);
 // "use strict"
 // for auto declareation
 // x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
-// x = 34;
+
+
+// var obj = {
+// firstName : 'waheed',
+// lastName: 'Ali',
+// myfu : function(){
+//   var str = 'hy baby';
+//   return str;
+// }
+
+// }
+
+// var call = obj.myfu();
+// console.log(call);
+
+var obj = {
+  firstName : 'waheed',
+  lastName: 'Ali',
+ 
+  }
+
+  function sayHello(){
+
+    console.log(10);
+    // sayHello();
+  }
+  sayHello()
+  
+//   function myfu(){
+
+
+//     str = 'hy baby';
+//     console.log(str);
+//     console.log('werwerfwefef');
+
+//     }
+//     obj.ff = myfu
+    
+// obj.ff()  
+// console.log(obj.firstName);
+
+
