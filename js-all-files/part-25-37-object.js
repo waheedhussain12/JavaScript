@@ -1039,3 +1039,4 @@ var obj = {
 // console.log(obj.firstName);
 // console.log(obj.firstName);
 // console.log(obj.firstName);
+// console.log(obj.firstName);
