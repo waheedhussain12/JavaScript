@@ -27,6 +27,8 @@ console.log('this is also true');
 
 var pra = "this is my lovely dog ";
 console.log(pra);
+var lastindx = pra.lastIndexOf('my');
+console.log(lastindx);
 var checkByword = pra.indexOf('my');
 console.log(checkByword);
 var checkByNumber = pra.indexOf('my',3);
@@ -35,5 +37,12 @@ var includesStr = pra.includes('this');
 console.log(includesStr);
 var replaceStr = pra.replace('my','MY')
 console.log(replaceStr);
+
+var lowercaseStr = pra.toLowerCase();
+console.log(lowercaseStr);
+var UpppercaseStr = pra.toUpperCase();
+console.log(UpppercaseStr);
+var strtrm = pra.trim();
+console.log(strtrm);
 
 
