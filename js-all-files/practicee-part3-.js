@@ -52,7 +52,32 @@ arrOneElement = arr;
 checkArr = arr.length;
 console.log(checkArr);
 console.log(arrOneElement[2]);
-arrAdd = arr.push = 'Ali';
+arrAdd = arr.push('Ali');
 console.log(arrAdd,arr);
 arrDel = arr.pop();
-console.log(arrDel,arr);
+console.log(arrDel);
+console.log(arr);
+var adddelete = arr.shift('delete me on first');
+console.log(arr);
+var addOnFirst = arr.unshift('add me on first');
+console.log(arr);
+var indOfArr = arr.indexOf('hussain');
+console.log(indOfArr);
+var arrdeleteAnyElement = arr.splice(0,1);
+console.log(arrdeleteAnyElement);
+var checkArr = arr = Array.isArray((arr));
+console.log(checkArr);
+
+arr2d = ['yellow','red','black',
+['my color is black',['nesting array']],
+[32]
+];
+console.log(arr2d);
+console.log(arr2d[3][1]);
+
+getlen = arr2d.length;
+for(var i = 0; i < getlen; i ++){
+    console.log(i,arr2d[i]);
+    
+
+}
