@@ -1035,9 +1035,11 @@ var obj = {
     
 // obj.ff()  
 // console.log(obj.firstName);
-// console.log(obj.firstName);
-// console.log(obj.firstName);
-// console.log(obj.firstName);
-// console.log(obj.firstName);
-// console.log(obj.firstName);
-// console.log(obj.firstName);
+let  input = document.querySelector("input") ;
+let btn = document.querySelector("button");
+
+input.addEventListener("keydown", ( e)=>{
+ 
+  console.log(e);
+  console.log(e);
+})
