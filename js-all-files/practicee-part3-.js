@@ -46,3 +46,13 @@ var strtrm = pra.trim();
 console.log(strtrm);
 
 
+// array
+arr = ['waheed','hussain',23,true];
+arrOneElement = arr;
+checkArr = arr.length;
+console.log(checkArr);
+console.log(arrOneElement[2]);
+arrAdd = arr.push = 'Ali';
+console.log(arrAdd,arr);
+arrDel = arr.pop();
+console.log(arrDel,arr);
