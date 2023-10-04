@@ -29,7 +29,7 @@ js can react to all existing HTML events in the page
 js can create new HTML events in the page
 
 Note : in the DOM, all HTML Elements are defined as (OBJECTS). so it will
-have both property and method
+have both property and Method
 
 
 the Document Object Represents your WEB PAGE
