@@ -28,10 +28,14 @@ js can add new HTML elements and attributes
 js can react to all existing HTML events in the page
 js can create new HTML events in the page
 
-Note : in the DOM, all HTML elements
+Note : in the DOM, all HTML elements are defined as (OBJECTS). so it will
+have both property and method
 
 
+the document object represents your web page
 
+if you want to access any elementd in an HTML page, you always start
+with accessing the document object
 
 
 
