@@ -178,7 +178,7 @@ console.log(secWay);
 constructorFun.prototype.dept = 'sindh uni';
 var giveValue = new constructorFun(
 first = 'Waheed',
-last = 'Hussain',
+last = 'Hussainn',
 caste = 'Legharii',
 age = 21,
 );
