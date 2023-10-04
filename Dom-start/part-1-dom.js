@@ -32,7 +32,7 @@ Note : in the DOM, all HTML Elements are defined as (OBJECTS). so it will
 have both property and method
 
 
-the Document Object Represents your Web PAge
+the Document Object Represents your Web PAGe
 
 if you want to access any elementd in an HTML page, you always start
 with accessing the document Object
