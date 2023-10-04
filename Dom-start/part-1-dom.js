@@ -35,7 +35,7 @@ have both property and method
 the document object represents your web page
 
 if you want to access any elementd in an HTML page, you always start
-with accessing the document object
+with accessing the document Object
 
 
 
