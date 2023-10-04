@@ -180,7 +180,7 @@ var giveValue = new constructorFun(
 first = 'Waheed',
 last = 'Hussainn',
 caste = 'Legharii',
-age = 21,
+age = 22,
 );
 giveValue.gender = 'male'
 console.log(giveValue);
