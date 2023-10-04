@@ -185,7 +185,7 @@ age = 22,
 giveValue.gender = 'male'
 console.log(giveValue);
 var giveValue2 = new constructorFun(
-    first = 'raheem',
+    first = 'Raheem',
     last = 'Ali',
     caste = 'bolach',
     age = 21,
