@@ -179,7 +179,7 @@ constructorFun.prototype.dept = 'sindh uni';
 var giveValue = new constructorFun(
 first = 'Waheed',
 last = 'Hussain',
-caste = 'Leghari',
+caste = 'Legharii',
 age = 21,
 );
 giveValue.gender = 'male'
