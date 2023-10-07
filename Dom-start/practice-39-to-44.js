@@ -76,3 +76,12 @@ for(let i = 0; i <mainDiv2Allp.length; i++){
     result4 = mainDiv2Allp[i].innerHTML = 'selected all p element using queryAll';
 }
 console.log(result4);
+ let allul = document.querySelector("#ul");
+ // first access ul
+ console.log(allul);
+let allLi = allul.querySelectorAll("li");
+// sec access all ul's inside li
+console.log(allLi);
+let allLiist = allul.querySelectorAll(".list");
+// third access all li with class list
+console.log(allLiist);
