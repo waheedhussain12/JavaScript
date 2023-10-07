@@ -59,3 +59,5 @@ console.log(mainDivsh2tag);
 
 
 // query selector
+// query selector like a css selector
+let h1 = document.querySelector("h1");
