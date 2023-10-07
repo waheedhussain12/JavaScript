@@ -72,6 +72,7 @@ console.log(mainDiv2);
 let mainDiv2Allp = mainDiv2.querySelectorAll(".sam");
 // access main div's all same class or same tag
 for(let i = 0; i <mainDiv2Allp.length; i++){
+    // here first fetch data than change data using innerHTML
     result4 = mainDiv2Allp[i].innerHTML = 'selected all p element using queryAll';
 }
 console.log(result4);
