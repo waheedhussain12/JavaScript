@@ -60,4 +60,18 @@ console.log(mainDivsh2tag);
 
 // query selector
 // query selector like a css selector
-let h1 = document.querySelector("h1");
+let h1 = document.querySelector(".sameh1");
+console.log(h1);
+// if same name tag query selector select first element
+// note if two or more element with same class 
+// query selector select only one means select first
+
+let mainDiv2 = document.querySelector("#mainDiv2");
+console.log(mainDiv2);
+// access main div
+let mainDiv2Allp = mainDiv2.querySelectorAll(".sam");
+// access main div's all same class or same tag
+for(let i = 0; i <mainDiv2Allp.length; i++){
+    result4 = mainDiv2Allp[i].innerHTML = 'selected all p element using queryAll';
+}
+console.log(result4);
