@@ -55,4 +55,5 @@ console.log(mainDivsPtag);
 // in main div's all p are selected
 let mainDivsh2tag = div1.getElementsByTagName("h2");
 console.log(mainDivsh2tag);
+// here inside the main div' all  h2 is selected
 // here inside the main div' all  h2 is selected 
