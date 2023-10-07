@@ -119,4 +119,8 @@ let sib = document.querySelector(".sib");
 let selectSib=  sib.nextElementSibling;
 console.log(selectSib);
  
- 
+ // inner HTML
+ let innr = document.querySelector(".inner");
+ innr.innerHTML;
+ console.log(innr);
+ let changeHTML = innr.innerHTML = "now changes from javascript"
