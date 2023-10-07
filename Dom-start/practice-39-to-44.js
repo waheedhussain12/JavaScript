@@ -56,3 +56,6 @@ console.log(mainDivsPtag);
 let mainDivsh2tag = div1.getElementsByTagName("h2");
 console.log(mainDivsh2tag);
 // here inside the main div' all  h2 is selected
+
+
+// query selector
