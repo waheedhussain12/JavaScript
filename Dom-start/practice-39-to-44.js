@@ -61,3 +61,4 @@ console.log(mainDivsh2tag);
 // here inside the main div' all  h2 is selected 
 // here inside the main div' all  h2 is selected 
 // here inside the main div' all  h2 is selected 
+// here inside the main div' all  h2 is selected 
