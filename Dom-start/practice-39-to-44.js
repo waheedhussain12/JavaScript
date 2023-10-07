@@ -85,3 +85,5 @@ console.log(allLi);
 let allLiist = allul.querySelectorAll(".list");
 // third access all li with class list
 console.log(allLiist);
+
+//Traversing Elements 
