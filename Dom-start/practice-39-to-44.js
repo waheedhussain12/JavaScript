@@ -87,3 +87,36 @@ let allLiist = allul.querySelectorAll(".list");
 console.log(allLiist);
 
 //Traversing Elements 
+ // child to parent selection
+ let childToParent  = document.querySelector(".child");
+ let prt = childToParent.parentElement;
+ console.log(prt);
+ // child ==> parent selection
+
+ // parent to Firstchild 
+ let parentToFirstChild = document.querySelector(".parent");
+let chld =  parentToFirstChild.firstElementChild;
+console.log(chld);
+
+// parent to lastChild
+let parentToLastChild = document.querySelector(".parent");
+let lastChld =  parentToLastChild.lastElementChild;
+console.log(lastChld);
+
+// parent to childrens
+let parenttoChildren = document.querySelector(".parent");
+let c=  parenttoChildren.children;
+console.log(c);
+ 
+
+// siblings selection
+// previous selected
+// let sib = document.querySelector(".sib");
+// let selectSib=  sib.previousElementSibling;
+// console.log(selectSib);
+// next selected
+let sib = document.querySelector(".sib");
+let selectSib=  sib.nextElementSibling;
+console.log(selectSib);
+ 
+ 
