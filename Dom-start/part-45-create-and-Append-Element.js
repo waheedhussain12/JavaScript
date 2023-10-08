@@ -9,8 +9,22 @@ spanTag.appendChild(text1);
 elm.appendChild(spanTag);
 // than link tag with parent
 
+let parent = document.querySelector('#intro');
 
+let div = document.createElement("div");
 
+let text3 = document.createTextNode("iam learning web development by my self");
+div.appendChild(text3);
+
+div.id = "jsDiv"
+
+parent.appendChild(div);
+// add new element in div
+let getDiv = document.querySelector("#jsDiv");
+let h2 = document.createElement("h2");
+let text5 = document.createTextNode("this value from js side");
+h2.appendChild(text5);
+getDiv.appendChild(h2)
 
 let h1 = document.querySelector("h1");
 
