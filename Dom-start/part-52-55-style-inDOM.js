@@ -79,3 +79,4 @@ let height1 = width_height.clientHeight;
 console.log(height1);
 console.log(height1);
 console.log(height1);
+console.log(height1);
