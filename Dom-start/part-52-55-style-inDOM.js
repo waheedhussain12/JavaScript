@@ -8,7 +8,7 @@ btn.style.cssText += "background-color: green; padding : 5px;";
 // this is also override and use multiple properties
 // btn.setAttribute("style","color: yellow;padding:12px");
 // third way change property one by one
-// for single style 
+// for single style
 // btn.style. background = "red";
 // btn.style. padding = "23px";
 // btn.style. color = "blue";
@@ -19,14 +19,14 @@ btn.style.cssText += "background-color: green; padding : 5px;";
 // first get elemnt than store in new variable than console
 let h1 = document.querySelector("#h1");
 let css = getComputedStyle(h1);
-console.log(css.padding,css.color);
+console.log(css.padding, css.color);
 
 // CSS Classes video 54
 
 // first ClassName
- let div = document.querySelector("#div");
- let checkClass = div.className;
-console.log(checkClass); // access classNames 
+let div = document.querySelector("#div");
+let checkClass = div.className;
+console.log(checkClass); // access classNames
 
 // here give a className also
 // here first class is delete sec class is overRide
@@ -38,13 +38,13 @@ div.className += " addClassFromJS";
 let clasList = document.querySelector("#div");
 let checkClassList = clasList.classList;
 console.log(checkClassList);
-for(let i = 0; i < checkClassList.length;i++){
-    console.log(checkClassList[i]);
+for (let i = 0; i < checkClassList.length; i++) {
+  console.log(checkClassList[i]);
 }
 // add  or remove class in classList method
-clasList.classList.add('box');
+clasList.classList.add("box");
 clasList.classList.remove("box");
-clasList.classList.replace("box","bigBox"); // pass to arguments
+clasList.classList.replace("box", "bigBox"); // pass to arguments
 // for check class avaliable or not
 // value return true or false
 
@@ -53,18 +53,14 @@ console.log(classResult);
 // toogle true ==> false and false ==> true
 clasList.classList.toggle("toggle");
 
-
-
-
 // for(let css of box.classlist){
-    // console.log(css);
+// console.log(css);
 // }
-
 
 // width and height of an element video 55
 
 let width_height = document.querySelector("#div");
-// in offset width and height 
+// in offset width and height
 // border margin include in offsetwidth and height
 let width = width_height.offsetWidth;
 console.log(width);
