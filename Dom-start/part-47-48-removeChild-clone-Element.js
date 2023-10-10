@@ -6,11 +6,12 @@ let removeElement = parentUl.firstElementChild.nextElementSibling;
 
 parentUl.removeChild(removeElement);
 
-// also delete ful ul and its all Elements
+// also delete full ul and its all Elements
 
 // let removeFullElement = document.body.removeChild(parentUl);
 // remove ful ul
 
+// Clone Element function
 let parent1 = document.querySelector('#menu');
 let clone = parent1.cloneNode(true); 
 // if you clone only parent just use simple cloneNode()

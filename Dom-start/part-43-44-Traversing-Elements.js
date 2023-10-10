@@ -29,6 +29,7 @@
  // all child selection
 //  var parentToChildren = document.getElementById("parent");
 // var pChildren = parentToChildren.children;
+// console.log(pChildren[1]); 
 // for(var i = 0; i< pChildren.length; i ++){
 //     pChildren[i].innerHTML = "Parent to children means all childs are selected"
 //     console.log(pChildren);
