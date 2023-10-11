@@ -56,3 +56,4 @@ let newCloneList = cloneUl.cloneNode(true);
 newCloneList.id = "try"
 document.body.appendChild(newCloneList)
 document.body.appendChild(newCloneList)
+document.body.appendChild(newCloneList)
