@@ -68,6 +68,7 @@ console.log(valueChange);
 let selectClassName = document.getElementsByClassName("selectClassName");
 // check in console
 console.log(selectClassName.innerHTML = 'value change from claasName');
+console.log(selectClassName.length);
 // if you show change in web screen use loop
 
 for(let i = 0; i<selectClassName.length; i ++){
@@ -84,3 +85,20 @@ for(let i = 0; i<twoSameClassNames.length; i ++){
 }
 // three Select Element by TagName
 
+let TagNameAll = document.getElementsByTagName("h5");
+console.log(TagNameAll);
+// for data change use loop
+for(let i = 0; i < TagNameAll.length; i++){
+    TagNameAll[i].textContent = "here put Data using TagName";
+    console.log(TagNameAll.length);
+}
+// access element inside the div or any contanier
+let mainDiv1 = document.getElementById("TagDiv");
+console.log(mainDiv1); // here get parent
+let allInsideTags = mainDiv1.getElementsByTagName("h3");
+console.log(allInsideTags);
+// for data change use loop 
+for(let i = 0; i < allInsideTags.length; i++){
+    allInsideTags[i].textContent = "select All h3 inside parent div"
+    
+}
