@@ -156,3 +156,47 @@ console.log(thirdElement);
 let preElement = document.querySelector(".child2");
 let preE = preElement.previousElementSibling; // access previous element
 console.log(preE);
+
+// create and append elements
+
+// this is 3 step process 
+// first access parent 
+// second make new variable and also give a value
+// and also many ways to give a value to the element
+// last step is append child in parent
+
+// Access the Parent
+let createAppend = document.querySelector(".createAppend");
+// Create an Element 
+let headingH1 = document.createElement("h1");
+// create a textnode and also give a value for created new (Element)
+let textNode = document.createTextNode("iam learning create and append child topic");
+// now connect the created Element and textNode 
+headingH1.appendChild(textNode);
+// now Append to the parent
+createAppend.appendChild(headingH1);
+// always append 
+// also give created Element className or ID
+// and there are two methods given id and classes
+// first method using 
+// headingH1.className = "headingOne";
+// headingH1.id = "unique";
+// second method classList
+headingH1.classList.add("headingOne");
+
+// sec Example 
+let createParent = document.querySelector(".createAppend");
+let headingH2 = document.createElement("h2");
+headingH2.textContent = "this heading created in js ";
+createParent.appendChild(headingH2);
+headingH2.className = "headingH2"
+
+
+// append in body
+let body1 = document.body; // access body
+let bodyElement = document.createElement("h4"); 
+let bodyNode = document.createTextNode('this element created for Main body');
+bodyElement.appendChild(bodyNode);
+// same process
+// last append in body
+document.body.appendChild(bodyElement);
