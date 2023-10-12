@@ -56,3 +56,31 @@ let newCloneList = cloneUl.cloneNode(true);
 newCloneList.id = "try"
 document.body.appendChild(newCloneList)
 
+
+// Repractices All DOM topics
+// one Select Element by ID
+let selectID = document.getElementById("selectID");
+console.log(selectID);
+// value change 
+let valueChange = selectID.innerHTML = "value change by selecting id";
+console.log(valueChange);
+// two Select Element by CLassName
+let selectClassName = document.getElementsByClassName("selectClassName");
+// check in console
+console.log(selectClassName.innerHTML = 'value change from claasName');
+// if you show change in web screen use loop
+
+for(let i = 0; i<selectClassName.length; i ++){
+  let classCeck =   selectClassName[i].innerHTML = 'change vlaue using loop in className';
+console.log(classCeck);
+}
+// use two classes on different elements
+let twoSameClassNames = document.getElementsByClassName("selectClassName secClass");
+console.log(twoSameClassNames);
+// one same class ignored same two classes element is show
+for(let i = 0; i<twoSameClassNames.length; i ++){
+    let classCeck1 =   twoSameClassNames[i].innerHTML = 'Same two classes values ';
+  console.log(classCeck1)
+}
+// three Select Element by TagName
+
