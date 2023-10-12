@@ -100,5 +100,24 @@ console.log(allInsideTags);
 // for data change use loop 
 for(let i = 0; i < allInsideTags.length; i++){
     allInsideTags[i].textContent = "select All h3 inside parent div"
+
+}
+// topic four Query Selector and Query selector All
+// note select any element like css selection
+let spanId = document.querySelector("#spanId");
+// id select
+console.log(spanId);
+spanId.innerHTML = "this is span tag value from js";
+let h6Query = document.querySelector(".h5Query");
+// class select
+console.log(h6Query.textContent = "give data using query selector");
+let tagP = document.querySelector("p");
+console.log(tagP.innerHTML = "this is p tag and data from js");
+// select parent and access child elements
+let queryDiv = document.querySelector("#queryDiv");
+let childQuery = queryDiv.querySelectorAll("h3");
+console.log(childQuery);
+for(let i = 0; i < childQuery.length; i++){
+console.log(    childQuery[i].innerHTML = "this is child h3 tags give Data from QueryAll selector");
     
 }
