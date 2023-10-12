@@ -121,3 +121,38 @@ for(let i = 0; i < childQuery.length; i++){
 console.log(    childQuery[i].innerHTML = "this is child h3 tags give Data from QueryAll selector");
     
 }
+// Traversing Elements
+
+//Firstchild to parent
+let childh1 = document.querySelector(".childh1");
+let ctoParent = childh1.parentElement; // using parentElement Method
+// note if you give value childs are delelted
+// ctoParent.innerHTML = " this is child to parent"
+console.log(ctoParent);
+
+// parent to FirstChild
+let divparent = document.querySelector(".divparent");
+let ptoFirstchild = divparent.firstElementChild;
+console.log(ptoFirstchild);
+
+// parent to lastChild
+let parenttolast = document.querySelector(".divparent");
+let ptoLastChild = parenttolast.lastElementChild;
+console.log(ptoLastChild.innerHTML = " this is last child");
+
+// parent to childrens
+let parentToChildrens = document.querySelector(".divparent");
+let ptoChildrens = parentToChildrens.children;
+console.log(ptoChildrens);
+for(let i = 0; i < ptoChildrens.length; i++){
+   console.log( ptoChildrens[i].innerHTML);
+}
+// Siblings element
+let sibp = document.querySelector(".childh1");
+// let thirdElement = sibp.parentElement // get parent
+let thirdElement = sibp.nextElementSibling.nextElementSibling // access next next elements in list
+console.log(thirdElement);
+
+let preElement = document.querySelector(".child2");
+let preE = preElement.previousElementSibling; // access previous element
+console.log(preE);
