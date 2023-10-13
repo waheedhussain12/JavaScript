@@ -200,3 +200,11 @@ bodyElement.appendChild(bodyNode);
 // same process
 // last append in body
 document.body.appendChild(bodyElement);
+
+// Insert Before
+let insertBeforeParent = document.querySelector("#insertBeforeParent");
+let insertBeforeCreateElement = document.createElement("h3");
+let item = document.createTextNode("this item added from insertBefore");
+insertBeforeCreateElement.appendChild(item);
+let position = insertBeforeParent.firstElementChild;
+insertBeforeParent.insertBefore(item,position)
