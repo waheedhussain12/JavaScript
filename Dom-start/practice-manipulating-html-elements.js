@@ -218,3 +218,9 @@ removeElement.removeChild(checkRemove);
 // document.body.removeChild(removeElement)
 // delete full parent with childs
 
+let cloneElement = document.querySelector("#removeAndClone");
+let clone = cloneElement.cloneNode(true);
+// true means full parent with childs are clone 
+// if you cannot use true clone only parent
+// note always append in body
+document.body.appendChild(clone);
