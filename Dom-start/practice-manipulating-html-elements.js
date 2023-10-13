@@ -239,3 +239,14 @@ removeElement.replaceChild(replacedItem,doneReplace);
 let adjacentElement = document.querySelector(".adjacent");
 let elementCreate = "<h2> iam added from adjacentHTML</h2>";
 adjacentElement.insertAdjacentHTML("beforebegin",elementCreate)
+
+let key = adjacentElement.setAttribute("newClass","value");
+// set value and class
+let key4 = adjacentElement.removeAttribute("id");
+// id and its value means id's name also
+console.log(key4);
+let key2 = adjacentElement.getAttribute("newClass");
+// get value and show in console
+console.log(key2);
+let key3 = adjacentElement.hasAttribute("newClass");
+console.log(key3);
