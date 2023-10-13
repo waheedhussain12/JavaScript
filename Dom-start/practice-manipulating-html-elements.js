@@ -271,4 +271,8 @@ let styleSet = document.querySelector(".style");
 styleSet.style.color = "pink"; styleSet.style.background = "green";
 // here only style. property cannot overRide the html'style
 
-// 
+//  Get computed Style 
+// this propert show is which style is appyly in html tag
+let checkStyle = getComputedStyle(styleSet);
+// simple make new variable and pass parent in getComputedStyle Method
+console.log(checkStyle.color,checkStyle.padding);
