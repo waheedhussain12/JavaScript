@@ -276,3 +276,5 @@ styleSet.style.color = "pink"; styleSet.style.background = "green";
 let checkStyle = getComputedStyle(styleSet);
 // simple make new variable and pass parent in getComputedStyle Method
 console.log(checkStyle.color,checkStyle.padding);
+
+// className
