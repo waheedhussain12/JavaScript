@@ -224,3 +224,14 @@ let clone = cloneElement.cloneNode(true);
 // if you cannot use true clone only parent
 // note always append in body
 document.body.appendChild(clone);
+
+
+// replace Element
+let replaceElement = document.querySelector("#removeAndClone");
+let replacedItem = document.createElement("h1");
+replacedItem.textContent = "iam replaced Heading";
+let doneReplace = removeElement.firstElementChild;
+removeElement.replaceChild(replacedItem,doneReplace);
+// console.log(removeElement.replaceChild(replacedItem,removeElement.firstElementChild));
+
+
