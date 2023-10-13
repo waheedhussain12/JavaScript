@@ -235,3 +235,6 @@ removeElement.replaceChild(replacedItem,doneReplace);
 // console.log(removeElement.replaceChild(replacedItem,removeElement.firstElementChild));
 
 // Adjacent HTML
+// create element like variable
+let adjacentElement = document.querySelector("#removeAndClone");
+
