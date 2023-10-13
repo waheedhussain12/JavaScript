@@ -237,4 +237,5 @@ removeElement.replaceChild(replacedItem,doneReplace);
 // Adjacent HTML
 // create element like variable
 let adjacentElement = document.querySelector("#removeAndClone");
+let elementCreate = "<h3> iam added from adjacentHTML</h3>";
 
