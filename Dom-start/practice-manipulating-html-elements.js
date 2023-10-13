@@ -236,6 +236,6 @@ removeElement.replaceChild(replacedItem,doneReplace);
 
 // Adjacent HTML
 // create element like variable
-let adjacentElement = document.querySelector("#removeAndClone");
-let elementCreate = "<;> iam added from adjacentHTML</li>";
-adjacentElement.insertAdjacentElement("beforebegin",elementCreate)
+let adjacentElement = document.querySelector(".adjacent");
+let elementCreate = "<h2> iam added from adjacentHTML</h2>";
+adjacentElement.insertAdjacentHTML("beforebegin",elementCreate)
