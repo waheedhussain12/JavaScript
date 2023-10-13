@@ -209,3 +209,8 @@ insertBeforeCreateElement.appendChild(item);
 let position = insertBeforeParent.firstElementChild.nextElementSibling.previousElementSibling;
 insertBeforeParent.insertBefore(item,position);
 
+let outOfParent = document.querySelector("#insertBeforeParent");
+let newDiv = document.createElement("div");
+newDiv.textContent = "out of parent";
+let position1 = outOfParent.firstElementChild;
+outOfParent.insertBefore(newDiv,position1)
