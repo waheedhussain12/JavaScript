@@ -250,3 +250,4 @@ let key2 = adjacentElement.getAttribute("newClass");
 console.log(key2);
 let key3 = adjacentElement.hasAttribute("newClass");
 console.log(key3);
+console.log(key3);
