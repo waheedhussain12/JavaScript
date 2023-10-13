@@ -234,4 +234,4 @@ let doneReplace = removeElement.firstElementChild;
 removeElement.replaceChild(replacedItem,doneReplace);
 // console.log(removeElement.replaceChild(replacedItem,removeElement.firstElementChild));
 
-
+// Adjacent HTML
