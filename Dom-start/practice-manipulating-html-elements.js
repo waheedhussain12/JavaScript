@@ -253,4 +253,20 @@ console.log(key3);
 
 
 // inline Style 
-/// first cssText
+/// first Method cssText
+let cssTextElement = document.querySelector(".styleH2");
+// apply style 
+cssTextElement.style.cssText += "color : red; background : green";
+// this is cssText you can add multiple styles as you want
+// this is also override the html style also 
+// overRide html's style properties use + operator for slove the problem
+
+// Second set Attribute style method
+let setAttElement = document.querySelector(".styleAttr");
+setAttElement.setAttribute("style","color : blue; background : orange");
+
+
+// third Method style . 
+let styleSet = document.querySelector(".style");
+styleSet.style.color = "pink"; styleSet.style.background = "green";
+// here only style. property cannot overRide the html'style
