@@ -211,6 +211,6 @@ insertBeforeParent.insertBefore(item,position);
 
 // remove element and clone element
 let removeElement = document.querySelector("#removeAndClone");
- let checkRemove = removeElement.firstElementChild;
+ let checkRemove = removeElement.firstElementChild.nextElementSibling;
 
 removeElement.removeChild(checkRemove);
