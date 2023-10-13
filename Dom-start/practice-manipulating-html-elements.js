@@ -270,3 +270,5 @@ setAttElement.setAttribute("style","color : blue; background : orange");
 let styleSet = document.querySelector(".style");
 styleSet.style.color = "pink"; styleSet.style.background = "green";
 // here only style. property cannot overRide the html'style
+
+// 
