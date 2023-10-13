@@ -214,4 +214,7 @@ let removeElement = document.querySelector("#removeAndClone");
  let checkRemove = removeElement.firstElementChild.nextElementSibling;
 removeElement.removeChild(checkRemove);
 
-// also delete full parent
+// also delete or remove full parent
+// document.body.removeChild(removeElement)
+// delete full parent with childs
+
