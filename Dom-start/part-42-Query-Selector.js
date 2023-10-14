@@ -12,6 +12,9 @@ let websiteName = document.querySelector(".divContainer");
 let webtext = document.createElement("h1");
 webtext.textContent = "website Name";
 websiteName.appendChild(webtext);
+// nav bar
+let navBar = document.querySelector(".divContainer");
+
 
 
 
