@@ -3,8 +3,14 @@ let container = document.createElement("div");
 container.classList.add("divContainer");
 body.appendChild(container);
 // main div ==> container 
-let mainDiv = document.querySelector(".divContainer");
-let logoName = mainDiv.document.createElement("h2");
+let logo = document.querySelector(".divContainer");
+let logoText = document.createElement("h2");
+logoText.textContent = "LoGo";
+mainDiv.appendChild(logoText);
+let websiteName = document.querySelector(".divContainer");
+let webtext = document.createElement("h1");
+webtext.textContent = "website Name";
+mainDiv.appendChild(webtext);
 
 
 
