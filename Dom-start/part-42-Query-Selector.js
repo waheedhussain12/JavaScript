@@ -1,7 +1,7 @@
 let body = document.body;
 let container = document.createElement("div"); 
 container.classList.add("divContainer");
-container.style.cssText = ("")
+container.style.cssText = 
 body.appendChild(container);
 // main div ==> container 
 let logo = document.querySelector(".divContainer");
