@@ -1,7 +1,7 @@
 let body = document.body;
 let container = document.createElement("div"); 
 container.classList.add("divContainer");
-container.style.cssText = 'background-color : green; display : flex;  align-items: center; justify-content:space-between;padding : 0 40px'
+container.style.cssText = 'background-color : pink; display : flex;  align-items: center; justify-content:space-between;padding : 0 40px'
 body.appendChild(container);
 // main div ==> container 
 let logo = document.querySelector(".divContainer");
@@ -13,7 +13,9 @@ let webtext = document.createElement("h1");
 webtext.textContent = "website Name";
 websiteName.appendChild(webtext);
 // nav bar
-let navBar = document.querySelector(".divContainer");
+let navBarDiv = document.querySelector(".divContainer");
+
+
 
 
 
