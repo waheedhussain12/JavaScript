@@ -290,6 +290,15 @@ let classListElement = document.querySelector(".style");
 // also add class add method()
 classListElement.classList.add("box");
 // also replace the class replace method()
+classListElement.classList.replace("box","bigBox");
+// also remove class remove method()
+classListElement.classList.remove("bigBox");
+// also check contain class or not contains method()
+// value got true or false
+let checkContain = classListElement.classList.contains("style");
+console.log(checkContain);
+// toogle true into false
+classListElement.classList.toggle("toogle");
 checkClassList = classListElement.classList;
 console.log(checkClassList);
 // got dom token list
