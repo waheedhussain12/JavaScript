@@ -278,3 +278,6 @@ let checkStyle = getComputedStyle(styleSet);
 console.log(checkStyle.color,checkStyle.padding);
 
 // className
+let classElement = document.querySelector(".style");
+console.log(classElement); // get whole tag
+// check how many claess in the html tag
