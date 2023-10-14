@@ -47,6 +47,7 @@ websiteName.appendChild(webtext);
 
 
 
+
 // // query selector select element like css
 // var selectElement = document.querySelector("p.intro");
 // // here if two same class in div querySelector Apply only first Element
