@@ -280,6 +280,8 @@ console.log(checkStyle.color,checkStyle.padding);
 // className
 let classElement = document.querySelector(".style");
 console.log(classElement); // get whole tag
+// also add class but use + operator for not overRide the class
+classElement.className += " classAddFromjs"
 // check how many claess in the html tag
 let classCheck = classElement.className;
 console.log(classCheck);
