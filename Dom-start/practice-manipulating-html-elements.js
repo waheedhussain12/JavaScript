@@ -281,3 +281,5 @@ console.log(checkStyle.color,checkStyle.padding);
 let classElement = document.querySelector(".style");
 console.log(classElement); // get whole tag
 // check how many claess in the html tag
+let classCheck = classElement.className;
+console.log(classCheck);
