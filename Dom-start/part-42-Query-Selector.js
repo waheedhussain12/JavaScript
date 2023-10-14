@@ -14,3 +14,4 @@
 
 //     console.log(selectAllElement[i].innerHTML = 'Select All same classes element using query selectorAll Also use loop');
 // }
+
