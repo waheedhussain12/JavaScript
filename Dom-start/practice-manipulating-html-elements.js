@@ -285,3 +285,15 @@ classElement.className += " classAddFromjs"
 // check how many claess in the html tag
 let classCheck = classElement.className;
 console.log(classCheck);
+// classList Method
+let classListElement = document.querySelector(".style");
+// also add class add method()
+classListElement.classList.add("box");
+// also replace the class replace method()
+checkClassList = classListElement.classList;
+console.log(checkClassList);
+// got dom token list
+for(let i = 0; i < checkClassList.length; i++){
+  let forCheck = checkClassList[i]
+  console.log(forCheck);
+}
