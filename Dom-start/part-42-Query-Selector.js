@@ -1,7 +1,10 @@
-
-
-
-
+let body = document.body;
+let container = document.createElement("div"); 
+container.classList.add("divContainer");
+body.appendChild(container);
+// main div ==> container 
+let mainDiv = document.querySelector(".divContainer");
+let logoName = mainDiv.document.createElement("h2");
 
 
 
