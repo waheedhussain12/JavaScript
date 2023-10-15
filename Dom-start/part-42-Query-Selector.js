@@ -25,7 +25,7 @@ aboutLi.style.cssText = 'list-style-type: none;'
 aboutLi.textContent = "ABOUT US";
 
 let contactLi = document.createElement("li");
-contactLi.style.cssText = ' list-style-type: none; color;'
+contactLi.style.cssText = ' list-style-type: none; color: white;'
 contactLi.textContent = "CONTACT US";
 navHome.appendChild(homeLi);
 navHome.appendChild(aboutLi);
