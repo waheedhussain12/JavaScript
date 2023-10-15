@@ -30,6 +30,7 @@ contactLi.textContent = "CONTACT US";
 navHome.appendChild(homeLi);
 navHome.appendChild(aboutLi);
 navHome.appendChild(contactLi);
+
 navBarDiv.appendChild(navHome);
 
 
