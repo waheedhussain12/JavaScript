@@ -35,7 +35,8 @@ navHome.appendChild(contactLi);
 
 navBarDiv.appendChild(navHome);
 // body
-let mainBody = document.body
+let mainBody = document.body;
+
 
 
 
