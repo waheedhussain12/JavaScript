@@ -21,7 +21,7 @@ let homeLi = document.createElement("li");
 homeLi.style.cssText = ' list-style-type: none;'
 homeLi.textContent = "HOME";
 let aboutLi = document.createElement("li");
-aboutLi.style.cssText = 'list-style-type: none;'
+aboutLi.style.cssText = 'list-style-type: none; color: white'
 aboutLi.textContent = "ABOUT US";
 
 let contactLi = document.createElement("li");
