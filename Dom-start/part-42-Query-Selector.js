@@ -16,16 +16,20 @@ websiteName.appendChild(webtext);
 let navBarDiv = document.body
 let navHome = document.createElement("ul");
 navHome.className = "navHome";
-navHome.style.cssText = 'background-color : green; display : flex;  align-items: center; justify-content:start;'
+navHome.style.cssText = 'background-color : green; display : flex;  align-items: center; justify-content:end;padding : 13px;gap : 25px'
 let homeLi = document.createElement("li");
-homeLi.style.cssText = 'padding:17px; list-style-type: none;'
+homeLi.style.cssText = ' list-style-type: none;'
 homeLi.textContent = "HOME";
 let aboutLi = document.createElement("li");
 aboutLi.style.cssText = 'list-style-type: none;'
 aboutLi.textContent = "ABOUT US";
+
+let contactLi = document.createElement("li");
+contactLi.style.cssText = ' list-style-type: none;'
+contactLi.textContent = "CONTACT US";
 navHome.appendChild(homeLi);
 navHome.appendChild(aboutLi);
-
+navHome.appendChild(contactLi);
 
 navBarDiv.appendChild(navHome);
 
