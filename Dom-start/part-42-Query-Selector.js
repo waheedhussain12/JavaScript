@@ -36,7 +36,11 @@ navHome.appendChild(contactLi);
 navBarDiv.appendChild(navHome);
 // body
 let mainBody = document.body;
-
+let mainDiv = document.createElement("div");
+mainDiv.style.background = "orange";
+mainDiv.className = "bodyleft-rigt";
+mainDiv.innerHTML = "wewewweweewr"
+mainBody.appendChild(mainDiv);
 
 
 
