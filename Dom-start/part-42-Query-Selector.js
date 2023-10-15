@@ -32,6 +32,7 @@ navHome.appendChild(aboutLi);
 navHome.appendChild(contactLi);
 
 
+
 navBarDiv.appendChild(navHome);
 
 
