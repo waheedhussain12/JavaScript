@@ -13,7 +13,19 @@ let webtext = document.createElement("h1");
 webtext.textContent = "website Name";
 websiteName.appendChild(webtext);
 // nav bar
-let navBarDiv = document.querySelector(".divContainer");
+let navBarDiv = document.body
+let navHome = document.createElement("ul");
+navHome.className = "navHome";
+navHome.style.cssText = 'background-color : green; display : flex;  align-items: center; justify-content:start; gap : 50px'
+let homeLi = document.createElement("li");
+homeLi.textContent = "HOME";
+let aboutLi = document.createElement("li");
+aboutLi.textContent = "ABOUT US";
+navHome.appendChild(homeLi);
+navHome.appendChild(aboutLi);
+
+
+navBarDiv.appendChild(navHome);
 
 
 
