@@ -20,4 +20,4 @@ body.appendChild(h1Element);
 // addremoveEventListener apply on conditions
 removeElementt.addEventListener("click",value);
 removeElementt.addEventListener("click",value2);
-removeElementt.removeEventListener("click",value2);
+removeElementt.removeEventListener("click",value);
