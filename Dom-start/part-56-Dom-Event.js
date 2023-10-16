@@ -9,7 +9,7 @@
 
 // note there are two types of register an Events
 // 1 inline evenets
-// 2 
+// 2 AddeventListner
 
 
 function btnClicked(){
