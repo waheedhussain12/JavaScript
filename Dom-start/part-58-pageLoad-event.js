@@ -13,3 +13,7 @@ window.addEventListener('DOMContentLoaded',function(){
 window.addEventListener('load',function(){
     console.log('fully loaded created');
 })
+
+
+// you can target paricular element as well using Load 
+// once element fully loaded than show
