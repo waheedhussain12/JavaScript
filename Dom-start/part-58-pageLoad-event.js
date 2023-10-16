@@ -4,3 +4,12 @@
 
 // LOAD the browser fully loaded the HTML and also external resources
 // like images stylesheets 
+
+// DomContentLoaded and Load use window not doucment
+window.addEventListener('DOMContentLoaded',function(){
+    console.log('Dom tree created');
+})
+
+window.addEventListener('load',function(){
+    console.log('fully loaded created');
+})
