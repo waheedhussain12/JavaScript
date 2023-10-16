@@ -11,4 +11,4 @@ function myfun (){
 // contextmenu works on mouse rightSide button
 // btn.addEventListener("contextmenu",myfun);
 // 3 doubleClick dblclick
-btn.addEventListener("dblclick",myfun);
+// btn.addEventListener("dblclick",myfun);
