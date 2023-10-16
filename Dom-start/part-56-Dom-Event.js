@@ -11,7 +11,16 @@
 // 1 inline evenets
 // 2 AddeventListner
 
-
+// inline events
 function btnClicked(){
     alert('clicked');
 }
+// addEventListener 
+// fist access element for apply event
+let eventListener = document.getElementById("eventListener");
+// sec now apply any event as you want
+// addEventListener have two values 
+// 1 which event note "event" pass always in strings
+// note in addlistener click event is work not on click
+// 2 function name only pass not passing ()
+eventListener.addEventListener("click",btnClicked)
