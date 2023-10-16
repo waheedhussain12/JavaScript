@@ -21,7 +21,7 @@ let eventListener = document.getElementById("eventListener");
 // sec now apply any event as you want
 // addEventListener have two values 
 // 1 which event note "event" pass always in strings
-// note in addlistener click event is work not on click
+// note in addlistener click event is work not onclick
 // 2 function name only pass not passing ()
 eventListener.addEventListener("click",btnClicked);
 
