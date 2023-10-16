@@ -39,3 +39,23 @@ noNameFun1.innerHTML = "Click me for Show";
 
 });
 
+let multipleEvents = document.getElementById("multipleEvents");
+multipleEvents.addEventListener("click",function(){
+    let div = document.querySelector(".div");
+    console.log("here clicked event");
+    div.textContent = "thanks for calling me";
+});
+
+let mouseOver = document.getElementById("multipleEvents");
+mouseOver.addEventListener("mouseover",function(){
+    let div = document.querySelector(".div2");
+    console.log("here mouseOver event");
+    div.textContent = "mouseOver ";
+});
+
+let mouseOut = document.getElementById("multipleEvents");
+mouseOut.addEventListener("mouseout",function(){
+    let div = document.querySelector(".div3");
+    console.log("here mouseOut event");
+    div.textContent = "this is mouseOut ";
+});
