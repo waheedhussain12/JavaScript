@@ -18,7 +18,7 @@ window.addEventListener('load',function(){
 // you can target paricular element as well using Load 
 // once element fully loaded than show
 
-let h2load = document.querySelector("#h2load");
-h2load.window.addEventListener("load",function(){
+let heading = document.querySelector("#h2load");
+heading.addEventListener('load',function(){
     console.log("fully loaded");
 })
