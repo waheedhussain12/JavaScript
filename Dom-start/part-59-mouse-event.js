@@ -5,5 +5,7 @@ function myfun (){
     heading.textContent = "this is heading added from js function"
     console.log('this is click event');
 }
-// click event
-btn.addEventListener("click",)
+// 1 click event
+btn.addEventListener("click",myfun);
+// 2 contextMenu
+btn.addEventListener("contextmenu",myfun);
