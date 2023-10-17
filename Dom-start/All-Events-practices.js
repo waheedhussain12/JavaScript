@@ -112,7 +112,14 @@ doubleEvent.addEventListener("mousedown",function(){
 //Keydown and keyup
 
 // keydown 
+// note press keys on screen
 window.addEventListener("keydown",keyFun);
+function keyFun(e){
+    console.log(e.key);
+
+}
+// keyup when user release the key
+window.addEventListener("keyup",keyFun);
 function keyFun(e){
     console.log(e.key);
 
