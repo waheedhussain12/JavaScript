@@ -42,3 +42,48 @@ let loadh1 = document.querySelector("#loadh");
 loadh1.addEventListener("load",function(){
     console.log("this is load on element");
 });
+
+// mouse Event in js
+
+// first access the Element
+// make function for add event listener
+let mouseEve = document.querySelector(".mouseEve");
+function myMouseAllFun(){
+    let divHeading = document.querySelector(".div");
+divHeading.innerHTML = "this is Mouse Event all Function";
+divHeading.style.background = "green";
+divHeading.style.padding = "12px";
+
+}
+// 1 mouseOver
+// passing function without parameter 
+mouseEve.addEventListener("mouseover",myMouseAllFun);
+
+
+// 2 mouseOut 
+function mouseOut (){
+    let divHeading = document.querySelector(".div");
+divHeading.innerHTML = " if you over the mouse Value is Deleted!";
+divHeading.style.background = "yellow";
+}
+mouseEve.addEventListener("mouseout",mouseOut);
+
+// 3 Contextmenu 
+// context menu works on right side of the mouse button
+let contextMenu = document.querySelector(".contextMenu");
+contextMenu.addEventListener("contextmenu",function(){
+
+contextMenu.style.padding = "12px";
+contextMenu.style.color = "orange";
+contextMenu.style.background = "red"
+
+}) ;
+
+// 4 DoubleClick dbl Event in Mouse
+let doubleEvent = document.querySelector(".doubleEvent");
+// addEventListner 
+doubleEvent.addEventListener("dblclick",function(){
+
+
+
+});
