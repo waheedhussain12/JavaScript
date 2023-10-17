@@ -126,3 +126,7 @@ function keyFun(e){
 }
 
 // Scroll Event
+window.addEventListener("scroll",function(){
+
+    console.log("Scrolling...");
+})
