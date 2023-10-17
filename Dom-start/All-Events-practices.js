@@ -84,7 +84,12 @@ let doubleEvent = document.querySelector(".doubleEvent");
 // addEventListner 
 doubleEvent.addEventListener("dblclick",function(){
 
-    
+    let newElement = document.createElement("h3");
+    newElement.textContent = " this is double Event Mouse";
+    doubleEvent.appendChild(newElement);
+    newElement.style.background = "pink";
+    newElement.style.padding = "10px";
+
 
 
 });
