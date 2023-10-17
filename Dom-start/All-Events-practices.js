@@ -106,4 +106,7 @@ doubleEvent.addEventListener("dblclick",function(){
 // this also works on keyboards keys
 doubleEvent.addEventListener("mousedown",function(){
     console.log("this is mouse up");
-})
+});
+
+
+//Keydown and keyup
