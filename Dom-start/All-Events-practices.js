@@ -126,23 +126,36 @@ function keyFun(e){
 }
 
 // Scroll Event
-window.addEventListener("scroll",function(){
+// window.addEventListener("scroll",function(){
 
-    console.log("Scrolling...");
-    // here did not find the scroll down or up value
-});
+//     console.log("Scrolling...");
+//     // here did not find the scroll down or up value
+// });
  // use scroll properties pageOfset
- window.addEventListener("scroll",function(){
+//  window.addEventListener("scroll",function(){
 
-    console.log("Scrolling...");
-    // here did not find the scroll down or up value
- if (this.window.pageYOffset > 60) {
-    console.log('page is down');
-    this.document.body.style.background = "yellow";
+//     console.log("Scrolling...");
+//     // here did not find the scroll down or up value
+//  if (this.window.pageYOffset > 60) {
+//     console.log('page is down');
+//     this.document.body.style.background = "yellow";
 
- }if(this.window.pageYOffset > 100){
-    console.log("page is up");
-    this.document.body.style.background = "orange";
- }
+//  }if(this.window.pageYOffset > 100){
+//     console.log("page is up");
+//     this.document.body.style.background = "orange";
+//  }
 
-});
+// });
+
+// but find scrolling when  up and when scrolling is down
+// use wheel event
+window.addEventListener("wheel",function(e){
+if (e.deltaY < 0) {
+    console.log("scrolling up");
+}   else if(e.deltaY > 0){
+        console.log('scrolling down');
+    }
+
+
+
+})
