@@ -101,3 +101,8 @@ doubleEvent.addEventListener("mousedown",function(){
 console.log("this is mouse down");
 
 });
+// 5 mouseup
+// hold relese than show value
+doubleEvent.addEventListener("mousedown",function(){
+    console.log("this is mouse up");
+})
