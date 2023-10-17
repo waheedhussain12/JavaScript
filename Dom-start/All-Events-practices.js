@@ -84,6 +84,7 @@ let doubleEvent = document.querySelector(".doubleEvent");
 // addEventListner 
 doubleEvent.addEventListener("dblclick",function(){
 
+    
 
 
 });
