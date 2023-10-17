@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All-Events-practices</title>
+    <style>
+        .inlineDiv, .AddEventLen{
+            padding: 10px;
+            background-color: brown;
+            text-align: center;
+    margin: 15px auto;
+        }
+        .btn, .addlistenBtn{
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-color: chocolate;
+            border: none;
+        }
+        
+    </style>
 </head>
 <body>
     <!-- two types of events for Apply -->
     <!-- inline Event and AddEventListener -->
     <!-- 1 inline Event -->
-    <div class="inline" onclick="inlineFun()">
-        <h1 class="headng"></h1>
+    <div class="inlineDiv">
+       <button class="btn" onclick="inlineFun()" >Inline OnClick Event </button>
+        <h1 class="heading"></h1>
+    </div>
+    <!-- 2 AddEventListener -->
+    <div class="AddEventLen">
+        <button class="addlistenBtn">AddListenEvent</button>
+        <p class="pTag"></p>
     </div>
     <script src="./All-Events-practices.js"></script>
 </body>
