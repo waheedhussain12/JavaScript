@@ -96,3 +96,7 @@ doubleEvent.addEventListener("dblclick",function(){
 
 
 // 5 mousedown 
+doubleEvent.addEventListener("mousedown",function(){
+console.log("this is mouse down");
+
+});
