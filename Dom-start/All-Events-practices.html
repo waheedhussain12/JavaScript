@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All-Events-practices</title>
     <style>
-        .inlineDiv, .AddEventLen{
+        .inlineDiv, .AddEventLen, .AddEventLenWithNoName{
             padding: 10px;
             background-color: brown;
             text-align: center;
     margin: 15px auto;
         }
-        .btn, .addlistenBtn{
+        .btn, .addlistenBtn, .addlistenBtnWithNoName{
             padding: 10px;
             text-align: center;
             color: white;
@@ -34,6 +34,15 @@
         <button class="addlistenBtn">AddListenEvent</button>
         <p class="pTag"></p>
     </div>
+    <!-- function with no name -->
+    <div class="AddEventLenWithNoName">
+        <button class="addlistenBtnWithNoName">AddListenEvent</button>
+        <p class="pTagWithNoName"></p>
+    </div>
+    <!-- removeEventListener -->
+     <!-- DomContentLoaded and Load use window not doucment -->
+     <h1 id="loadh">this is load Event</h1>
+    
     <script src="./All-Events-practices.js"></script>
 </body>
 </html>
