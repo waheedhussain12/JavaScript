@@ -112,7 +112,9 @@ doubleEvent.addEventListener("mousedown",function(){
 //Keydown and keyup
 
 // keydown 
-window.addEventListener("keydown",function(){
+window.addEventListener("keydown",function(event){
+
+    console.log(event.key);
 
 
 })
