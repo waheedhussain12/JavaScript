@@ -96,6 +96,7 @@ doubleEvent.addEventListener("dblclick",function(){
 
 
 // 5 mousedown 
+// mouse down works only mouse button not work on keyboards keys
 doubleEvent.addEventListener("mousedown",function(){
 console.log("this is mouse down");
 
