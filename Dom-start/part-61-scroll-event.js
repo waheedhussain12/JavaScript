@@ -23,9 +23,9 @@ window.addEventListener("scroll",function(){
 // but find scrolling when  up and when scrolling is down
 // use wheel event
 // window.addEventListener("wheel",function(e){
-//     // here you get variabe deltay and delta x
-//     // use condtion
-//     // here Note all objects pass in e parameeter
+    // here you get variabe deltay and delta x
+    // use condtion
+    // here Note all objects pass in e parameeter
 //     if(e.deltaY < 0){
     
 //         console.log('scrolling up');
