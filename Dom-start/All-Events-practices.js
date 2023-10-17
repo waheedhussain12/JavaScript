@@ -115,4 +115,5 @@ doubleEvent.addEventListener("mousedown",function(){
 window.addEventListener("keydown",keyFun);
 function keyFun(e){
     console.log(e.key);
+
 }
