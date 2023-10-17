@@ -93,3 +93,6 @@ doubleEvent.addEventListener("dblclick",function(){
 
 
 });
+
+
+// 5 mousedown 
