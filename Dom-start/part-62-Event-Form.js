@@ -20,8 +20,6 @@ myInput.addEventListener("blur", myBlurFunction);
 
 function myFocusFunction() {
   myInput.style.background = "orange";
-
-
 }
 
 function myBlurFunction() {
