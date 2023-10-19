@@ -2,4 +2,4 @@
 
 // 1 Event Bubbling
 //order
-/// button
+/// button => div => body
