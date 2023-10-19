@@ -23,3 +23,5 @@ function myFocusFunction() {
 function myBlurFunction() {
   myInput.style.background = "white";
 }
+
+
