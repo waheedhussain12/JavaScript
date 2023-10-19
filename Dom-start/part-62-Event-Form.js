@@ -17,7 +17,6 @@ myInput.addEventListener("blur", myBlurFunction);
 //   // get value
 //   console.log(this.value);
 // });
-
 function myFocusFunction() {
   myInput.style.background = "orange";
 }
