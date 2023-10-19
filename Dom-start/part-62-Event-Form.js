@@ -17,6 +17,7 @@ myInput.addEventListener("input", function () {
   // get value
   console.log(this.value);
 });
+
 function myFocusFunction() {
   myInput.style.background = "orange";
 }
