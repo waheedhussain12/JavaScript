@@ -54,4 +54,5 @@ myForm.addEventListener("submit",function(e){
     console.log("Form Submited...");
 e.preventDefault();
 e.preventDefault();
+e.preventDefault();
 });
