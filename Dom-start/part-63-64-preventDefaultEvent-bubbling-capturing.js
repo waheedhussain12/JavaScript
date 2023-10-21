@@ -55,4 +55,5 @@ myForm.addEventListener("submit",function(e){
 e.preventDefault();
 e.preventDefault();
 e.preventDefault();
+e.preventDefault();
 });
