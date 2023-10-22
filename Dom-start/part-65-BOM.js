@@ -36,3 +36,11 @@ sayMyName(); // bcz window is a default object automatically understand
 window.sayMyName();
 // here function is a property or method of window 
 // so functions , objects and variables with var keywords is all window object's properties
+
+// alert confrim and prompt all are window's method or properties
+
+// window.alert();
+// window.prompt();
+// window.confirm();
+// window.console();
+
