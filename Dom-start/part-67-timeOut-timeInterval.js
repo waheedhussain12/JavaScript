@@ -27,4 +27,5 @@ btn.addEventListener("click",function(){
 
 clearInterval(timeinterval);
 clearInterval(timeinterval);
+clearInterval(timeinterval);
 });
