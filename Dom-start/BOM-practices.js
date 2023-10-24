@@ -21,3 +21,6 @@ window.myName(); // means function is window's property
 // window.prompt();
 // window.confirm();
 // window.console();
+
+// 1 window
+
