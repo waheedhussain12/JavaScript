@@ -24,3 +24,7 @@ window.myName(); // means function is window's property
 
 // 1 window
 
+// inner width and height 
+// outer width and height
+
+
