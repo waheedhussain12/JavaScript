@@ -26,5 +26,8 @@ window.myName(); // means function is window's property
 
 // inner width and height 
 // outer width and height
-
+console.log(window.innerWidth);
+console.log(window.innerHeight);
+console.log(window.outerHeight);
+console.log(window.outerWidth);
 
