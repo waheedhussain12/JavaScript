@@ -60,3 +60,4 @@ console.log(screen.pixelDepth);
 console.log(screen.orientation);
 console.log(screen.availHeight);
 console.log(screen.availHeight);
+console.log(screen.availHeight);
