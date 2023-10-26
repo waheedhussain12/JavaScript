@@ -81,3 +81,5 @@ console.log(screen.availHeight);
 console.log(screen.availHeight);
 console.log(screen.availHeight);
 console.log(screen.availHeight);
+console.log(screen.availHeight);
+console.log(screen.availHeight);
