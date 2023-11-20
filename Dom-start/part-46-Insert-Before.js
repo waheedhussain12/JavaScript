@@ -15,7 +15,7 @@ let pos = addlist.firstElementChild.nextElementSibling.nextElementSibling.nextEl
 // add value or insert before function apply
 addlist.insertBefore(makeList,pos)
 
-let parent1 = document.querySelector("#navbar"); // parent
+let parent1 = document.querySelector("#navbar"); // parentt
 
 
 let newValue = document.createElement("li");  // new tag

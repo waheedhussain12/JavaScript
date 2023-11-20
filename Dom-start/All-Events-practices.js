@@ -12,8 +12,8 @@ addlistenBtn.addEventListener("click",addEventFun);
 // make function 
 function addEventFun(){
     let pTag = document.querySelector(".pTag");
-    let firstName = "Waheed"; 
-    let lastName = "Hussain";
+    let firstName = "Waheeed"; 
+    let lastName = "Hussaiin";
     pTag.innerHTML = `${firstName} ${lastName}`;
 
 }
