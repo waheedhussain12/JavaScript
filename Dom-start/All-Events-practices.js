@@ -18,6 +18,7 @@ function addEventFun(){
 
 }
 // AddEventListener second way
+// AddEventListener second way
 // make function with no name or direct pass
 let addlistenBtnWithNoName = document.querySelector(".addlistenBtnWithNoName");
 addlistenBtnWithNoName.addEventListener("click",function(){
