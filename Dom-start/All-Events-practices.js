@@ -21,7 +21,7 @@ function addEventFun(){
 // AddEventListener second way
 // AddEventListener second way
 // AddEventListener second way
-// AddEventListener second way
+// AddEventListener second way// AddEventListener second way
 // AddEventListener second way
 // AddEventListener second way
 // make function with no name or direct pass
